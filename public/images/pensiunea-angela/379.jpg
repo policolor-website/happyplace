@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+
+<!--[if IE 8]>     <html class="ie ie8 lte9 lte8" lang="ro-ro"> <![endif]-->
+<!--[if IE 9]>     <html class="ie ie9 lte9" lang="ro-ro"> <![endif]-->
+<!--[if gt IE 9]>  <html class="" lang="ro-ro"> <![endif]-->
+<!--[if !IE]><!--> <html class="" lang="ro-ro"> <!--<![endif]-->
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <title>404 - Page not found</title>
+
+        <!-- styles -->
+        <link href="https://pensiuneaangela.ro/templates/classic/styles/classic/css/bootstrap.css" rel="stylesheet"><link href="https://pensiuneaangela.ro/templates/classic/styles/classic/css/bootstrap-responsive.css" rel="stylesheet"><link href="https://pensiuneaangela.ro/templates/classic/styles/classic/css/template.css" rel="stylesheet"> 
+
+        <!-- favicons -->
+        <link rel="shortcut icon" href="templates/classic/styles/classic/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="templates/classic/styles/classic/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="templates/classic/styles/classic/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="templates/classic/styles/classic/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="templates/classic/styles/classic/ico/apple-touch-icon-57-precomposed.png">    
+
+    </head>
+
+    <body class="error">
+
+            
+
+        <!-- theme wrapper -->
+        <div class="theme-wrapper theme-fullwrap">
+
+            <!-- header wrapper -->
+            <div class="theme-wrapper theme-header">                    
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="span3 theme-logo">
+                            <a href="/?Itemid="><img class="normal" src="/images/logo-2x.png" alt="CloudHotelier Logo"></a>
+                        </div>   
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- /header wrapper --> 
+
+            <div class="theme-heading">
+                <div class="container">
+                    <div class="row">
+                        <div class="span12">
+                            <h1>404 - Page not found</h1>
+                        </div>
+                    </div>                    
+                </div>
+            </div>             
+
+            <div class="theme-wrapper theme-heading-helper"></div>
+
+            <!-- body wrapper -->
+            <div class="theme-wrapper theme-body">                
+
+                <!-- main container -->
+                <div class="container theme-main">
+
+                    <div class="row">
+
+                        <section class="span12 js-component" id="js-component">
+
+
+                            <div class="theme-error">
+                                <p>OOPS, YOU'VE ENCOUNTERED AN ERROR</p>
+                                <p class="lead">It appears the page you were looking for doesn't exist. Sorry about that.</p>
+                                <p class="muted">Page not found</p>
+
+                                <hr>
+                                <p><a class="btn btn-primary btn-large" href="/?Itemid=">Mergi la prima pagina</a></p>
+
+                            </div>
+
+                            
+                        </section>                       
+
+                    </div>
+
+                </div>
+                <!-- main container -->
+
+            </div>
+            <!-- /body wrapper -->        
+
+        </div>
+        <!-- /theme wrapper -->            
+
+    </body>
+
+</html>
