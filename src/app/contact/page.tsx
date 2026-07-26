@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 export default function ContactPage() {
   const [name, setName] = useState("");
@@ -16,12 +17,23 @@ export default function ContactPage() {
 
   return (
     <div className="pt-32 pb-24 min-h-screen">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-12">
-          <h1 className="font-display text-5xl font-bold text-cream mb-4">Contact</h1>
-          <p className="text-muted text-lg">Suntem aici pentru tine</p>
-          <div className="w-24 h-px gold-line mx-auto mt-6" />
+        <div className="relative text-center mb-12 py-16">
+          <div className="absolute inset-0 overflow-hidden">
+            <Image
+              src="/images/pensiunea-angela/340.jpg"
+              alt=""
+              fill
+              className="object-cover opacity-10"
+            />
+          </div>
+          <div className="relative z-10 max-w-7xl mx-auto px-6">
+            <h1 className="font-display text-5xl font-bold text-cream mb-4">Contact</h1>
+            <p className="text-muted text-lg">Suntem aici pentru tine</p>
+            <div className="w-24 h-px gold-line mx-auto mt-6" />
+          </div>
         </div>
+
+      <div className="max-w-7xl mx-auto px-6">
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>

@@ -273,3 +273,170 @@ export const galleryImages: GalleryImage[] = [
 export function getRoomBySlug(slug: string): Room | undefined {
   return rooms.find((r) => r.slug === slug);
 }
+
+export interface Activity {
+  slug: string;
+  title: string;
+  shortDescription: string;
+  description: string;
+  image: string;
+  icon: string;
+  gallery: string[];
+}
+
+export const activities: Activity[] = [
+  {
+    slug: "centru-spa",
+    title: "Centru SPA Pensiunea Angela",
+    shortDescription:
+      "Distracție și relaxare în cel mai nou centru SPA din Vatra Dornei.",
+    description:
+      "Vă invităm să vă bucurați de relaxare în cea mai nouă locație marca Pensiunea Angela. Centrul SPA vă pune la dispoziție o piscină interioară generoasă, două jacuzzi pentru relaxare și terapie și o saună uscată.\n\nIndiferent de sezon, centrul SPA este locul ideal pentru a vă relaxa după o zi de drumeție sau schi. Piscina interioară încălzită vă oferă confort pe tot parcursul anului, iar jacuzzi-urile cu apă termală sunt perfecte pentru terapie și relaxare musculară.\n\nSauna uscată completează experiența SPA, ajutând la detoxifierea organismului și la relaxarea profundă. Vă așteptăm să descoperiți un oasis de liniște și wellbeing în inima Bucovinei.",
+    image: "/images/agrement/62-screen.jpg",
+    icon: "💆",
+    gallery: [
+      "/images/agrement/62-screen.jpg",
+      "/images/pensiunea-angela/389.jpg",
+      "/images/pensiunea-angela/390.jpg",
+      "/images/pensiunea-angela/391.jpg",
+      "/images/pensiunea-angela/392.jpg",
+      "/images/pensiunea-angela/393.jpg",
+      "/images/pensiunea-angela/394.jpg",
+      "/images/pensiunea-angela/395.jpg",
+    ],
+  },
+  {
+    slug: "turism-ecvestru",
+    title: "Turism ecvestru",
+    shortDescription:
+      "Lecții de călărie sau plimbări prin pădure cu cei mai frumoși cai din Bucovina.",
+    description:
+      "Descoperă Bucovina din șaua calului! Turismul ecvestru este una dintre cele mai apreciate forme de agrement din zona Vatra Dornei.\n\nOferim lecții de călărie pentru începători și plimbări organizate prin pădure pentru cei mai experimentați. Caii noștri sunt docili, bine dresați și perfecți pentru explorarea traseelor montane din jurul pensiunii.\n\nPlimbările călare te duc prin peisaje spectaculoase, pe poteci forestiere și prin poieni cu flori sălbatice. Este o experiență unică care îmbină dragostea pentru animale cu pasiunea pentru natură și aventură.\n\nIndiferent dacă ești la prima călărie sau ești un călăreț experimentat, turismul ecvestru în Bucovina este o experiență de neuitat.",
+    image: "/images/agrement/275-screen.jpg",
+    icon: "🐎",
+    gallery: [
+      "/images/agrement/275-screen.jpg",
+      "/images/agrement/276-screen.jpg",
+      "/images/agrement/277-screen.jpg",
+      "/images/agrement/278-screen.jpg",
+      "/images/agrement/279-screen.jpg",
+      "/images/agrement/280-screen.jpg",
+      "/images/agrement/281-screen.jpg",
+      "/images/agrement/282-screen.jpg",
+      "/images/agrement/283-screen.jpg",
+      "/images/agrement/284-screen.jpg",
+      "/images/agrement/285-screen.jpg",
+    ],
+  },
+  {
+    slug: "mountain-biking",
+    title: "Mountain biking",
+    shortDescription:
+      "Adrenalină, mișcare și multă distracție pe traseele montane din Vatra Dornei.",
+    description:
+      "Una dintre metodele de agrement care vă va aduce un nivel de adrenalină crescut — mișcare, provocare și multă distracție pe traseele montane din Vatra Dornei.\n\nZona oferă trasee variate pentru mountain biking, de la poteci forestiere ușoare până la trasee tehnice pentru cicliști avansați. Peisajele spectaculoase și aerul curat fac fiecare pedală să merite.\n\nVatra Dornei este o destinație ideală pentru pasionații de mountain biking, cu trasee care străbat păduri de conifere, pajiști alpine și zone cu vedere panoramică spre munții Bucovinei.\n\nEchipamentul necesar poate fi închiriat local, iar traseele sunt marcate și accesibile pe tot parcursul sezonului cald.",
+    image: "/images/agrement/8-screen.jpg",
+    icon: "🚵",
+    gallery: [
+      "/images/agrement/8-screen.jpg",
+    ],
+  },
+  {
+    slug: "easy-rafting",
+    title: "Easy rafting",
+    shortDescription:
+      "Peisaje superbe, mișcare, adrenalină și distracție în echipă pe râurile din Bucovina.",
+    description:
+      "Una dintre cele mai apreciate variante de agrement. Peisaje superbe, mișcare, adrenalină și distracție în echipă pe râurile din zona Bucovinei!\n\nEasy rafting este o activitate potrivită pentru familii și grupuri de prieteni, care nu necesită experiență anterioară. Bărcile sunt conduse de instructori experimentați care se asigură că experiența este sigură și plăcută.\n\nTraseele de rafting din zona Vatra Dornei oferă peisaje montane spectaculoase, cu ape cristaline și maluri împădurite. Este o modalitate unică de a descoperi natura sălbatică a Bucovinei dintr-o perspectivă diferită.\n\nEchipamentul de siguranță (veste, căști) este inclus, iar instructorii vă ghidează pe tot parcursul descenderii.",
+    image: "/images/agrement/10-screen.jpg",
+    icon: "🚣",
+    gallery: [
+      "/images/agrement/10-screen.jpg",
+    ],
+  },
+  {
+    slug: "off-road",
+    title: "Off-Road",
+    shortDescription:
+      "Aventură cu jeep-uri autentice pe trasee de munte în munții Bucovinei.",
+    description:
+      "Explorați munții Bucovinei și admirați peisajele superbe și sălbatice în condiții de maximă siguranță! O aventură cu jeep-uri autentice pe trasee de munte care vă vor lăsa fără cuvinte.\n\nTraseele off-road din zona Vatra Dornei străbat terenuri variate — de la drumuri forestiere la poteci montane abrupte — oferindu-vă acces la zone greu accesibile și peisaje de o frumusețe rară.\n\nJeep-urile sunt echipate corespunzător pentru teren dificil, iar șoferii experimentați se asigură că aventura este sigură și plină de adrenalină. Este activitatea ideală pentru iubitorii de natură și off-road care vor să descopere Bucovina dincolo de drumurile asfaltate.\n\nVă recomandăm să aveți la dumneavoastră haine confortabile, încălțăminte rezistentă și o cameră foto pentru a imortaliza peisajele spectaculoase.",
+    image: "/images/agrement/124-screen.jpg",
+    icon: "🚙",
+    gallery: [
+      "/images/agrement/124-screen.jpg",
+      "/images/agrement/125-screen.jpg",
+      "/images/agrement/126-screen.jpg",
+      "/images/agrement/127-screen.jpg",
+      "/images/agrement/128-screen.jpg",
+      "/images/agrement/129-screen.jpg",
+      "/images/agrement/130-screen.jpg",
+      "/images/agrement/131-screen.jpg",
+    ],
+  },
+  {
+    slug: "titi-s-adventure-park",
+    title: "Titi's Adventure Park",
+    shortDescription:
+      "Parc de aventură cu cățărare în copaci și tiroliană în Vatra Dornei.",
+    description:
+      "Distrează-te în natură, cățără-te în copaci sau dă-te cu tiroliana în cel mai nou parc de aventură din Vatra Dornei!\n\nTiti's Adventure Park oferă trasee de dificultate variată, potrivite pentru copii, adolescenți și adulți. De la trasee ușoare la sol, până la platforme suspendate în copaci și tiroliane care îți taie respirația — toate în siguranță, cu echipament certificat și instructori profesioniști.\n\nParcul este amplasat în mijlocul pădurii, oferind un cadru natural spectaculos pentru aventură. Este locul ideal pentru familii, grupuri de prieteni sau team-building-uri companii.\n\nEchipamentul de siguranță (harnașament, cască) este inclus, iar personalul parcului vă ghidează și supraveghează pe tot parcursul experienței.",
+    image: "/images/agrement/132-screen.jpg",
+    icon: "🌳",
+    gallery: [
+      "/images/agrement/132-screen.jpg",
+      "/images/agrement/133-screen.jpg",
+      "/images/agrement/134-screen.jpg",
+      "/images/agrement/135-screen.jpg",
+      "/images/agrement/136-screen.jpg",
+      "/images/agrement/137-screen.jpg",
+      "/images/agrement/138-screen.jpg",
+      "/images/agrement/139-screen.jpg",
+      "/images/agrement/140-screen.jpg",
+      "/images/agrement/141-screen.jpg",
+      "/images/agrement/142-screen.jpg",
+      "/images/agrement/143-screen.jpg",
+    ],
+  },
+  {
+    slug: "parcul-din-statiune",
+    title: "Parcul din stațiune",
+    shortDescription:
+      "Plimbare relaxantă în parcul central din Vatra Dornei — alei, flori și liniște.",
+    description:
+      "O plimbare în parcul din centrul stațiunii rămâne una dintre cele mai îndrăgite metode de relaxare în Vatra Dornei.\n\nParcul dendrologic din Vatra Dornei este renumit pentru aleile sale umbroase, florile variate și atmosfera liniștită. Aici poți admira specii de arbori rari, te poți relaxa pe băncuțe sub copaci sau te poți plimba pe aleile pavate.\n\nParcul găzduiește și izvoare cu apă minerală, unde poți gusta apă proaspătă direct din sursă. Este locul preferat al turiștilor pentru plimbări de seară și momente de relaxare în mijlocul naturii.\n\nÎn fiecare sezon, parcul își schimbă înfățișarea — primăvara cu flori, vara cu verdele intens, toamna cu culori aurii și iarna cu zăpadă cristalină — oferind un peisaj de poveste în orice perioadă a anului.",
+    image: "/images/agrement/112-screen.jpg",
+    icon: "🏞️",
+    gallery: [
+      "/images/agrement/112-screen.jpg",
+      "/images/agrement/113-screen.jpg",
+      "/images/agrement/114-screen.jpg",
+      "/images/agrement/115-screen.jpg",
+      "/images/agrement/116-screen.jpg",
+      "/images/agrement/117-screen.jpg",
+      "/images/agrement/118-screen.jpg",
+      "/images/agrement/119-screen.jpg",
+      "/images/agrement/120-screen.jpg",
+      "/images/agrement/121-screen.jpg",
+      "/images/agrement/122-screen.jpg",
+      "/images/agrement/123-screen.jpg",
+    ],
+  },
+  {
+    slug: "partii-de-ski",
+    title: "Pârtii de schi",
+    shortDescription:
+      "4 pârtii de schi — a doua ca lungime din România — în stațiunea Vatra Dornei.",
+    description:
+      "4 pârtii de schi — una dintre ele fiind a doua ca lungime din România — vă așteaptă în stațiune. Distracția depinde doar de voi!\n\nVatra Dornei oferă condiții excelente pentru schi și snowboard, cu pârtii de dificultate variată, de la începători la avansați. Pârtiile sunt deservite de telescaune și instalații de transport pe cablu, iar sezonul de schi se întinde de obicei din decembrie până în martie.\n\nPârtia principală, una dintre cele mai lungi din România, oferă o coborâre spectaculoasă cu vedere panoramică asupra munților Bucovinei. Pentru începători, există pârtii mai ușoare și școli de schi cu instructori calificați.\n\nEchipament de schi poate fi închiriat la fața locului, iar infrastructura din stațiune oferă toate facilitățile necesare pentru un sejur de iarnă complet: cafenele, restaurant, spații de relaxare după o zi pe pârtie.",
+    image: "/images/agrement/19-screen.jpg",
+    icon: "⛷️",
+    gallery: [
+      "/images/agrement/19-screen.jpg",
+    ],
+  },
+];
+
+export function getActivityBySlug(slug: string): Activity | undefined {
+  return activities.find((a) => a.slug === slug);
+}
