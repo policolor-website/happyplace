@@ -1,21 +1,38 @@
 "use client";
 
 import { useState } from "react";
+import { format } from "date-fns";
 import { rooms } from "@/lib/data";
 import DatePicker from "./DatePicker";
 
 export default function BookingEngine() {
-  const [checkIn, setCheckIn] = useState("");
-  const [checkOut, setCheckOut] = useState("");
+  const today = new Date();
+  const tomorrow = new Date(today);
+  tomorrow.setDate(tomorrow.getDate() + 1);
+
+  const [checkIn, setCheckIn] = useState(format(today, "yyyy-MM-dd"));
+  const [checkOut, setCheckOut] = useState(format(tomorrow, "yyyy-MM-dd"));
   const [guests, setGuests] = useState("2");
   const [roomType, setRoomType] = useState("all");
-  const [results, setResults] = useState<typeof rooms | null>(null);
 
-  const handleSearch = (e: React.FormEvent) => {
+  const handleBooking = (e: React.FormEvent) => {
     e.preventDefault();
     if (!checkIn || !checkOut) return;
-    const filtered = roomType === "all" ? rooms : rooms.filter((r) => r.slug === roomType);
-    setResults(filtered);
+
+    const roomName = roomType === "all"
+      ? "Toate camerele"
+      : rooms.find((r) => r.slug === roomType)?.name ?? roomType;
+
+    const message =
+      `Rezervare Pensiunea Angela\n\n` +
+      `Check-in: ${checkIn}\n` +
+      `Check-out: ${checkOut}\n` +
+      `Tip cameră: ${roomName}\n` +
+      `Oaspeți: ${guests}\n\n` +
+      `Vă rog să confirmați disponibilitatea. Mulțumesc!`;
+
+    const whatsappUrl = `https://wa.me/40727795599?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, "_blank");
   };
 
   return (
@@ -23,7 +40,7 @@ export default function BookingEngine() {
       <h3 className="font-display text-xl font-bold text-cream mb-4">
         Verifică disponibilitatea
       </h3>
-      <form onSubmit={handleSearch} className="grid grid-cols-1 md:grid-cols-5 gap-4 mb-4">
+      <form onSubmit={handleBooking} className="grid grid-cols-1 md:grid-cols-5 gap-4">
         <div>
           <label className="block text-xs text-gold uppercase tracking-wider mb-1.5">
             Check-in
@@ -82,50 +99,14 @@ export default function BookingEngine() {
             type="submit"
             className="w-full px-6 py-2.5 bg-gold text-night text-sm font-semibold uppercase tracking-wider transition-all hover:bg-gold-light cursor-pointer border-0"
           >
-            Caută
+            Rezervă
           </button>
         </div>
       </form>
 
-      {results && (
-        <div className="space-y-4" style={{ animation: "fadeIn 0.5s ease forwards" }}>
-          <p className="text-cream text-sm mb-4">
-            {results.length} {results.length === 1 ? "cameră disponibilă" : "camere disponibile"}
-          </p>
-          {results.map((room) => (
-            <div
-              key={room.slug}
-              className="flex flex-col md:flex-row gap-4 bg-night border border-border-dark p-4 hover:border-gold/50 transition-colors"
-            >
-              <div className="flex-1">
-                <h4 className="text-cream font-semibold mb-1">{room.name}</h4>
-                <p className="text-muted text-xs mb-2">
-                  {room.size} mp² · {room.capacity} · {room.beds}
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  {room.facilities.slice(0, 4).map((f) => (
-                    <span key={f} className="text-xs text-muted border border-border-dark px-2 py-1">
-                      {f}
-                    </span>
-                  ))}
-                </div>
-              </div>
-              <div className="flex flex-col items-end justify-between">
-                <p className="text-gold font-bold text-lg">
-                  {room.price} lei
-                  <span className="text-muted text-xs font-normal">/noapte</span>
-                </p>
-                <a
-                  href={`/camere/${room.slug}`}
-                  className="px-4 py-2 bg-gold text-night text-xs font-semibold uppercase tracking-wider no-underline transition-all hover:bg-gold-light"
-                >
-                  Rezervă
-                </a>
-              </div>
-            </div>
-          ))}
-        </div>
-      )}
+      <p className="text-muted text-xs mt-4">
+        Rezervarea se trimite prin WhatsApp. Vă vom confirma disponibilitatea în cel mai scurt timp.
+      </p>
     </div>
   );
 }

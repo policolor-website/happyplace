@@ -18,6 +18,9 @@ export default function DatePicker({
   placeholder = "Selectează data",
   minDate,
 }: DatePickerProps) {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
   const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState<Date | undefined>(
     value ? new Date(value) : undefined
@@ -41,9 +44,6 @@ export default function DatePicker({
       setOpen(false);
     }
   };
-
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
 
   return (
     <div ref={ref} className="relative w-full">
@@ -76,36 +76,18 @@ export default function DatePicker({
             onSelect={handleSelect}
             locale={ro}
             disabled={minDate ? { before: minDate } : { before: today }}
-            styles={{
-              root: { color: "#f5f5dc" },
-              month_caption: { color: "#c9a961" },
-              weekday: { color: "#c9a961", fontSize: "0.75rem", textTransform: "uppercase" },
-              day: {
-                color: "#f5f5dc",
-                border: "1px solid transparent",
-                borderRadius: "0",
-              },
-              day_button: {
-                color: "#f5f5dc",
-                border: "none",
-                background: "transparent",
-              },
-              button_previous: { color: "#c9a961", fill: "#c9a961" },
-              button_next: { color: "#c9a961", fill: "#c9a961" },
-              chevron: { fill: "#c9a961", color: "#c9a961" },
-            }}
             classNames={{
               root: "rdp-dark",
               month_caption: "font-display text-gold font-bold text-sm",
               weekdays: "mb-2",
               weekday: "text-gold text-xs font-semibold uppercase tracking-wider",
               day: "rdp-day",
-              day_button: "rdp-day-btn",
+              day_button: "rdp-day_button",
               selected: "rdp-selected",
               today: "rdp-today",
               disabled: "rdp-disabled",
               outside: "rdp-outside",
-              chevron: "text-gold",
+              chevron: "rdp-chevron",
             }}
           />
         </div>
