@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { format } from "date-fns";
 import DatePicker from "./DatePicker";
 
 export default function BookingForm({
@@ -10,37 +11,39 @@ export default function BookingForm({
   roomName: string;
   roomPrice: number;
 }) {
-  const [checkIn, setCheckIn] = useState("");
-  const [checkOut, setCheckOut] = useState("");
+  const today = new Date();
+  const tomorrow = new Date(today);
+  tomorrow.setDate(tomorrow.getDate() + 1);
+
+  const [checkIn, setCheckIn] = useState(format(today, "yyyy-MM-dd"));
+  const [checkOut, setCheckOut] = useState(format(tomorrow, "yyyy-MM-dd"));
   const [guests, setGuests] = useState("2");
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
-  };
 
-  if (submitted) {
-    return (
-      <div className="bg-night-light border border-gold p-6 text-center">
-        <div className="text-3xl mb-3">✓</div>
-        <h3 className="text-gold font-semibold text-lg mb-2">Cerere trimisă!</h3>
-        <p className="text-cream/80 text-sm">
-          Vă vom contacta în cel mai scurt timp pentru confirmarea rezervării
-          la <span className="text-gold">{roomName}</span>.
-        </p>
-        <button
-          onClick={() => setSubmitted(false)}
-          className="mt-4 text-muted hover:text-gold text-xs underline border-0 bg-transparent cursor-pointer"
-        >
-          Trimite o altă cerere
-        </button>
-      </div>
+    const nights = Math.ceil(
+      (new Date(checkOut).getTime() - new Date(checkIn).getTime()) / (1000 * 60 * 60 * 24)
     );
-  }
+    const totalPrice = nights * roomPrice;
+
+    const message =
+      `Rezervare Pensiunea Angela\n\n` +
+      `Camera: ${roomName}\n` +
+      `Check-in: ${checkIn}\n` +
+      `Check-out: ${checkOut}\n` +
+      `Nopți: ${nights}\n` +
+      `Oaspeți: ${guests}\n` +
+      `Nume: ${name || "-"}\n` +
+      `Telefon: ${phone || "-"}\n` +
+      `Preț estimat: ${totalPrice} lei (${nights} × ${roomPrice} lei)\n\n` +
+      `Vă rog să confirmați disponibilitatea. Mulțumesc!`;
+
+    const whatsappUrl = `https://wa.me/40727795599?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, "_blank");
+  };
 
   return (
     <form onSubmit={handleSubmit} className="bg-night-light border border-border-dark p-6">
@@ -83,31 +86,19 @@ export default function BookingForm({
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          required
+          placeholder="Numele tău"
           className="w-full bg-night border border-border-dark text-cream px-3 py-2 text-sm focus:border-gold focus:outline-none transition-colors"
         />
       </div>
-      <div className="grid grid-cols-2 gap-3 mb-4">
-        <div>
-          <label className="block text-xs text-muted uppercase tracking-wider mb-1">Email</label>
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-            className="w-full bg-night border border-border-dark text-cream px-3 py-2 text-sm focus:border-gold focus:outline-none transition-colors"
-          />
-        </div>
-        <div>
-          <label className="block text-xs text-muted uppercase tracking-wider mb-1">Telefon</label>
-          <input
-            type="tel"
-            value={phone}
-            onChange={(e) => setPhone(e.target.value)}
-            required
-            className="w-full bg-night border border-border-dark text-cream px-3 py-2 text-sm focus:border-gold focus:outline-none transition-colors"
-          />
-        </div>
+      <div className="mb-4">
+        <label className="block text-xs text-muted uppercase tracking-wider mb-1">Telefon</label>
+        <input
+          type="tel"
+          value={phone}
+          onChange={(e) => setPhone(e.target.value)}
+          placeholder="Numărul tău de telefon"
+          className="w-full bg-night border border-border-dark text-cream px-3 py-2 text-sm focus:border-gold focus:outline-none transition-colors"
+        />
       </div>
       <div className="flex justify-between items-center mb-4">
         <span className="text-muted text-xs">Preț/noapte</span>
@@ -117,8 +108,11 @@ export default function BookingForm({
         type="submit"
         className="w-full px-6 py-3 bg-gold text-night text-sm font-semibold uppercase tracking-wider transition-all hover:bg-gold-light cursor-pointer border-0"
       >
-        Trimite cererea
+        Rezervă
       </button>
+      <p className="text-muted text-xs mt-3 text-center">
+        Rezervarea se trimite prin WhatsApp. Vă vom confirma disponibilitatea.
+      </p>
     </form>
   );
 }

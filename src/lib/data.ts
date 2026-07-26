@@ -24,6 +24,14 @@ export const rooms: Room[] = [
     image: "/images/camere/1logo-dubla.jpg",
     gallery: [
       "/images/camere/1logo-dubla.jpg",
+      "/images/pensiunea-angela/358.jpg",
+      "/images/pensiunea-angela/359.jpg",
+      "/images/pensiunea-angela/361.jpg",
+      "/images/pensiunea-angela/367.jpg",
+      "/images/pensiunea-angela/368.jpg",
+      "/images/pensiunea-angela/369.jpg",
+      "/images/pensiunea-angela/371.jpg",
+      "/images/pensiunea-angela/373.jpg",
     ],
     description:
       "Camerele duble cu baie proprie sunt camere cu pat dublu, aflate în corpul de clădire A. În total punem la dispoziția turiștilor 5 camere de acest tip.\n\nToate camerele beneficiază de internet wireless, televizor și încălzire centrală.\n\nToți turiștii au acces la o bucătărie complet echipată situată la parterul corpului de clădire A.\n\nDe asemenea, turiștii pot lua masa la restaurantul cu circuit închis (unde au acces doar turiștii cazați în pensiune) și unde pot alege dintre diverse sortimente culinare bucovinene.",
@@ -47,6 +55,9 @@ export const rooms: Room[] = [
     image: "/images/camere/poti2388_1024x683.jpg",
     gallery: [
       "/images/camere/poti2388_1024x683.jpg",
+      "/images/pensiunea-angela/360.jpg",
+      "/images/pensiunea-angela/362.jpg",
+      "/images/pensiunea-angela/374.jpg",
     ],
     description:
       "Camerele duble cu baie proprie și balcon sunt camere cu pat dublu, aflate în corpul de clădire B. În total punem la dispoziția turiștilor 6 camere de acest tip.\n\nToate camerele beneficiază de internet wireless, televizor, frigider, încălzire centrală și balcon cu priveliște superbă spre munții din apropiere.\n\nTuriștii pot lua masa la restaurantul cu circuit închis (unde au acces doar turiștii cazați în pensiune) aflat la parterul corpului de clădire B și unde pot alege dintre diverse sortimente culinare bucovinene.",
@@ -71,6 +82,14 @@ export const rooms: Room[] = [
     image: "/images/camere/1logo-tripla.jpg",
     gallery: [
       "/images/camere/1logo-tripla.jpg",
+      "/images/pensiunea-angela/354.jpg",
+      "/images/pensiunea-angela/355.jpg",
+      "/images/pensiunea-angela/356.jpg",
+      "/images/pensiunea-angela/357.jpg",
+      "/images/pensiunea-angela/363.jpg",
+      "/images/pensiunea-angela/366.jpg",
+      "/images/pensiunea-angela/370.jpg",
+      "/images/pensiunea-angela/372.jpg",
     ],
     description:
       "Camerele triple cu baie proprie sunt camere cu două paturi, aflate în corpul de clădire A. În total punem la dispoziția turiștilor 2 camere de acest tip.\n\nToate camerele beneficiază de internet wireless, televizor și încălzire centrală.\n\nToți turiștii au acces la o bucătărie complet echipată situată la parterul corpului de clădire A.\n\nDe asemenea, turiștii pot lua masa la restaurantul cu circuit închis (unde au acces doar turiștii cazați în pensiune) și unde pot alege dintre diverse sortimente culinare bucovinene.",
@@ -94,6 +113,9 @@ export const rooms: Room[] = [
     image: "/images/camere/poti2374_1024x683.jpg",
     gallery: [
       "/images/camere/poti2374_1024x683.jpg",
+      "/images/pensiunea-angela/360.jpg",
+      "/images/pensiunea-angela/362.jpg",
+      "/images/pensiunea-angela/374.jpg",
     ],
     description:
       "Camerele triple cu baie proprie și balcon sunt camere cu două paturi, aflate în corpul de clădire B. În total punem la dispoziția turiștilor 4 camere de acest tip.\n\nToate camerele beneficiază de internet wireless, televizor, balcon și încălzire centrală.\n\nToți turiștii pot lua masa la restaurantul cu circuit închis (unde au acces doar turiștii cazați în pensiune) situat la parterul corpului de clădire B și unde pot alege dintre diverse sortimente culinare bucovinene.",
@@ -117,6 +139,12 @@ export const rooms: Room[] = [
     image: "/images/camere/6.jpg",
     gallery: [
       "/images/camere/6.jpg",
+      "/images/pensiunea-angela/383.jpg",
+      "/images/pensiunea-angela/384.jpg",
+      "/images/pensiunea-angela/385.jpg",
+      "/images/pensiunea-angela/386.jpg",
+      "/images/pensiunea-angela/387.jpg",
+      "/images/pensiunea-angela/388.jpg",
     ],
     description:
       "Este cel mai nou spațiu de cazare de la PENSIUNEA ANGELA creat special pentru dvs. Întreg aranjamentul tradițional din interior vă va face să vă simțiți ca acasă. Acest minunat loc oferă toate condițiile pentru dvs: baie în cameră, pat matrimonial, TV, balcon și frigider. Vă așteptăm cu drag în acest loc de poveste.",

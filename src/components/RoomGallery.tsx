@@ -11,7 +11,6 @@ export default function RoomGallery({
   name: string;
 }) {
   const [lightbox, setLightbox] = useState<string | null>(null);
-  const [loadedImages, setLoadedImages] = useState<Set<number>>(new Set());
 
   return (
     <>
@@ -26,18 +25,9 @@ export default function RoomGallery({
               src={img}
               alt={`${name} ${i + 1}`}
               fill
-              onLoad={() =>
-                setLoadedImages((prev) => new Set(prev).add(i))
-              }
-              className={`object-cover transition-all duration-700 group-hover:scale-110 ${
-                loadedImages.has(i) ? "opacity-100" : "opacity-0"
-              }`}
+              sizes="(max-width: 768px) 50vw, 25vw"
+              className="object-cover transition-transform duration-700 group-hover:scale-110"
             />
-            {!loadedImages.has(i) && (
-              <div className="absolute inset-0 flex items-center justify-center bg-night-light">
-                <div className="w-6 h-6 border-2 border-gold/30 border-t-gold rounded-full animate-spin" />
-              </div>
-            )}
             <div className="absolute inset-0 bg-night/0 group-hover:bg-night/30 transition-colors duration-300 flex items-center justify-center">
               <span className="text-gold text-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 ⤢
@@ -64,6 +54,7 @@ export default function RoomGallery({
               src={lightbox}
               alt={name}
               fill
+              sizes="100vw"
               className="object-contain"
             />
           </div>
