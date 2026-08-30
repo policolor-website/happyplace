@@ -2,7 +2,7 @@ export const contact = {
   phone: "0722 335 357",
   phoneIntl: "40722335357",
   email: "office@resort-silvermountain.ro",
-  address: "Strada Doinașului, Nr. 10, Bloc C, Ap. 51",
+  address: "Strada Doinașului, Nr. 10, Bloc C, Et. 5, Ap. 51",
   city: "Poiana Brașov, România",
   complex: "Silver Mountain Resort & SPA",
   mapsQuery: "Silver Mountain Resort Poiana Brasov",
@@ -446,11 +446,10 @@ export const amenities: Amenity[] = [
       "Sală de fitness complet echipată în clădirea multifuncțională a complexului.",
     description:
       "Sală de fitness complet echipată, situată în clădirea multifuncțională a complexului Silver Mountain, lângă piscină. Accesibilă oaspeților pentru menținerea formei fizice pe parcursul sejurului.\n\nIdeală pentru o sesiune de exerciții dimineața, înainte de a ieși pe pârtie sau de a explora zona Poiana Brașov.",
-    image: "/images/happy-place/Happy_SPA_5.jpeg",
+    image: "/images/happy-place/Happy_Fitness.jpeg",
     icon: "🏋️",
     gallery: [
-      "/images/happy-place/Happy_SPA_5.jpeg",
-      "/images/happy-place/Happy_SPA_6.jpeg",
+      "/images/happy-place/Happy_Fitness.jpeg",
     ],
   },
   {
@@ -474,9 +473,10 @@ export const amenities: Amenity[] = [
       "Loc de joacă exterior pentru copii, teren de mini fotbal, ping-pong, badminton și parcare cu stații de încărcare auto electrice.",
     description:
       "Complexul Silver Mountain oferă oaspeților Happy Place acces gratuit la mai multe spații de recreere în aer liber.\n\nCopiii se pot bucura de locul de joacă exterior amenajat în siguranță, iar pentru activitățile sportive aveți la dispoziție teren de mini fotbal, masă de ping-pong și teren de badminton.\n\nParcarea exterioară este gratuită pentru vizitatori și dispune de stații de încărcare pentru mașini electrice.\n\nToate aceste facilități sunt incluse gratuit în sejurul dumneavoastră, fără costuri suplimentare.",
-    image: "/images/happy-place/Happy_Exterior_1.jpeg",
+    image: "/images/happy-place/Happy_Joaca.jpeg",
     icon: "🧸",
     gallery: [
+      "/images/happy-place/Happy_Joaca.jpeg",
       "/images/happy-place/Happy_Exterior_1.jpeg",
       "/images/happy-place/Happy_Exterior_2.jpeg",
     ],

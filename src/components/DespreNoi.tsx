@@ -24,8 +24,8 @@ export default function DespreNoi() {
                 }}
               >
                 <Image
-                  src="/images/happy-place/Happy_Living_8.jpeg"
-                  alt="Happy Place Poiana Brașov — living"
+                  src="/images/happy-place/Happy_Terasa_4.jpeg"
+                  alt="Happy Place Poiana Brașov — terasă panoramică"
                   fill
                   onLoad={() => setLoaded(true)}
                   className="object-cover transition-transform duration-700 group-hover:scale-110"

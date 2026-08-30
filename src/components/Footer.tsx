@@ -35,7 +35,7 @@ export default function Footer() {
             </h3>
             <ul className="flex flex-col gap-2 list-none">
               <li><a href="tel:0722335357" className="text-sm text-muted hover:text-gold no-underline transition-colors">0722 335 357</a></li>
-              <li className="text-sm text-muted">Strada Doinașului, Nr. 10, Bloc C, Ap. 51</li>
+              <li className="text-sm text-muted">Strada Doinașului, Nr. 10, Bloc C, Et. 5, Ap. 51</li>
               <li className="text-sm text-muted">Silver Mountain, Poiana Brașov</li>
             </ul>
           </div>
