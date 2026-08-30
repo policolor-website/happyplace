@@ -124,11 +124,12 @@ export const spaces: Space[] = [
       "/images/happy-place/Happy_Place_Brasov_26.jpeg",
     ],
     description:
-      "Apartamentul dispune de două băi private complete: una cu cada mare pentru relaxare și cealaltă cu dus. Ambele au bideu și toaletă suplimentară, articole de toaletă gratuite, prosoape, papuci de casă și usucător de păr.\n\nCurățenia este o prioritate: produse pentru curățare, dezinfectant pentru mâini și hârtie igienică disponibile în ambele băi.",
+      "Apartamentul dispune de două băi private complete: baia principală are cada mare pentru relaxare, 2 lavoare, toaletă și bideu. Cea de-a doua baie are dus. Ambele băi sunt dotate cu articole de toaletă gratuite, prosoape, papuci de casă și usucător de păr.\n\nCurățenia este o prioritate: produse pentru curățare, dezinfectant pentru mâini și hârtie igienică disponibile în ambele băi.",
     facilities: [
       "Baie cu cada mare",
-      "Baie cu dus",
+      "2 lavoare",
       "Bideu",
+      "Baie cu dus",
       "Articole de toaletă gratuite",
       "Prosoape",
       "Papuci de casă",
