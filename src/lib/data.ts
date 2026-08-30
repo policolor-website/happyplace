@@ -31,7 +31,7 @@ export const spaces: Space[] = [
     capacity: "4 Persoane",
     beds: "Canapea extensibilă",
     baths: 2,
-    image: "/images/happy-place/Happy_Living_1.jpeg",
+    image: "/images/happy-place/Happy_Living_main.jpeg",
     gallery: [
       "/images/happy-place/Happy_Living_1.jpeg",
       "/images/happy-place/Happy_Living_2.jpeg",
@@ -95,7 +95,7 @@ export const spaces: Space[] = [
     capacity: "Self-catering",
     beds: "-",
     baths: 0,
-    image: "/images/happy-place/Happy_Bucatarie_1.jpeg",
+    image: "/images/happy-place/Happy_Bucatarie_main.jpeg",
     gallery: [
       "/images/happy-place/Happy_Bucatarie_1.jpeg",
       "/images/happy-place/Happy_Bucatarie_2.jpeg",
@@ -395,7 +395,7 @@ export const amenities: Amenity[] = [
     shortDescription:
       "Preparate culinare de excepție în restaurantul complexului, cu evenimente ocazionale de muzică live în serile de sâmbătă.",
     description:
-      "Restaurantul NOIR din complexul Silver Mountain este locul perfect pentru clipe memorabile petrecute într-un ambient select. Staff-ul profesionist vă asigură buna-dispoziție, iar meniul oferă preparate culinare de excepție, pizza și o selecție de vinuri.\n\nÎn serile de sâmbătă se organizează ocazional evenimente cu muzică live și atmosferă relaxată. La Restaurantul NOIR se organizează în fiecare an seri speciale cu meniu și program artistic de Crăciun și de Revelion. Restaurantul este deschis pentru toate mesele zilei, fiind ideal atât pentru mic dejun, cât și pentru cină în familie sau în cuplu.\n\nSituat în clădirea multifuncțională, la doar 50 m de apartamentul Happy Place, restaurantul este accesibil ușor fără mașină.\n\nMic dejun bufet suedez:\n• Program: 08:30 - 10:30\n• Preț: 99 lei/persoană\n• Bufet foarte bogat: omletă, iaurt, brânzeturi, mezeluri, prăjituri, fructe, cafea, sucuri și chiar șampanie\n\nMicul dejun se servește la restaurantul NOIR, în aceeași clădire cu SPA-ul. Plata se face separat la restaurant.",
+      "Restaurantul NOIR din complexul Silver Mountain este locul perfect pentru clipe memorabile petrecute într-un ambient select. Staff-ul profesionist vă asigură buna-dispoziție, iar meniul oferă preparate culinare de excepție, pizza și o selecție de vinuri.\n\nÎn serile de sâmbătă se organizează ocazional evenimente cu muzică live și atmosferă relaxată. La Restaurantul NOIR se organizează în fiecare an seri cu meniu special și program artistic de Crăciun și de Revelion. Restaurantul este deschis pentru toate mesele zilei, fiind ideal atât pentru mic dejun, cât și pentru cină în familie sau în cuplu.\n\nSituat în clădirea multifuncțională, la doar 50 m de apartamentul Happy Place, restaurantul este accesibil ușor fără mașină.\n\nMic dejun bufet suedez:\n• Program: 08:30 - 10:30\n• Preț: 99 lei/persoană\n• Bufet foarte bogat: omletă, iaurt, brânzeturi, mezeluri, prăjituri, fructe, cafea, sucuri și chiar șampanie\n\nMicul dejun se servește la restaurantul NOIR, în aceeași clădire cu SPA-ul. Plata se face separat la restaurant.",
     image: "/images/happy-place/Happy_Restaurant_1.jpeg",
     icon: "🍽️",
     gallery: [
@@ -433,10 +433,10 @@ export const amenities: Amenity[] = [
       "Loc de joacă exterior în complex, ideal pentru familii cu copii mici.",
     description:
       "Complexul Silver Mountain dispune de un loc de joacă exterior pentru copii, perfect pentru oaspeții care călătoresc în familie. Copiii se pot bucura de spațiu de joacă în siguranță, în timp ce părinții se relaxează în SPA sau la restaurant.\n\nExistă și teren de fotbal și grădină amenajată în complex, pentru activități în aer liber.",
-    image: "/images/happy-place/Happy_Exterior_1.jpeg",
+    image: "/images/happy-place/Happy_Joaca2.jpeg",
     icon: "🧸",
     gallery: [
-      "/images/happy-place/Happy_Exterior_1.jpeg",
+      "/images/happy-place/Happy_Joaca2.jpeg",
     ],
   },
   {
@@ -473,9 +473,10 @@ export const amenities: Amenity[] = [
       "Loc de joacă exterior pentru copii, teren de mini fotbal, ping-pong, badminton și parcare cu stații de încărcare auto electrice.",
     description:
       "Complexul Silver Mountain oferă oaspeților Happy Place acces gratuit la mai multe spații de recreere în aer liber.\n\nCopiii se pot bucura de locul de joacă exterior amenajat în siguranță, iar pentru activitățile sportive aveți la dispoziție teren de mini fotbal, masă de ping-pong și teren de badminton.\n\nParcarea exterioară este gratuită pentru vizitatori și dispune de stații de încărcare pentru mașini electrice.\n\nToate aceste facilități sunt incluse gratuit în sejurul dumneavoastră, fără costuri suplimentare.",
-    image: "/images/happy-place/Happy_Joaca.jpeg",
+    image: "/images/happy-place/Happy_Spatii2.jpeg",
     icon: "🧸",
     gallery: [
+      "/images/happy-place/Happy_Spatii2.jpeg",
       "/images/happy-place/Happy_Joaca.jpeg",
       "/images/happy-place/Happy_Exterior_1.jpeg",
       "/images/happy-place/Happy_Exterior_2.jpeg",
