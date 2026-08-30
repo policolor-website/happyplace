@@ -133,7 +133,7 @@ export default function SpacesPage() {
           <Reveal>
             <div className="mb-16 p-8 bg-night-light border border-border-dark">
               <h3 className="font-display text-xl font-bold text-cream mb-6 text-center">
-                Distribuția suprafețelor · 60 mp utili + 9 mp balcon
+                Distribuția suprafețelor · 54 mp utili + 9 mp balcon
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div className="text-center p-4 bg-night border border-border-dark">
@@ -161,7 +161,7 @@ export default function SpacesPage() {
                   <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Baie 2</p>
                 </div>
                 <div className="text-center p-4 bg-gold/10 border border-gold/30">
-                  <p className="text-gold text-2xl font-bold">60</p>
+                  <p className="text-gold text-2xl font-bold">54</p>
                   <p className="text-gold/70 text-xs uppercase tracking-wider mt-1">mp · Total</p>
                 </div>
               </div>

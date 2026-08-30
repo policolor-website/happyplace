@@ -8,7 +8,7 @@ import Reveal from "@/components/Reveal";
 export const metadata = {
   title: "Dream Studio Brașov — Studio open-space Silver Mountain",
   description:
-    "Dream Studio — studio open-space de lux cu 2 băi și balcon cu vedere la piscină în complexul Silver Mountain Poiana Brașov. 60 m² utili + 9 m² balcon.",
+    "Dream Studio — studio open-space de lux cu 2 băi și balcon cu vedere la piscină în complexul Silver Mountain Poiana Brașov. 54 m² utili + 9 m² balcon.",
 };
 
 const iconMap: Record<string, string> = {
@@ -34,8 +34,8 @@ export default function DreamStudioPage() {
       {/* Hero */}
       <div className="relative h-[60vh] min-h-[400px] overflow-hidden mb-16">
         <Image
-          src="/images/dream-studio/Dream_Living_5.jpeg"
-          alt="Dream Studio Poiana Brașov — living & dormitor"
+          src="/images/dream-studio/Dream_Bucatarie_1.jpeg"
+          alt="Dream Studio Poiana Brașov — bucătărie"
           fill
           priority
           className="object-cover"
@@ -50,7 +50,7 @@ export default function DreamStudioPage() {
               Dream <span className="text-gradient-gold">Studio</span>
             </h1>
             <p className="text-cream/80 text-lg max-w-2xl mx-auto">
-              Studio open-space cu 2 băi și balcon privat cu vedere la piscină
+              Studio open-space cu 2 băi și balcon cu vedere la piscină
             </p>
           </div>
         </div>
@@ -67,7 +67,7 @@ export default function DreamStudioPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
             <div className="relative aspect-4/3 overflow-hidden">
               <Image
-                src="/images/dream-studio/Dream_Living_1.jpeg"
+                src="/images/dream-studio/Dream_Dormitor_2.jpeg"
                 alt="Dream Studio — living & dormitor"
                 fill
                 className="object-cover"
@@ -119,7 +119,7 @@ export default function DreamStudioPage() {
         <Reveal>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-20">
             <div className="text-center p-6 bg-night-light border border-border-dark">
-              <p className="text-gold text-3xl font-bold">60</p>
+              <p className="text-gold text-3xl font-bold">54</p>
               <p className="text-muted text-xs uppercase tracking-wider mt-2">mp utili</p>
             </div>
             <div className="text-center p-6 bg-night-light border border-border-dark">
@@ -131,7 +131,7 @@ export default function DreamStudioPage() {
               <p className="text-muted text-xs uppercase tracking-wider mt-2">băi</p>
             </div>
             <div className="text-center p-6 bg-night-light border border-border-dark">
-              <p className="text-gold text-3xl font-bold">2</p>
+              <p className="text-gold text-3xl font-bold">4</p>
               <p className="text-muted text-xs uppercase tracking-wider mt-2">oaspeți</p>
             </div>
           </div>
@@ -141,7 +141,7 @@ export default function DreamStudioPage() {
         <Reveal>
           <div className="mb-20 p-8 bg-night-light border border-border-dark">
             <h3 className="font-display text-xl font-bold text-cream mb-6 text-center">
-              Distribuția suprafețelor · 60 mp utili + 9 mp balcon
+              Distribuția suprafețelor · 54 mp utili + 9 mp balcon
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="text-center p-4 bg-night border border-border-dark">
@@ -169,7 +169,7 @@ export default function DreamStudioPage() {
                 <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Baie 2</p>
               </div>
               <div className="text-center p-4 bg-gold/10 border border-gold/30">
-                <p className="text-gold text-2xl font-bold">60</p>
+                <p className="text-gold text-2xl font-bold">54</p>
                 <p className="text-gold/70 text-xs uppercase tracking-wider mt-1">mp · Total</p>
               </div>
             </div>

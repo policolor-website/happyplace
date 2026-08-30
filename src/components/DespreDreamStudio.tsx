@@ -24,7 +24,7 @@ export default function DespreDreamStudio() {
                 }}
               >
                 <Image
-                  src="/images/dream-studio/Dream_Balcon_1.jpeg"
+                  src="/images/dream-studio/Dream_Dormitor_2.jpeg"
                   alt="Dream Studio Poiana Brașov — balcon cu vedere spre piscină"
                   fill
                   onLoad={() => setLoaded(true)}

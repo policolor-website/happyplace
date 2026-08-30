@@ -243,7 +243,7 @@ export default function HappyPlacePage() {
               Dream <span className="text-gradient-gold">Studio</span>
             </h2>
             <p className="text-cream/70 max-w-2xl mx-auto mb-8">
-              Studio open-space cu balcon privat cu vedere spre piscină, 2 băi complete
+              Studio open-space cu balcon cu vedere spre piscină, 2 băi complete
               și design cald — refugiul perfect pentru cupluri sau familii mici.
             </p>
             <Link
