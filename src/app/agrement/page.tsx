@@ -79,11 +79,13 @@ export default function AmenitiesPage() {
 
         <Reveal delay={200}>
           <div className="mt-16 p-8 bg-night-light border border-border-dark text-center">
-            <h2 className="font-display text-2xl font-bold text-cream mb-4">
-              Vrei să te bucuri de aceste facilități?
+            <h2 className="font-display text-2xl md:text-3xl font-bold text-cream mb-4">
+              Cel mai bun preț garantat, fără comisioane ascunse
             </h2>
-            <p className="text-gold text-sm md:text-base font-semibold mb-6 max-w-2xl mx-auto">
-              Rezervă direct de pe site-ul nostru și beneficiază de cel mai bun preț garantat, fără comisioane ascunse!
+            <p className="text-cream/80 text-sm md:text-base mb-6 max-w-2xl mx-auto leading-relaxed">
+              Suntem proprietari privați în complexul Silver Mountain. Beneficiați
+              de aceeași locație exclusivistă, dar cu servicii personalizate și
+              prețuri competitive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

@@ -124,9 +124,16 @@ export default function BookingEngine() {
       <p className="text-muted text-xs mt-4">
         Cazare minimum 2 nopți · Rezervarea se trimite prin WhatsApp · Vă vom confirma disponibilitatea și prețul.
       </p>
-      <p className="text-gold text-xs font-semibold mt-2">
-        Rezervă direct de pe site-ul nostru și beneficiază de cel mai bun preț garantat, fără comisioane ascunse!
-      </p>
+      <div className="mt-3 p-3 bg-night border border-gold/20">
+        <p className="text-gold text-xs font-semibold">
+          Cel mai bun preț garantat, fără comisioane ascunse
+        </p>
+        <p className="text-muted text-xs mt-1 leading-relaxed">
+          Suntem proprietari privați în complexul Silver Mountain. Beneficiați
+          de aceeași locație exclusivistă, dar cu servicii personalizate și
+          prețuri competitive.
+        </p>
+      </div>
     </div>
   );
 }

@@ -18,8 +18,9 @@ export default function CTA() {
             <span className="text-gradient-gold">fără comisioane ascunse</span>
           </h2>
           <p className="text-base md:text-lg text-cream/80 mb-10 leading-relaxed max-w-2xl mx-auto">
-            Rezervă direct de pe site-ul nostru și beneficiază de cel mai bun
-            preț garantat, fără comisioane ascunse!
+            Suntem proprietari privați în complexul Silver Mountain. Beneficiați
+            de aceeași locație exclusivistă, dar cu servicii personalizate și
+            prețuri competitive.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

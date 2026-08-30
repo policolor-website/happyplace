@@ -53,12 +53,19 @@ export default function Hero() {
             Vezi galeria
           </Link>
         </div>
-        <p
-          className="text-gold text-sm md:text-base font-semibold mt-8 max-w-2xl mx-auto leading-relaxed"
+        <div
+          className="mt-8 max-w-2xl mx-auto"
           style={{ animation: "fadeUp 0.8s ease 0.8s forwards", opacity: 0 }}
         >
-          Rezervă direct de pe site-ul nostru și beneficiază de cel mai bun preț garantat, fără comisioane ascunse!
-        </p>
+          <p className="text-gold text-base md:text-lg font-semibold leading-relaxed">
+            Cel mai bun preț garantat, fără comisioane ascunse
+          </p>
+          <p className="text-cream/80 text-sm md:text-base mt-3 leading-relaxed">
+            Suntem proprietari privați în complexul Silver Mountain. Beneficiați
+            de aceeași locație exclusivistă, dar cu servicii personalizate și
+            prețuri competitive.
+          </p>
+        </div>
       </div>
     </section>
   );
