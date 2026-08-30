@@ -49,6 +49,11 @@ const faqItems = [
       "Pe lângă restaurantul NOIR din complex, recomandăm:\n• Stana Turistică — la doar 5 min. de complex, în cadru natural de excepție, oferă mâncare tradițională românească\n• Sura Dacilor\n• Coliba Haiducilor",
   },
   {
+    question: "Ce activități de timp liber sunt în zonă?",
+    answer:
+      "La mai puțin de 10 min. de apartament aveți:\n• Centru de echitație\n• Plimbări cu ATV\n• Bowling, biliard și escaladă la Centrul de Agrement din centrul stațiunii Poiana Brașov\n• Telecabină și telescaun până pe vârful Postăvaru la 1800 m altitudine",
+  },
+  {
     question: "Apartamentul are bucătărie complet utilată?",
     answer:
       "Da, bucătăria este complet utilată cu plită electrică, cuptor cu microunde, frigider, fierbător și espressor Nespresso. Vase și ustensile complete. Din partea noastră aveți gratuit ceai, cafea și băuturi la sosire.",
