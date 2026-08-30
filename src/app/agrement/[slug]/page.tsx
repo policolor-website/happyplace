@@ -58,7 +58,7 @@ export default async function AmenityPage({ params }: { params: Promise<{ slug: 
 
               <div className="text-cream/80 leading-relaxed mb-8 space-y-4">
                 {amenity.description.split("\n\n").map((para, i) => (
-                  <p key={i}>{para}</p>
+                  <p key={i} className="whitespace-pre-line">{para}</p>
                 ))}
               </div>
 
