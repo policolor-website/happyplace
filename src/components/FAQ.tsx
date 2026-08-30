@@ -21,7 +21,7 @@ const faqItems = [
   {
     question: "Accesul la SPA, piscine și restaurant este inclus?",
     answer:
-      "NU. Apartamentul Happy Place este locuință privată în complexul Silver Mountain. Accesul la facilitățile mari ale complexului (centru SPA, piscină interioară, piscină exterioară infinity, jacuzzi, saună, sală de fitness, restaurant NOIR) NU este inclus în prețul cazării și se achiziționează separat de la recepția complexului. SPA se află într-o altă clădire, la 150 m de apartament.",
+      "NU. Apartamentul Happy Place este locuință privată în complexul Silver Mountain. Accesul la facilitățile mari ale complexului (centru SPA, piscină interioară, piscină exterioară infinity, jacuzzi, saună, sală de fitness, restaurant NOIR) NU este inclus în prețul cazării și se achiziționează separat de la recepția complexului. SPA și restaurantul NOIR se află în aceeași clădire multifuncțională, la 50 m de apartament.",
   },
   {
     question: "Ce facilități sunt incluse gratuit în complex?",

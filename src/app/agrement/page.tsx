@@ -38,7 +38,7 @@ export default function AmenitiesPage() {
             Complexul Silver Mountain Resort &amp; SPA oferă o gamă completă de
             facilități pentru oaspeții Happy Place. De la relaxare în centrul
             SPA cu piscine și saună, la mese la restaurantul NOIR, parcare
-            subterană gratuită și activități pentru copii. Totul la doar 150 m
+            subterană gratuită și activități pentru copii. Totul la doar 50 m
             de apartament.
           </p>
         </Reveal>

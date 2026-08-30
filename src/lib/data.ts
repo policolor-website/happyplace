@@ -125,7 +125,7 @@ export const spaces: Space[] = [
       "/images/happy-place/Happy_Place_Brasov_22.jpeg",
     ],
     description:
-      "Bucătăria privată a apartamentului Happy Place este complet utilată pentru prepararea tuturor meselor. Dotată cu plită electrică, cuptor cu microunde, frigider, fierbător și espressor Nespresso.\n\nVase și ustensile de bucătărie complete, zonă de luat masa, aparat de ceai și cafea. Din partea noastră aveți gratuit ceai, cafea și băuturi în frigider la sosire.\n\nPentru mesele pe care nu doriți să le pregătiți, restaurantul NOIR din complex oferă preparate culinare de excepție, la doar 150 m distanță.",
+      "Bucătăria privată a apartamentului Happy Place este complet utilată pentru prepararea tuturor meselor. Dotată cu plită electrică, cuptor cu microunde, frigider, fierbător și espressor Nespresso.\n\nVase și ustensile de bucătărie complete, zonă de luat masa, aparat de ceai și cafea. Din partea noastră aveți gratuit ceai, cafea și băuturi în frigider la sosire.\n\nPentru mesele pe care nu doriți să le pregătiți, restaurantul NOIR din complex oferă preparate culinare de excepție, în clădirea multifuncțională la doar 50 m de apartament.",
     facilities: [
       "Plită electrică",
       "Cuptor cu microunde",
@@ -209,7 +209,7 @@ export const facilities = [
   { icon: "pool", label: "2 piscine", desc: "Interioară + exterioară infinity · Cost suplimentar" },
   { icon: "spa", label: "Centru SPA", desc: "Jacuzzi, saună, masaj · Cost suplimentar" },
   { icon: "fitness", label: "Sală de fitness", desc: "Echipament complet în complex · Cost suplimentar" },
-  { icon: "restaurant", label: "Restaurant NOIR", desc: "Preparate de excepție la 150 m · Contra-cost" },
+  { icon: "restaurant", label: "Restaurant NOIR", desc: "Preparate de excepție la 50 m · Contra-cost" },
   { icon: "baby", label: "Patut & scaun copil", desc: "La cerere · Contra-cost" },
   { icon: "ski", label: "Schi", desc: "Pârtii accesibile cu ski-bus din fața complexului" },
   { icon: "elevator", label: "Lift", desc: "Acces la etajele superioare" },
@@ -336,7 +336,7 @@ export const amenities: Amenity[] = [
     shortDescription:
       "Piscină interioară, piscină exterioară infinity încălzită, jacuzzi, saună umedă și uscată.",
     description:
-      "Centrul SPA din complexul Silver Mountain vă pune la dispoziție o experiență completă de relaxare. Piscina interioară încălzită este perfectă pentru orice sezon, iar piscina exterioară infinity, amplasată la ultimul etaj al clădirii multifuncționale, oferă o panoramă superbă asupra pădurilor și munților.\n\nJacuzzi-ul cu hidroterapie, sauna umedă și sauna uscată completează experiența SPA. La recepția SPA se oferă prosoape pentru piscină.\n\nAccesul la SPA se face într-o altă clădire față de cea unde aveți cazare, la o distanță de 150 m. Minorii au acces la Centrul SPA doar însoțiți de adulți.\n\nNotă: accesul la SPA este cu cost suplimentar pentru oaspeții Happy Place.",
+      "Centrul SPA din complexul Silver Mountain vă pune la dispoziție o experiență completă de relaxare. Piscina interioară încălzită este perfectă pentru orice sezon, iar piscina exterioară infinity, amplasată la ultimul etaj al clădirii multifuncționale, oferă o panoramă superbă asupra pădurilor și munților.\n\nJacuzzi-ul cu hidroterapie, sauna umedă și sauna uscată completează experiența SPA. La recepția SPA se oferă prosoape pentru piscină.\n\nSPA și restaurantul NOIR se află în aceeași clădire multifuncțională, la doar 50 m de apartament. Minorii au acces la Centrul SPA doar însoțiți de adulți.\n\nNotă: accesul la SPA este cu cost suplimentar pentru oaspeții Happy Place.",
     image: "/images/happy-place/Happy_Place_Brasov_27.jpeg",
     icon: "💆",
     gallery: [
@@ -351,7 +351,7 @@ export const amenities: Amenity[] = [
     shortDescription:
       "Preparate culinare de excepție în restaurantul complexului, cu muzică live sâmbăta seara.",
     description:
-      "Restaurantul NOIR din complexul Silver Mountain este locul perfect pentru clipe memorabile petrecute într-un ambient select. Staff-ul profesionist vă asigură buna-dispoziție, iar meniul oferă preparate culinare de excepție, pizza și o selecție de vinuri.\n\nSâmbăta devin speciale cu seri ocazionale de muzică live și atmosferă relaxată. Restaurantul este deschis pentru toate mesele zilei, fiind ideal atât pentru mic dejun, cât și pentru cină în familie sau în cuplu.\n\nSituat la doar 150 m de apartamentul Happy Place, restaurantul este accesibil ușor fără mașină.",
+      "Restaurantul NOIR din complexul Silver Mountain este locul perfect pentru clipe memorabile petrecute într-un ambient select. Staff-ul profesionist vă asigură buna-dispoziție, iar meniul oferă preparate culinare de excepție, pizza și o selecție de vinuri.\n\nSâmbăta devin speciale cu seri ocazionale de muzică live și atmosferă relaxată. Restaurantul este deschis pentru toate mesele zilei, fiind ideal atât pentru mic dejun, cât și pentru cină în familie sau în cuplu.\n\nSituat în clădirea multifuncțională, la doar 50 m de apartamentul Happy Place, restaurantul este accesibil ușor fără mașină.",
     image: "/images/happy-place/Happy_Place_Brasov_19.jpeg",
     icon: "🍽️",
     gallery: [
