@@ -61,7 +61,7 @@ export default function DespreDreamStudio() {
                 Piesa de rezistență a proprietății este balconul privat cu vedere
                 directă spre piscină și peisajul montan din jur. Deși este un
                 studio, proprietatea sparge tiparele și îți oferă un nivel de
-                confort rar întâlnit: 2 băi complete.
+                confort rar întâlnit: 2 băi.
               </p>
               <Link
                 href="/despre-noi#dream-studio"

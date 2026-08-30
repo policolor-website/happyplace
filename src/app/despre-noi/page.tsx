@@ -66,7 +66,7 @@ export default function DespreNoiPage() {
                 savura cafeaua dimineața în timp ce admiri crestele munților și
                 pădurea de brazi, sau unde te poți relaxa la apus după o zi
                 activă. Pentru ca intimitatea și confortul tău să fie depline,
-                proprietatea dispune de 2 băi complete, eliminând orice timp de
+                proprietatea dispune de 2 băi, eliminând orice timp de
                 așteptare atunci când te pregătești de ieșire.
               </p>
             </div>
@@ -357,7 +357,7 @@ export default function DespreNoiPage() {
                 </p>
                 <p>
                   Deși este un studio, proprietatea sparge tiparele și îți oferă un
-                  nivel de confort rar întâlnit: 2 băi complete. Astfel, te bucuri de
+                  nivel de confort rar întâlnit: 2 băi. Astfel, te bucuri de
                   toată intimitatea și spațiul de care ai nevoie, fără niciun compromis.
                 </p>
               </div>

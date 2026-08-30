@@ -97,7 +97,7 @@ export default function DreamStudioPage() {
               </p>
               <p>
                 Deși este un studio, proprietatea sparge tiparele și îți oferă un
-                nivel de confort rar întâlnit: 2 băi complete. Astfel, te bucuri de
+                nivel de confort rar întâlnit: 2 băi. Astfel, te bucuri de
                 toată intimitatea și spațiul de care ai nevoie, fără niciun compromis.
               </p>
             </div>

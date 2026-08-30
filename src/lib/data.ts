@@ -504,7 +504,7 @@ export const dreamStudio = {
   baths: 2,
   heroImage: "/images/dream-studio/Dream_Balcon_1.jpeg",
   description:
-    "Așa cum îi spune și numele, Dream Studio este locul ideal unde confortul modern întâlnește relaxarea absolută. Situat în cadrul selectului complex Silver Mountain, acest studio open-space impresionează prin spațiul său generos și designul interior cald, fiind refugiul perfect pentru cupluri, familii mici sau prieteni care caută o evadare la munte. Acest studio elegant combină perfect rafinamentul unui hotel de lux cu intimitatea și confortul propriului tău sanctuar montan.\n\nPiesa de rezistență a proprietății este balconul privat cu vedere directă spre piscină și peisajul montan din jur. Este locul perfect unde să îți începi dimineața respirând aerul curat de munte sau unde să te relaxezi seara, într-o atmosferă liniștită și exclusivistă.\n\nDeși este un studio, proprietatea sparge tiparele și îți oferă un nivel de confort rar întâlnit: 2 băi complete. Astfel, te bucuri de toată intimitatea și spațiul de care ai nevoie, fără niciun compromis.",
+    "Așa cum îi spune și numele, Dream Studio este locul ideal unde confortul modern întâlnește relaxarea absolută. Situat în cadrul selectului complex Silver Mountain, acest studio open-space impresionează prin spațiul său generos și designul interior cald, fiind refugiul perfect pentru cupluri, familii mici sau prieteni care caută o evadare la munte. Acest studio elegant combină perfect rafinamentul unui hotel de lux cu intimitatea și confortul propriului tău sanctuar montan.\n\nPiesa de rezistență a proprietății este balconul privat cu vedere directă spre piscină și peisajul montan din jur. Este locul perfect unde să îți începi dimineața respirând aerul curat de munte sau unde să te relaxezi seara, într-o atmosferă liniștită și exclusivistă.\n\nDeși este un studio, proprietatea sparge tiparele și îți oferă un nivel de confort rar întâlnit: 2 băi. Astfel, te bucuri de toată intimitatea și spațiul de care ai nevoie, fără niciun compromis.",
 };
 
 export const dreamSpaces: Space[] = [
@@ -593,10 +593,9 @@ export const dreamSpaces: Space[] = [
       "/images/dream-studio/Dream_Baie_7.jpeg",
     ],
     description:
-      "Dream Studio dispune de 2 băi complete — un lux rar pentru un studio. Baia principală de 4 m² cu cada pentru relaxare și cea de-a doua baie de 2,5 m² cu dus.\n\nAmbele băi sunt dotate cu articole de toaletă gratuite, prosoape, papuci de casă și usucător de păr.",
+      "Dream Studio dispune de 2 băi — un lux rar pentru un studio.\n\nAmbele băi sunt dotate cu articole de toaletă gratuite, prosoape, papuci de casă și usucător de păr.",
     facilities: [
-      "Baie cu cada",
-      "Baie cu dus",
+      "2 băi",
       "Articole de toaletă gratuite",
       "Prosoape",
       "Papuci de casă",
