@@ -2,10 +2,10 @@ import Hero from "@/components/Hero";
 import BookingEngine from "@/components/BookingEngine";
 import DespreNoi from "@/components/DespreNoi";
 import ImageSlider from "@/components/ImageSlider";
+import CTA from "@/components/CTA";
 import Facilities from "@/components/Facilities";
 import RoomsPreview from "@/components/RoomsPreview";
 import Reviews from "@/components/Reviews";
-import CTA from "@/components/CTA";
 
 export default function Home() {
   return (
@@ -18,10 +18,10 @@ export default function Home() {
       </section>
       <DespreNoi />
       <ImageSlider />
+      <CTA />
       <Facilities />
       <RoomsPreview />
       <Reviews />
-      <CTA />
     </>
   );
 }

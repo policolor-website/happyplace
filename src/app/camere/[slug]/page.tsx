@@ -51,9 +51,6 @@ export default async function SpacePage({ params }: { params: Promise<{ slug: st
               <h1 className="font-display text-4xl md:text-5xl font-bold text-cream mb-4">
                 {space.name}
               </h1>
-              <p className="text-gold text-2xl font-bold mb-6">
-                De la {space.price} lei<span className="text-muted text-base font-normal">/noapte</span>
-              </p>
               <div className="text-cream/80 leading-relaxed mb-8 space-y-4">
                 {space.description.split("\n\n").map((para, i) => (
                   <p key={i}>{para}</p>
@@ -103,7 +100,7 @@ export default async function SpacePage({ params }: { params: Promise<{ slug: st
 
           <div className="lg:col-span-1">
             <div className="sticky top-24">
-              <BookingForm spaceName={space.name} spacePrice={space.price} />
+              <BookingForm spaceName={space.name} />
             </div>
           </div>
         </div>
@@ -122,7 +119,7 @@ export default async function SpacePage({ params }: { params: Promise<{ slug: st
                   />
                 </div>
                 <h3 className="text-cream font-semibold group-hover:text-gold transition-colors">{s.name}</h3>
-                <p className="text-muted text-xs">De la {s.price} lei/noapte</p>
+                <p className="text-muted text-xs">{s.capacity}</p>
               </Link>
             ))}
           </div>

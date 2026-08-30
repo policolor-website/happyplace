@@ -16,17 +16,22 @@ const faqItems = [
   {
     question: "Aveți parcare gratuită?",
     answer:
-      "Da, toți oaspeții Happy Place beneficiază gratuit de un loc de parcare subterană pazită în complexul Silver Mountain.",
+      "Da, toți oaspeții Happy Place beneficiază de un loc de parcare subterană cu pază 24/7, inclus în prețul cazării. Uiți iarna de grija deszăpezirii mașinii, iar vara, automobilul îți este protejat de căldura excesivă a soarelui.",
   },
   {
-    question: "Accesul la SPA este inclus?",
+    question: "Accesul la SPA, piscine și restaurant este inclus?",
     answer:
-      "Accesul la centrul SPA din complex (piscină interioară, piscină exterioară infinity încălzită, jacuzzi, saună) este cu cost suplimentar pentru oaspeții Happy Place. SPA se află într-o altă clădire, la 150 m de apartament.",
+      "NU. Apartamentul Happy Place este locuință privată în complexul Silver Mountain. Accesul la facilitățile mari ale complexului (centru SPA, piscină interioară, piscină exterioară infinity, jacuzzi, saună, sală de fitness, restaurant NOIR) NU este inclus în prețul cazării și se achiziționează separat de la recepția complexului. SPA se află într-o altă clădire, la 150 m de apartament.",
+  },
+  {
+    question: "Ce facilități sunt incluse gratuit în complex?",
+    answer:
+      "Oaspeții Happy Place au acces gratuit în complex la: loc de joacă exterior pentru copii, teren de mini fotbal, masă de ping-pong, teren de badminton și parcare în exterior cu stații de încărcare pentru mașini electrice.",
   },
   {
     question: "Ce atracții turistice sunt în apropiere?",
     answer:
-      "Poiana Brașov oferă numeroase atracții: Partia Bradul (3.3 km), Masivul Postăvarul cu trasee montane, centrul istoric Brașov (12 km), Biserica Neagră, Tâmpa, Castelul Bran și Mănăstirile din zonă.",
+      "Poiana Brașov oferă numeroase atracții: pârtii de schi (accesibile iarna cu ski-bus din fața complexului), Masivul Postăvarul cu trasee montane, centrul istoric Brașov, Biserica Neagră, Tâmpa, Castelul Bran și Mănăstirile din zonă.",
   },
   {
     question: "Apartamentul are bucătărie complet utilată?",

@@ -41,7 +41,7 @@ export const spaces: Space[] = [
       "/images/happy-place/Happy_Place_Brasov_6.jpeg",
     ],
     description:
-      "Apartamentul Happy Place oferă un living spațios cu zonă de relaxare, canapea extensibilă și șemineu. Cu o suprafață totală de 64 m², apartamentul este amplasat la etajul 5 și oferă o terasă panoramică cu vedere superbă asupra întregii văi.\n\nZona de living este locul ideal pentru momente de relaxare în familie. TV smart cu Netflix, internet WiFi de mare viteză și încălzire în toate spațiile. Din partea noastră aveți gratuit ceai, cafea, băuturi în frigider, papuci de casă, halate și cosmetice la băi.\n\nTerasa panoramică suspendată parcă deasupra pădurii este atracția principală a apartamentului. Ce poate fi mai plăcut decât să-ți savurezi cafeaua de dimineață privind valea, iar seara să ai cerul cu stele deasupra capului.",
+      "Apartamentul Happy Place oferă un living spațios cu zonă de relaxare, canapea extensibilă și șemineu. Cu o suprafață totală de 64 m², apartamentul este amplasat la etajul 5 și oferă o terasă panoramică de 10 mp cu perspectivă asupra întregii văi.\n\nZona de living este locul ideal pentru momente de relaxare în familie. TV smart cu Netflix, internet WiFi de mare viteză și încălzire în toate spațiile. Din partea noastră aveți gratuit ceai, cafea, capsule pentru espressorul Nespresso, băuturi în frigider, papuci de casă, halate și cosmetice la băi.\n\nTerasa panoramică suspendată parcă deasupra pădurii este atracția principală a apartamentului. Ce poate fi mai plăcut decât să-ți savurezi cafeaua de dimineață privind valea, iar seara să ai cerul cu stele deasupra capului.\n\nSpatii cu acces gratuit în complex: loc de joacă exterior pentru copii, teren de mini fotbal, masă de ping-pong, teren de badminton și parcare în exterior cu stații de încărcare pentru mașini electrice.\n\nLoc de parcare subterană cu pază 24/7, inclus în prețul cazării — uiți iarna de grija deszăpezirii mașinii, iar vara, automobilul îți este protejat de căldura excesivă a soarelui.\n\nNotă: Apartamentul este locuință privată în complexul Silver Mountain. Accesul la facilitățile mari ale complexului (SPA, piscine, restaurant NOIR, sală de fitness) NU este inclus în prețul cazării și se achiziționează separat de la recepția complexului.",
     facilities: [
       "WiFi gratuit",
       "TV smart cu Netflix",
@@ -152,15 +152,15 @@ export const spaces: Space[] = [
       "/images/happy-place/Happy_Place_Brasov_26.jpeg",
     ],
     description:
-      "Apartamentul dispune de două băi private, fiecare cu cadă sau duș, bideu și toaletă suplimentară. Ambele băi sunt dotate cu articole de toaletă gratuite, prosoape, papuci de casă și usucător de păr.\n\nCurățenia este o prioritate: produse pentru curățare, dezinfectant pentru mâini și hârtie igienică disponibile în ambele băi.",
+      "Apartamentul dispune de două băi private complete: una cu cada mare pentru relaxare și cealaltă cu dus. Ambele au bideu și toaletă suplimentară, articole de toaletă gratuite, prosoape, papuci de casă și usucător de păr.\n\nCurățenia este o prioritate: produse pentru curățare, dezinfectant pentru mâini și hârtie igienică disponibile în ambele băi.",
     facilities: [
-      "Cadă sau duș",
+      "Baie cu cada mare",
+      "Baie cu dus",
       "Bideu",
       "Articole de toaletă gratuite",
       "Prosoape",
       "Papuci de casă",
       "Usucător de păr",
-      "Toaletă suplimentară",
     ],
   },
   {
@@ -168,7 +168,7 @@ export const spaces: Space[] = [
     name: "Terasă panoramică",
     price: 650,
     size: 64,
-    capacity: "Vedere la vale",
+    capacity: "Perspectivă asupra văii",
     beds: "-",
     baths: 0,
     image: "/images/happy-place/Happy_Place_Brasov_27.jpeg",
@@ -184,7 +184,7 @@ export const spaces: Space[] = [
     description:
       "Terasa panoramică a apartamentului, situat la etajul 5, oferă o perspectivă superbă asupra întregii văi. Este atracția principală și zona preferată de toți turiștii noștri.\n\nCe poate fi mai plăcut decât să-ți savurezi cafeaua de dimineată de pe un balcon suspendat parcă deasupra pădurii, să ai seara cerul cu stele deasupra capului și să respiri adânc în fiecare zi aerul curat de munte. Relaxare, liniște și un peisaj care îți taie respirația.\n\nTerasa este spațioasă, mobilată și orientată pentru a capta cea mai bună lumină atât la răsărit, cât și la apus.",
     facilities: [
-      "Vedere panoramică la vale",
+      "Perspectivă asupra văii",
       "Etajul 5",
       "Mobilată",
       "Balcon",
@@ -197,16 +197,16 @@ export const spaces: Space[] = [
 
 export const facilities = [
   { icon: "wifi", label: "WiFi gratuit", desc: "Internet de mare viteză în tot apartamentul" },
-  { icon: "pool", label: "2 piscine", desc: "Piscină interioară + exterioară infinity încălzită" },
-  { icon: "spa", label: "Centru SPA", desc: "Jacuzzi, saună umedă și uscată, masaj" },
-  { icon: "restaurant", label: "Restaurant NOIR", desc: "Preparate culinare de excepție la 150 m" },
-  { icon: "parking", label: "Parcare gratuită", desc: "Parcare subterană pazită inclusă" },
-  { icon: "fitness", label: "Sală de fitness", desc: "Echipament complet în complex" },
-  { icon: "terrace", label: "Terasă panoramică", desc: "Vedere superbă la vale de la etajul 5" },
-  { icon: "kitchen", label: "Bucătărie privată", desc: "Complet utilată cu espressor Nespresso" },
+  { icon: "terrace", label: "Terasă panoramică", desc: "Perspectivă asupra văii de la etajul 5" },
+  { icon: "kitchen", label: "Bucătărie privată", desc: "Espressor Nespresso + capsule cafea gratuite" },
   { icon: "fireplace", label: "Șemineu", desc: "Atmosferă caldă în zona de living" },
-  { icon: "ski", label: "Schi", desc: "Partia Bradul la 3.3 km distanță" },
-  { icon: "family", label: "Camere de familie", desc: "Ideal pentru familii cu copii" },
+  { icon: "parking", label: "Parcare subterană 24/7", desc: "Inclusă în preț · Pază non-stop" },
+  { icon: "playground", label: "Loc de joacă copii", desc: "Exterior · Acces gratuit în complex" },
+  { icon: "football", label: "Teren mini fotbal", desc: "Acces gratuit în complex" },
+  { icon: "pingpong", label: "Masă de ping-pong", desc: "Acces gratuit în complex" },
+  { icon: "badminton", label: "Teren de badminton", desc: "Acces gratuit în complex" },
+  { icon: "ev", label: "Încărcare auto electric", desc: "Stații de încărcare în parcare exterior" },
+  { icon: "ski", label: "Schi", desc: "Pârtii accesibile cu ski-bus din fața complexului" },
   { icon: "elevator", label: "Lift", desc: "Acces la etajele superioare" },
 ];
 
@@ -247,7 +247,7 @@ export const blogPosts = [
   {
     slug: "poiana-brasov-destinatia-de-iarna-din-inima-muntilor",
     title: "Poiana Brașov, destinația de iarnă din inima munților",
-    excerpt: "Poiana Brașov oferă condiții excelente pentru schi, snowboard și drumeții, la doar 3.3 km de apartamentul Happy Place...",
+    excerpt: "Poiana Brașov oferă condiții excelente pentru schi, snowboard și drumeții, cu acces la pârtii prin ski-bus din fața complexului...",
     image: "/images/happy-place/Happy_Place_Brasov_1.jpeg",
   },
   {
@@ -356,11 +356,11 @@ export const amenities: Amenity[] = [
   },
   {
     slug: "parcare-subterana",
-    title: "Parcare subterană gratuită",
+    title: "Parcare subterană cu pază 24/7",
     shortDescription:
-      "Parcare subterană pazită, inclusă gratuit pentru oaspeții Happy Place.",
+      "Loc de parcare subterană cu pază non-stop, inclus în prețul cazării.",
     description:
-      "Oaspeții apartamentului Happy Place beneficiază gratuit de un loc de parcare subterană în complexul Silver Mountain. Parcarea este pazită și asigură securitatea vehiculului pe tot parcursul sejurului.\n\nAccesul se face direct din complex, fără a fi nevoie să parcați pe stradă. Ideal pentru iarna, când zăpada poate fi abundentă în Poiana Brașov.",
+      "Oaspeții apartamentului Happy Place beneficiază de un loc de parcare subterană cu pază 24/7, inclus în prețul cazării. Uiți iarna de grija deszăpezirii mașinii, iar vara, automobilul îți este protejat de căldura excesivă a soarelui.\n\nAccesul se face direct din complex, fără a fi nevoie să parcați pe stradă. Parcarea asigură securitatea vehiculului pe tot parcursul sejurului.",
     image: "/images/happy-place/Happy_Place_Brasov_1.jpeg",
     icon: "🚗",
     gallery: [
@@ -369,11 +369,11 @@ export const amenities: Amenity[] = [
   },
   {
     slug: "loc-de-joaca",
-    title: "Loc de joacă pentru copii",
+    title: "Loc de joacă exterior pentru copii",
     shortDescription:
-      "Spațiu de joacă în complex, ideal pentru familii cu copii mici.",
+      "Loc de joacă exterior în complex, ideal pentru familii cu copii mici.",
     description:
-      "Complexul Silver Mountain dispune de un loc de joacă pentru copii, perfect pentru oaspeții care călătoresc în familie. Copiii se pot bucura de spațiu de joacă în siguranță, în timp ce părinții se relaxează în SPA sau la restaurant.\n\nExistă și teren de fotbal și grădină amenajată în complex, pentru activități în aer liber.",
+      "Complexul Silver Mountain dispune de un loc de joacă exterior pentru copii, perfect pentru oaspeții care călătoresc în familie. Copiii se pot bucura de spațiu de joacă în siguranță, în timp ce părinții se relaxează în SPA sau la restaurant.\n\nExistă și teren de fotbal și grădină amenajată în complex, pentru activități în aer liber.",
     image: "/images/happy-place/Happy_Place_Brasov_13.jpeg",
     icon: "🧸",
     gallery: [
@@ -397,14 +397,28 @@ export const amenities: Amenity[] = [
     slug: "schi-snowboard",
     title: "Schi & Snowboard",
     shortDescription:
-      "Partia Bradul la 3.3 km, condiții excelente pentru schi și snowboard iarna.",
+      "Pârtii de schi accesibile iarna cu ski-bus din fața complexului.",
     description:
-      "Poiana Brașov oferă condiții excelente pentru schi și snowboard, cu pârtii de dificultate variată. Partia Bradul se află la doar 3.3 km de complexul Silver Mountain, fiind ușor accesibilă cu mașina sau cu transportul local.\n\nEchipament de schi poate fi închiriat la fața locului, iar școli de schi cu instructori calificați sunt disponibile pentru începători. Sezonul de schi se întinde de obicei din decembrie până în martie.\n\nDupă o zi pe pârtie, centrul SPA din complex este locul ideal pentru relaxare musculară în jacuzzi sau saună.",
+      "Poiana Brașov oferă condiții excelente pentru schi și snowboard, cu pârtii de dificultate variată. Pârtiile de schi sunt accesibile iarna cu ski-bus care pleacă direct din fața complexului Silver Mountain.\n\nEchipament de schi poate fi închiriat la fața locului, iar școli de schi cu instructori calificați sunt disponibile pentru începători. Sezonul de schi se întinde de obicei din decembrie până în martie.\n\nDupă o zi pe pârtie, centrul SPA din complex este locul ideal pentru relaxare musculară în jacuzzi sau saună.",
     image: "/images/happy-place/Happy_Place_Brasov_27.jpeg",
     icon: "⛷️",
     gallery: [
       "/images/happy-place/Happy_Place_Brasov_27.jpeg",
       "/images/happy-place/Happy_Place_Brasov_28.jpeg",
+    ],
+  },
+  {
+    slug: "spatii-acces-gratuit",
+    title: "Spații cu acces gratuit",
+    shortDescription:
+      "Loc de joacă exterior pentru copii, teren de mini fotbal, ping-pong, badminton și parcare cu stații de încărcare auto electrice.",
+    description:
+      "Complexul Silver Mountain oferă oaspeților Happy Place acces gratuit la mai multe spații de recreere în aer liber.\n\nCopiii se pot bucura de locul de joacă exterior amenajat în siguranță, iar pentru activitățile sportive aveți la dispoziție teren de mini fotbal, masă de ping-pong și teren de badminton.\n\nParcarea exterioară este gratuită pentru vizitatori și dispune de stații de încărcare pentru mașini electrice.\n\nToate aceste facilități sunt incluse gratuit în sejurul dumneavoastră, fără costuri suplimentare.",
+    image: "/images/happy-place/Happy_Place_Brasov_13.jpeg",
+    icon: "🧸",
+    gallery: [
+      "/images/happy-place/Happy_Place_Brasov_13.jpeg",
+      "/images/happy-place/Happy_Place_Brasov_14.jpeg",
     ],
   },
 ];

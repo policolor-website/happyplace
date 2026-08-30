@@ -2,17 +2,17 @@ import { facilities } from "@/lib/data";
 import Reveal from "./Reveal";
 
 const iconMap: Record<string, string> = {
-  wifi: "�",
-  pool: "🏊",
-  spa: "💆",
-  restaurant: "🍽️",
-  parking: "🚗",
-  fitness: "🏋️",
-  terrace: "🌅",
-  kitchen: "�",
+  wifi: "📶",
+  terrace: "�",
+  kitchen: "🍳",
   fireplace: "🔥",
+  parking: "🚗",
+  playground: "🧸",
+  football: "⚽",
+  pingpong: "🏓",
+  badminton: "🏸",
+  ev: "🔌",
   ski: "⛷️",
-  family: "👨‍👩‍👧",
   elevator: "🛗",
 };
 

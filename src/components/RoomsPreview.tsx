@@ -29,11 +29,6 @@ export default function RoomsPreview() {
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-linear-to-t from-night/80 to-transparent" />
-                  <div className="absolute bottom-4 left-4">
-                    <p className="text-gold text-xs font-semibold uppercase tracking-wider">
-                      De la {space.price} lei/noapte
-                    </p>
-                  </div>
                 </div>
                 <h3 className="font-display text-2xl font-bold text-cream mb-2 group-hover:text-gold transition-colors">
                   {space.name}

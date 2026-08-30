@@ -53,6 +53,12 @@ export default function Hero() {
             Vezi galeria
           </Link>
         </div>
+        <p
+          className="text-gold text-sm md:text-base font-semibold mt-8 max-w-2xl mx-auto leading-relaxed"
+          style={{ animation: "fadeUp 0.8s ease 0.8s forwards", opacity: 0 }}
+        >
+          Rezervă direct de pe site-ul nostru și beneficiază de cel mai bun preț garantat, fără comisioane ascunse!
+        </p>
       </div>
     </section>
   );

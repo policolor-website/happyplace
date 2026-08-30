@@ -54,8 +54,7 @@ export default function DespreNoiPage() {
                 apartamente și o clădire multifuncțională cu SPA, piscină
                 interioară, piscină exterioară infinity încălzită, jacuzzi,
                 saună, sală de fitness și restaurantul NOIR. Este poziționat
-                în Poiana Mică, la 3.3 km de Partia Bradul, înconjurat de
-                pădure.
+                în Poiana Mică, înconjurat de pădure, cu acces direct la pârtiile de schi iarna prin ski-bus care pleacă din fața complexului.
               </p>
               <p>
                 Ce poate fi mai plăcut decât să-ți savurezi cafeaua de
@@ -86,9 +85,9 @@ export default function DespreNoiPage() {
             </div>
             <div className="bg-night-light border border-border-dark p-6 text-center card-hover">
               <div className="text-3xl mb-3">🚗</div>
-              <h3 className="text-cream font-semibold mb-2">Parcare gratuită</h3>
+              <h3 className="text-cream font-semibold mb-2">Parcare subterană 24/7</h3>
               <p className="text-muted text-sm">
-                Parcare subterană pazită, inclusă pentru toți oaspeții
+                Pază non-stop, inclusă în preț. Uiți iarna de deszăpezire, vara de căldura soarelui
               </p>
             </div>
           </div>
@@ -127,8 +126,8 @@ export default function DespreNoiPage() {
                 <div>
                   <h3 className="text-cream font-semibold mb-1">Locație excelentă</h3>
                   <p className="text-muted text-sm leading-relaxed">
-                    În complexul Silver Mountain Poiana Brașov, la 3.3 km de
-                    Partia Bradul, înconjurat de pădure, cu acces la toate
+                    În complexul Silver Mountain Poiana Brașov,
+                    înconjurat de pădure, cu acces la toate
                     facilitățile complexului.
                   </p>
                 </div>
@@ -171,25 +170,76 @@ export default function DespreNoiPage() {
         <Reveal delay={400}>
           <div className="mt-12 p-8 bg-night-light border border-border-dark">
             <h2 className="font-display text-2xl font-bold text-cream mb-4">
-              Facilități incluse
+              Facilități incluse în cazare
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
               {[
                 "WiFi gratuit",
                 "TV smart cu Netflix",
-                "2 băi private",
+                "2 băi private (cadă + dus)",
                 "Bucătărie complet utilată",
-                "Espressor Nespresso",
+                "Espressor Nespresso + capsule",
                 "Șemineu",
                 "Pat King Size",
                 "Canapea extensibilă",
-                "Terasă panoramică",
-                "Parcare subterană gratuită",
-                "Acces SPA în complex",
-                "Restaurant NOIR la 150 m",
+                "Terasă panoramică 10 mp",
+                "Parcare subterană 24/7 inclusă",
+                "Capsule cafea gratuite",
+                "Ceai, băuturi, papuci, halate",
               ].map((f) => (
                 <div key={f} className="flex items-center gap-2 text-sm text-cream/80">
                   <span className="text-gold">✦</span>
+                  {f}
+                </div>
+              ))}
+            </div>
+          </div>
+        </Reveal>
+
+        <Reveal delay={400}>
+          <div className="mt-6 p-6 bg-night-light border border-border-dark">
+            <h3 className="text-gold font-semibold text-sm uppercase tracking-wider mb-3">
+              Spații cu acces gratuit în complex
+            </h3>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
+              {[
+                "Loc de joacă exterior pentru copii",
+                "Teren de mini fotbal",
+                "Masă de ping-pong",
+                "Teren de badminton",
+                "Parcare exterior gratuită",
+                "Stații încărcare auto electrice",
+              ].map((f) => (
+                <div key={f} className="flex items-center gap-2 text-sm text-cream/80">
+                  <span className="text-gold">✦</span>
+                  {f}
+                </div>
+              ))}
+            </div>
+          </div>
+        </Reveal>
+
+        <Reveal delay={400}>
+          <div className="mt-6 p-6 bg-night border border-gold/30">
+            <h3 className="text-gold font-semibold text-sm uppercase tracking-wider mb-3">
+              Facilități complex Silver Mountain — acces cu cost suplimentar
+            </h3>
+            <p className="text-muted text-sm leading-relaxed mb-3">
+              Apartamentul Happy Place este locuință privată în complexul Silver
+              Mountain. Următoarele facilități ale complexului NU sunt incluse în
+              prețul cazării și se achiziționează separat de la recepția complexului:
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
+              {[
+                "Centru SPA & jacuzzi",
+                "Piscină interioară",
+                "Piscină exterioară infinity",
+                "Saună umedă și uscată",
+                "Sală de fitness",
+                "Restaurant NOIR",
+              ].map((f) => (
+                <div key={f} className="flex items-center gap-2 text-sm text-muted">
+                  <span className="text-gold/60">◦</span>
                   {f}
                 </div>
               ))}

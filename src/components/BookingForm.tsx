@@ -1,33 +1,38 @@
 "use client";
 
-import { useState } from "react";
-import { format } from "date-fns";
+import { useState, useMemo } from "react";
+import { format, differenceInCalendarDays } from "date-fns";
 import DatePicker from "./DatePicker";
 
 export default function BookingForm({
   spaceName,
-  spacePrice,
 }: {
   spaceName: string;
-  spacePrice: number;
 }) {
   const today = new Date();
-  const tomorrow = new Date(today);
-  tomorrow.setDate(tomorrow.getDate() + 1);
+  const dayAfterTomorrow = new Date(today);
+  dayAfterTomorrow.setDate(dayAfterTomorrow.getDate() + 2);
 
   const [checkIn, setCheckIn] = useState(format(today, "yyyy-MM-dd"));
-  const [checkOut, setCheckOut] = useState(format(tomorrow, "yyyy-MM-dd"));
+  const [checkOut, setCheckOut] = useState(format(dayAfterTomorrow, "yyyy-MM-dd"));
   const [guests, setGuests] = useState("2");
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
+  const [error, setError] = useState("");
+
+  const nights = useMemo(
+    () => differenceInCalendarDays(new Date(checkOut), new Date(checkIn)),
+    [checkIn, checkOut]
+  );
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    const nights = Math.ceil(
-      (new Date(checkOut).getTime() - new Date(checkIn).getTime()) / (1000 * 60 * 60 * 24)
-    );
-    const totalPrice = nights * spacePrice;
+    if (nights < 2) {
+      setError("Cazarea este de minimum 2 nopți. Selectează un check-out cu cel puțin 2 nopți după check-in.");
+      return;
+    }
+    setError("");
 
     const message =
       `Rezervare Happy Place Brașov\n\n` +
@@ -37,9 +42,8 @@ export default function BookingForm({
       `Nopți: ${nights}\n` +
       `Oaspeți: ${guests}\n` +
       `Nume: ${name || "-"}\n` +
-      `Telefon: ${phone || "-"}\n` +
-      `Preț estimat: ${totalPrice} lei (${nights} × ${spacePrice} lei)\n\n` +
-      `Vă rog să confirmați disponibilitatea. Mulțumesc!`;
+      `Telefon: ${phone || "-"}\n\n` +
+      `Vă rog să confirmați disponibilitatea și prețul. Mulțumesc!`;
 
     const whatsappUrl = `https://wa.me/40722335357?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
@@ -63,7 +67,7 @@ export default function BookingForm({
             value={checkOut}
             onChange={setCheckOut}
             placeholder="Check-out"
-            minDate={checkIn ? new Date(checkIn) : undefined}
+            minDate={checkIn ? new Date(new Date(checkIn).getTime() + 2 * 86400000) : undefined}
           />
         </div>
       </div>
@@ -100,10 +104,9 @@ export default function BookingForm({
           className="w-full bg-night border border-border-dark text-cream px-3 py-2 text-sm focus:border-gold focus:outline-none transition-colors"
         />
       </div>
-      <div className="flex justify-between items-center mb-4">
-        <span className="text-muted text-xs">Preț/noapte</span>
-        <span className="text-gold font-bold">{spacePrice} lei</span>
-      </div>
+      {error && (
+        <p className="text-red-400 text-xs mb-3">{error}</p>
+      )}
       <button
         type="submit"
         className="w-full px-6 py-3 bg-gold text-night text-sm font-semibold uppercase tracking-wider transition-all hover:bg-gold-light cursor-pointer border-0"
@@ -111,7 +114,7 @@ export default function BookingForm({
         Rezervă
       </button>
       <p className="text-muted text-xs mt-3 text-center">
-        Rezervarea se trimite prin WhatsApp. Vă vom confirma disponibilitatea.
+        Cazare minimum 2 nopți · Rezervarea se trimite prin WhatsApp.
       </p>
     </form>
   );
