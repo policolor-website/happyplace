@@ -1,12 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
-import { spaces } from "@/lib/data";
+import { spaces, dreamSpaces } from "@/lib/data";
 import BookingEngine from "@/components/BookingEngine";
 import Reveal from "@/components/Reveal";
 
 export const metadata = {
-  title: "Spații — Happy Place Brașov",
-  description: "Descoperă spațiile apartamentului Happy Place din Silver Mountain Poiana Brașov: living, dormitor principal, bucătărie, băi și terasă panoramică.",
+  title: "Spații — Happy Place & Dream Studio Brașov",
+  description: "Descoperă spațiile apartamentelor Happy Place și Dream Studio din Silver Mountain Poiana Brașov: living, dormitoare, bucătării, băi, terase și balcoane.",
 };
 
 export default function SpacesPage() {
@@ -23,7 +23,7 @@ export default function SpacesPage() {
           </div>
           <div className="relative z-10 max-w-7xl mx-auto px-6">
             <h1 className="font-display text-5xl font-bold text-cream mb-4">
-              Spațiile apartamentului
+              Spațiile apartamentelor
             </h1>
             <p className="text-muted text-lg">Happy Place · Silver Mountain · Poiana Brașov</p>
             <div className="w-24 h-px gold-line mx-auto mt-6" />
@@ -35,6 +35,18 @@ export default function SpacesPage() {
         <div className="mb-16">
           <BookingEngine />
         </div>
+
+        {/* ============ HAPPY PLACE ============ */}
+        <Reveal className="text-center mb-12">
+          <p className="text-gold text-sm font-semibold uppercase tracking-[0.3em] mb-4">
+            Happy Place
+          </p>
+          <h2 className="font-display text-4xl font-bold text-cream mb-2">
+            Spațiile Happy Place
+          </h2>
+          <p className="text-muted text-lg">Happy Place · Silver Mountain · Poiana Brașov</p>
+          <div className="w-24 h-px gold-line mx-auto mt-6" />
+        </Reveal>
 
         <Reveal>
           <div className="mb-16 p-8 bg-night-light border border-border-dark">
@@ -103,6 +115,85 @@ export default function SpacesPage() {
               </Link>
             </Reveal>
           ))}
+        </div>
+
+        {/* ============ DREAM STUDIO ============ */}
+        <div className="mt-20 pt-12 border-t border-border-dark">
+          <Reveal className="text-center mb-12">
+            <p className="text-gold text-sm font-semibold uppercase tracking-[0.3em] mb-4">
+              Dream Studio
+            </p>
+            <h2 className="font-display text-4xl font-bold text-cream mb-2">
+              Spațiile Dream Studio
+            </h2>
+            <p className="text-muted text-lg">Dream Studio · Silver Mountain · Poiana Brașov</p>
+            <div className="w-24 h-px gold-line mx-auto mt-6" />
+          </Reveal>
+
+          <Reveal>
+            <div className="mb-16 p-8 bg-night-light border border-border-dark">
+              <h3 className="font-display text-xl font-bold text-cream mb-6 text-center">
+                Distribuția suprafețelor · 60 mp utili + 9 mp balcon
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="text-center p-4 bg-night border border-border-dark">
+                  <p className="text-gold text-2xl font-bold">32</p>
+                  <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Living + Dormitor</p>
+                </div>
+                <div className="text-center p-4 bg-night border border-border-dark">
+                  <p className="text-gold text-2xl font-bold">9</p>
+                  <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Balcon</p>
+                </div>
+                <div className="text-center p-4 bg-night border border-border-dark">
+                  <p className="text-gold text-2xl font-bold">5</p>
+                  <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Bucătărie</p>
+                </div>
+                <div className="text-center p-4 bg-night border border-border-dark">
+                  <p className="text-gold text-2xl font-bold">4</p>
+                  <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Baie 1</p>
+                </div>
+                <div className="text-center p-4 bg-night border border-border-dark">
+                  <p className="text-gold text-2xl font-bold">4</p>
+                  <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Hol</p>
+                </div>
+                <div className="text-center p-4 bg-night border border-border-dark">
+                  <p className="text-gold text-2xl font-bold">2.5</p>
+                  <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Baie 2</p>
+                </div>
+                <div className="text-center p-4 bg-gold/10 border border-gold/30">
+                  <p className="text-gold text-2xl font-bold">60</p>
+                  <p className="text-gold/70 text-xs uppercase tracking-wider mt-1">mp · Total</p>
+                </div>
+              </div>
+            </div>
+          </Reveal>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {dreamSpaces.map((space, i) => (
+              <Reveal key={space.slug} delay={i * 80}>
+                <Link href={`/camere/${space.slug}`} className="group block no-underline">
+                  <div className="relative overflow-hidden aspect-4/3 mb-5">
+                    <Image
+                      src={space.image}
+                      alt={space.name}
+                      fill
+                      className="object-cover transition-transform duration-700 group-hover:scale-110"
+                    />
+                    <div className="absolute inset-0 bg-linear-to-t from-night/80 to-transparent" />
+                  </div>
+                  <h3 className="font-display text-2xl font-bold text-cream mb-2 group-hover:text-gold transition-colors">
+                    {space.name}
+                  </h3>
+                  <p className="text-muted text-sm mb-4">
+                    {space.size} m² · {space.capacity}{space.beds !== "-" && ` · ${space.beds}`}
+                  </p>
+                  <span className="text-gold text-sm font-semibold uppercase tracking-wider">
+                    Vezi detalii →
+                  </span>
+                </Link>
+              </Reveal>
+            ))}
+          </div>
         </div>
       </div>
     </div>

@@ -6,6 +6,9 @@ import CTA from "@/components/CTA";
 import Facilities from "@/components/Facilities";
 import RoomsPreview from "@/components/RoomsPreview";
 import Reviews from "@/components/Reviews";
+import DespreDreamStudio from "@/components/DespreDreamStudio";
+import DreamStudioSlider from "@/components/DreamStudioSlider";
+import DreamRoomsPreview from "@/components/DreamRoomsPreview";
 
 export default function Home() {
   return (
@@ -16,11 +19,20 @@ export default function Home() {
           <BookingEngine />
         </div>
       </section>
+
+      {/* ============ HAPPY PLACE ============ */}
       <DespreNoi />
       <ImageSlider />
-      <CTA />
-      <Facilities />
       <RoomsPreview />
+
+      {/* ============ DREAM STUDIO ============ */}
+      <DespreDreamStudio />
+      <DreamStudioSlider />
+      <DreamRoomsPreview />
+
+      {/* ============ COMUN ============ */}
+      <Facilities />
+      <CTA />
       <Reviews />
     </>
   );

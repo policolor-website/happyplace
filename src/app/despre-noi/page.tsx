@@ -2,6 +2,7 @@ import Image from "next/image";
 import Reveal from "@/components/Reveal";
 import FAQ from "@/components/FAQ";
 import ImageSlider from "@/components/ImageSlider";
+import DreamStudioSlider from "@/components/DreamStudioSlider";
 
 export const metadata = {
   title: "Despre Noi — Happy Place Brașov",
@@ -313,6 +314,114 @@ export default function DespreNoiPage() {
             </div>
           </div>
         </Reveal>
+
+        {/* ============ DREAM STUDIO ============ */}
+        <div id="dream-studio" className="scroll-mt-32">
+          <Reveal delay={200}>
+            <div className="text-center mt-20 mb-12">
+              <p className="text-gold text-sm font-semibold uppercase tracking-[0.3em] mb-4">
+                Al doilea apartament
+              </p>
+              <h2 className="font-display text-4xl md:text-5xl font-bold text-cream mb-4">
+                Dream <span className="text-gradient-gold">Studio</span>
+              </h2>
+              <div className="w-24 h-px gold-line mx-auto mt-6" />
+            </div>
+          </Reveal>
+
+          <Reveal>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center mb-12">
+              <div className="relative aspect-4/3 overflow-hidden">
+                <Image
+                  src="/images/dream-studio/Dream_Balcon_1.jpeg"
+                  alt="Dream Studio Poiana Brașov — balcon cu vedere spre piscină"
+                  fill
+                  priority
+                  className="object-cover"
+                />
+              </div>
+              <div className="space-y-6 text-cream/80 leading-relaxed">
+                <p className="text-lg">
+                  Așa cum îi spune și numele, Dream Studio este locul ideal unde
+                  confortul modern întâlnește relaxarea absolută. Situat în cadrul
+                  selectului complex Silver Mountain, acest studio open-space
+                  impresionează prin spațiul său generos și designul interior cald,
+                  fiind refugiul perfect pentru cupluri, familii mici sau prieteni
+                  care caută o evadare la munte.
+                </p>
+                <p>
+                  Piesa de rezistență a proprietății este balconul privat cu vedere
+                  directă spre piscină și peisajul montan din jur. Este locul perfect
+                  unde să îți începi dimineața respirând aerul curat de munte sau unde
+                  să te relaxezi seara, într-o atmosferă liniștită și exclusivistă.
+                </p>
+                <p>
+                  Deși este un studio, proprietatea sparge tiparele și îți oferă un
+                  nivel de confort rar întâlnit: 2 băi complete. Astfel, te bucuri de
+                  toată intimitatea și spațiul de care ai nevoie, fără niciun compromis.
+                </p>
+              </div>
+            </div>
+          </Reveal>
+
+          <Reveal delay={200}>
+            <div className="my-12 py-10 px-6 text-center bg-gradient-to-br from-gold/10 via-transparent to-gold/5 border-y border-gold/20">
+              <p className="font-display text-2xl md:text-3xl text-cream leading-relaxed max-w-3xl mx-auto">
+                Alegerea ideală pentru o evadare romantică sau un concediu de
+                reîncărcare. Alege să visezi cu ochii deschiși în
+                <span className="text-gradient-gold"> inima naturii</span>!
+              </p>
+            </div>
+          </Reveal>
+
+          <Reveal delay={200}>
+            <div className="my-12">
+              <h2 className="font-display text-3xl font-bold text-cream text-center mb-2">
+                Descoperă Dream Studio
+              </h2>
+              <div className="w-24 h-px gold-line mx-auto mb-8" />
+              <DreamStudioSlider />
+            </div>
+          </Reveal>
+
+          <Reveal delay={200}>
+            <div className="my-12 p-8 bg-night-light border border-border-dark">
+              <h3 className="font-display text-xl font-bold text-cream mb-6 text-center">
+                Distribuția suprafețelor · 60 mp utili + 9 mp balcon
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="text-center p-4 bg-night border border-border-dark">
+                  <p className="text-gold text-2xl font-bold">32</p>
+                  <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Living + Dormitor</p>
+                </div>
+                <div className="text-center p-4 bg-night border border-border-dark">
+                  <p className="text-gold text-2xl font-bold">9</p>
+                  <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Balcon</p>
+                </div>
+                <div className="text-center p-4 bg-night border border-border-dark">
+                  <p className="text-gold text-2xl font-bold">5</p>
+                  <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Bucătărie</p>
+                </div>
+                <div className="text-center p-4 bg-night border border-border-dark">
+                  <p className="text-gold text-2xl font-bold">4</p>
+                  <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Baie 1</p>
+                </div>
+                <div className="text-center p-4 bg-night border border-border-dark">
+                  <p className="text-gold text-2xl font-bold">4</p>
+                  <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Hol</p>
+                </div>
+                <div className="text-center p-4 bg-night border border-border-dark">
+                  <p className="text-gold text-2xl font-bold">2.5</p>
+                  <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Baie 2</p>
+                </div>
+                <div className="text-center p-4 bg-gold/10 border border-gold/30">
+                  <p className="text-gold text-2xl font-bold">60</p>
+                  <p className="text-gold/70 text-xs uppercase tracking-wider mt-1">mp · Total</p>
+                </div>
+              </div>
+            </div>
+          </Reveal>
+        </div>
 
         <Reveal delay={200}>
           <div className="mt-16">

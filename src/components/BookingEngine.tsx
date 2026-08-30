@@ -2,7 +2,6 @@
 
 import { useState, useMemo } from "react";
 import { format, differenceInCalendarDays } from "date-fns";
-import { spaces } from "@/lib/data";
 import DatePicker from "./DatePicker";
 
 export default function BookingEngine() {
@@ -13,13 +12,15 @@ export default function BookingEngine() {
   const [checkIn, setCheckIn] = useState(format(today, "yyyy-MM-dd"));
   const [checkOut, setCheckOut] = useState(format(dayAfterTomorrow, "yyyy-MM-dd"));
   const [guests, setGuests] = useState("2");
-  const [spaceType, setSpaceType] = useState("all");
+  const [apartment, setApartment] = useState("happy");
   const [error, setError] = useState("");
 
   const nights = useMemo(
     () => differenceInCalendarDays(new Date(checkOut), new Date(checkIn)),
     [checkIn, checkOut]
   );
+
+  const apartmentName = apartment === "happy" ? "Happy Place" : "Dream Studio";
 
   const handleBooking = (e: React.FormEvent) => {
     e.preventDefault();
@@ -31,16 +32,12 @@ export default function BookingEngine() {
     }
     setError("");
 
-    const spaceName = spaceType === "all"
-      ? "Tot apartamentul"
-      : spaces.find((s) => s.slug === spaceType)?.name ?? spaceType;
-
     const message =
-      `Rezervare Happy Place Brașov\n\n` +
+      `Rezervare ${apartmentName} Brașov\n\n` +
+      `Apartament: ${apartmentName}\n` +
       `Check-in: ${checkIn}\n` +
       `Check-out: ${checkOut}\n` +
       `Nopți: ${nights}\n` +
-      `Spațiu: ${spaceName}\n` +
       `Oaspeți: ${guests}\n\n` +
       `Vă rog să confirmați disponibilitatea și prețul. Mulțumesc!`;
 
@@ -54,6 +51,19 @@ export default function BookingEngine() {
         Verifică disponibilitatea
       </h3>
       <form onSubmit={handleBooking} className="grid grid-cols-1 md:grid-cols-5 gap-4">
+        <div>
+          <label className="block text-xs text-gold uppercase tracking-wider mb-1.5">
+            Apartament
+          </label>
+          <select
+            value={apartment}
+            onChange={(e) => setApartment(e.target.value)}
+            className="w-full bg-night border border-border-dark text-cream px-4 py-2.5 text-sm focus:border-gold focus:outline-none transition-colors"
+          >
+            <option value="happy">Happy Place</option>
+            <option value="dream">Dream Studio</option>
+          </select>
+        </div>
         <div>
           <label className="block text-xs text-gold uppercase tracking-wider mb-1.5">
             Check-in
@@ -74,23 +84,6 @@ export default function BookingEngine() {
             placeholder="Check-out"
             minDate={checkIn ? new Date(new Date(checkIn).getTime() + 2 * 86400000) : undefined}
           />
-        </div>
-        <div>
-          <label className="block text-xs text-gold uppercase tracking-wider mb-1.5">
-            Spațiu
-          </label>
-          <select
-            value={spaceType}
-            onChange={(e) => setSpaceType(e.target.value)}
-            className="w-full bg-night border border-border-dark text-cream px-4 py-2.5 text-sm focus:border-gold focus:outline-none transition-colors"
-          >
-            <option value="all">Tot apartamentul</option>
-            {spaces.map((space) => (
-              <option key={space.slug} value={space.slug}>
-                {space.name}
-              </option>
-            ))}
-          </select>
         </div>
         <div>
           <label className="block text-xs text-gold uppercase tracking-wider mb-1.5">

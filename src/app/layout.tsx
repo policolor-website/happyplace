@@ -18,9 +18,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Happy Place Brașov — Apartament Silver Mountain Poiana Brașov",
+  title: "Happy Place & Dream Studio Brașov — Apartamente Silver Mountain Poiana Brașov",
   description:
-    "Apartament Happy Place în complexul Silver Mountain Poiana Brașov. 2 camere, 2 băi, terasă panoramică la etajul 5, bucătărie complet utilată, acces SPA și piscină.",
+    "Apartamente Happy Place și Dream Studio în complexul Silver Mountain Poiana Brașov. Happy Place: 2 camere, 2 băi, terasă panoramică. Dream Studio: studio open-space, 2 băi, balcon cu vedere la piscină.",
 };
 
 export default function RootLayout({

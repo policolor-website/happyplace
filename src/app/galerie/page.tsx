@@ -2,10 +2,12 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { galleryImages, type GalleryCategory } from "@/lib/data";
+import { galleryImages, dreamGalleryImages, type GalleryCategory } from "@/lib/data";
 import Reveal from "@/components/Reveal";
 
-const tabs: { key: GalleryCategory; label: string }[] = [
+type Apartment = "happy" | "dream";
+
+const happyTabs: { key: GalleryCategory; label: string }[] = [
   { key: "toate", label: "Toate" },
   { key: "living", label: "Living" },
   { key: "dormitor", label: "Dormitor" },
@@ -18,21 +20,40 @@ const tabs: { key: GalleryCategory; label: string }[] = [
   { key: "exterior", label: "Exterior" },
 ];
 
+const dreamTabs: { key: GalleryCategory; label: string }[] = [
+  { key: "toate", label: "Toate" },
+  { key: "living", label: "Living & Dormitor" },
+  { key: "dormitor", label: "Dormitor" },
+  { key: "bucatarie", label: "Bucătărie" },
+  { key: "bai", label: "Băi" },
+  { key: "balcon", label: "Balcon" },
+  { key: "hol", label: "Hol" },
+];
+
 export default function GalleryPage() {
+  const [apartment, setApartment] = useState<Apartment>("happy");
   const [activeTab, setActiveTab] = useState<GalleryCategory>("toate");
   const [lightbox, setLightbox] = useState<string | null>(null);
 
+  const currentTabs = apartment === "happy" ? happyTabs : dreamTabs;
+  const currentImages = apartment === "happy" ? galleryImages : dreamGalleryImages;
+
   const filtered =
     activeTab === "toate"
-      ? galleryImages
-      : galleryImages.filter((img) => img.category === activeTab);
+      ? currentImages
+      : currentImages.filter((img) => img.category === activeTab);
+
+  const switchApartment = (apt: Apartment) => {
+    setApartment(apt);
+    setActiveTab("toate");
+  };
 
   return (
     <div className="pt-32 pb-24 min-h-screen">
         <div className="relative text-center mb-12 py-16">
           <div className="absolute inset-0 overflow-hidden">
             <Image
-              src="/images/happy-place/Happy_Terasa_1.jpeg"
+              src={apartment === "happy" ? "/images/happy-place/Happy_Terasa_1.jpeg" : "/images/dream-studio/Dream_Balcon_1.jpeg"}
               alt=""
               fill
               className="object-cover opacity-10"
@@ -40,16 +61,40 @@ export default function GalleryPage() {
           </div>
           <div className="relative z-10 max-w-7xl mx-auto px-6">
             <h1 className="font-display text-5xl font-bold text-cream mb-4">Galerie</h1>
-            <p className="text-muted text-lg">Happy Place · Poiana Brașov</p>
+            <p className="text-muted text-lg">Happy Place & Dream Studio · Poiana Brașov</p>
             <div className="w-24 h-px gold-line mx-auto mt-6" />
           </div>
         </div>
 
       <div className="max-w-7xl mx-auto px-6">
 
-        {/* Tabs */}
+        {/* Apartment selector */}
+        <div className="flex flex-wrap justify-center gap-2 mb-6">
+          <button
+            onClick={() => switchApartment("happy")}
+            className={`px-8 py-3 text-sm font-semibold uppercase tracking-wider transition-all border ${
+              apartment === "happy"
+                ? "bg-gold text-night border-gold"
+                : "bg-transparent text-cream border-border-dark hover:border-gold hover:text-gold"
+            }`}
+          >
+            Happy Place
+          </button>
+          <button
+            onClick={() => switchApartment("dream")}
+            className={`px-8 py-3 text-sm font-semibold uppercase tracking-wider transition-all border ${
+              apartment === "dream"
+                ? "bg-gold text-night border-gold"
+                : "bg-transparent text-cream border-border-dark hover:border-gold hover:text-gold"
+            }`}
+          >
+            Dream Studio
+          </button>
+        </div>
+
+        {/* Category tabs */}
         <div className="flex flex-wrap justify-center gap-2 mb-10">
-          {tabs.map((tab) => (
+          {currentTabs.map((tab) => (
             <button
               key={tab.key}
               onClick={() => setActiveTab(tab.key)}

@@ -487,3 +487,234 @@ export const amenities: Amenity[] = [
 export function getAmenityBySlug(slug: string): Amenity | undefined {
   return amenities.find((a) => a.slug === slug);
 }
+
+// ============ DREAM STUDIO ============
+
+export const dreamStudio = {
+  name: "Dream Studio",
+  slug: "dream-studio",
+  address: "Strada Doinașului, Nr. 10, Bloc C, Et. 1, Ap. 09",
+  city: "Poiana Brașov, România",
+  complex: "Silver Mountain Resort & SPA",
+  size: 60,
+  capacity: "2 Persoane",
+  beds: "Pat matrimonial + canapea extensibilă",
+  baths: 2,
+  heroImage: "/images/dream-studio/Dream_Balcon_1.jpeg",
+  description:
+    "Așa cum îi spune și numele, Dream Studio este locul ideal unde confortul modern întâlnește relaxarea absolută. Situat în cadrul selectului complex Silver Mountain, acest studio open-space impresionează prin spațiul său generos și designul interior cald, fiind refugiul perfect pentru cupluri, familii mici sau prieteni care caută o evadare la munte. Acest studio elegant combină perfect rafinamentul unui hotel de lux cu intimitatea și confortul propriului tău sanctuar montan.\n\nPiesa de rezistență a proprietății este balconul privat cu vedere directă spre piscină și peisajul montan din jur. Este locul perfect unde să îți începi dimineața respirând aerul curat de munte sau unde să te relaxezi seara, într-o atmosferă liniștită și exclusivistă.\n\nDeși este un studio, proprietatea sparge tiparele și îți oferă un nivel de confort rar întâlnit: 2 băi complete. Astfel, te bucuri de toată intimitatea și spațiul de care ai nevoie, fără niciun compromis.",
+};
+
+export const dreamSpaces: Space[] = [
+  {
+    slug: "dream-living",
+    name: "Living & Dormitor",
+    price: 0,
+    size: 32,
+    capacity: "2 Persoane",
+    beds: "Pat matrimonial + canapea extensibilă",
+    baths: 2,
+    image: "/images/dream-studio/Dream_Living_1.jpeg",
+    gallery: [
+      "/images/dream-studio/Dream_Living_1.jpeg",
+      "/images/dream-studio/Dream_Living_2.jpeg",
+      "/images/dream-studio/Dream_Living_3.jpeg",
+      "/images/dream-studio/Dream_Living_4.jpeg",
+      "/images/dream-studio/Dream_Living_5.jpeg",
+      "/images/dream-studio/Dream_Living_6.jpeg",
+      "/images/dream-studio/Dream_Living_7.jpeg",
+      "/images/dream-studio/Dream_Living_8.jpeg",
+      "/images/dream-studio/Dream_Dormitor_1.jpeg",
+      "/images/dream-studio/Dream_Dormitor_2.jpeg",
+      "/images/dream-studio/Dream_Dormitor_3.jpeg",
+      "/images/dream-studio/Dream_Dormitor_4.jpeg",
+      "/images/dream-studio/Dream_Dormitor_5.jpeg",
+      "/images/dream-studio/Dream_Dormitor_6.jpeg",
+      "/images/dream-studio/Dream_Dormitor_7.jpeg",
+    ],
+    description:
+      "Studio open-space generos de 32 m², combină zona de living cu dormitorul într-un spațiu aerisit și modern. Pat matrimonial confortabil și canapea extensibilă pentru oaspeți suplimentari. Design cald cu accente de lux, TV cu ecran plat și vedere spre balcon.\n\nSpațiul este gândit pentru relaxare maximă, cu zone bine delimitate pentru somn, relaxare și luat masa. Lumina naturală abundentă creează o atmosferă primitoare pe tot parcursul zilei.",
+    facilities: [
+      "Pat matrimonial",
+      "Canapea extensibilă",
+      "TV cu ecran plat",
+      "Lenjerie de pat",
+      "Prosoape",
+      "Încălzire",
+      "Vedere spre balcon",
+    ],
+  },
+  {
+    slug: "dream-bucatarie",
+    name: "Bucătărie",
+    price: 0,
+    size: 5,
+    capacity: "Self-catering",
+    beds: "-",
+    baths: 0,
+    image: "/images/dream-studio/Dream_Bucatarie_1.jpeg",
+    gallery: [
+      "/images/dream-studio/Dream_Bucatarie_1.jpeg",
+      "/images/dream-studio/Dream_Bucatarie_2.jpeg",
+      "/images/dream-studio/Dream_Bucatarie_3.jpeg",
+      "/images/dream-studio/Dream_Bucatarie_4.jpeg",
+      "/images/dream-studio/Dream_Bucatarie_5.jpeg",
+    ],
+    description:
+      "Bucătărie compactă dar complet utilată de 5 m², cu toate electrocasnicele necesare pentru a pregăti mese complete. Espressor Nespresso + capsule cafea gratuite.\n\nIdeală pentru micul dejun rapid sau pentru o cină relaxantă după o zi pe pârtie.",
+    facilities: [
+      "Aragaz cu cuptor",
+      "Frigider",
+      "Espressor Nespresso",
+      "Capsule cafea gratuite",
+      "Vase și ustensile complete",
+      "Microunde",
+    ],
+  },
+  {
+    slug: "dream-bai",
+    name: "2 băi private",
+    price: 0,
+    size: 7,
+    capacity: "2 băi",
+    beds: "-",
+    baths: 2,
+    image: "/images/dream-studio/Dream_Baie_1.jpeg",
+    gallery: [
+      "/images/dream-studio/Dream_Baie_1.jpeg",
+      "/images/dream-studio/Dream_Baie_2.jpeg",
+      "/images/dream-studio/Dream_Baie_3.jpeg",
+      "/images/dream-studio/Dream_Baie_4.jpeg",
+      "/images/dream-studio/Dream_Baie_5.jpeg",
+      "/images/dream-studio/Dream_Baie_6.jpeg",
+      "/images/dream-studio/Dream_Baie_7.jpeg",
+    ],
+    description:
+      "Dream Studio dispune de 2 băi complete — un lux rar pentru un studio. Baia principală de 4 m² cu cada pentru relaxare și cea de-a doua baie de 2,5 m² cu dus.\n\nAmbele băi sunt dotate cu articole de toaletă gratuite, prosoape, papuci de casă și usucător de păr.",
+    facilities: [
+      "Baie cu cada",
+      "Baie cu dus",
+      "Articole de toaletă gratuite",
+      "Prosoape",
+      "Papuci de casă",
+      "Usucător de păr",
+    ],
+  },
+  {
+    slug: "dream-balcon",
+    name: "Balcon cu vedere spre piscină",
+    price: 0,
+    size: 9,
+    capacity: "Vedere spre piscină",
+    beds: "-",
+    baths: 0,
+    image: "/images/dream-studio/Dream_Balcon_1.jpeg",
+    gallery: [
+      "/images/dream-studio/Dream_Balcon_1.jpeg",
+      "/images/dream-studio/Dream_Balcon_2.jpeg",
+      "/images/dream-studio/Dream_Balcon_3.jpeg",
+      "/images/dream-studio/Dream_Balcon_4.jpeg",
+      "/images/dream-studio/Dream_Balcon_5.jpeg",
+    ],
+    description:
+      "Balcon privat de 9 m² cu vedere directă spre piscină și peisajul montan din jur. Piesa de rezistență a proprietății.\n\nLocul perfect unde să îți începi dimineața respirând aerul curat de munte sau unde să te relaxezi seara, într-o atmosferă liniștită și exclusivistă.",
+    facilities: [
+      "Vedere spre piscină",
+      "Vedere la munte",
+      "Mobilier de balcon",
+      "Intim și exclusivist",
+    ],
+  },
+  {
+    slug: "dream-hol",
+    name: "Hol de intrare",
+    price: 0,
+    size: 4,
+    capacity: "Spațiu de tranziție",
+    beds: "-",
+    baths: 0,
+    image: "/images/dream-studio/Dream_Hol_1.jpeg",
+    gallery: [
+      "/images/dream-studio/Dream_Hol_1.jpeg",
+      "/images/dream-studio/Dream_Hol_2.jpeg",
+      "/images/dream-studio/Dream_Hol_3.jpeg",
+    ],
+    description:
+      "Hol de intrare spațios de 4 m², cu dulap pentru depozitare și oglinzi. Primește oaspeții cu o atmosferă caldă și primitoare.",
+    facilities: [
+      "Dulap de depozitare",
+      "Oglindă",
+      "Cuier",
+      "Încălțăminte",
+    ],
+  },
+];
+
+export type DreamGalleryCategory =
+  | "toate"
+  | "living"
+  | "dormitor"
+  | "bucatarie"
+  | "bai"
+  | "balcon"
+  | "hol";
+
+export const dreamGalleryImages: GalleryImage[] = [
+  // Living (8)
+  { src: "/images/dream-studio/Dream_Living_1.jpeg", category: "living", title: "Living & Dormitor" },
+  { src: "/images/dream-studio/Dream_Living_2.jpeg", category: "living", title: "Living & Dormitor" },
+  { src: "/images/dream-studio/Dream_Living_3.jpeg", category: "living", title: "Living & Dormitor" },
+  { src: "/images/dream-studio/Dream_Living_4.jpeg", category: "living", title: "Living & Dormitor" },
+  { src: "/images/dream-studio/Dream_Living_5.jpeg", category: "living", title: "Living & Dormitor" },
+  { src: "/images/dream-studio/Dream_Living_6.jpeg", category: "living", title: "Living & Dormitor" },
+  { src: "/images/dream-studio/Dream_Living_7.jpeg", category: "living", title: "Living & Dormitor" },
+  { src: "/images/dream-studio/Dream_Living_8.jpeg", category: "living", title: "Living & Dormitor" },
+  // Dormitor (7)
+  { src: "/images/dream-studio/Dream_Dormitor_1.jpeg", category: "dormitor", title: "Dormitor" },
+  { src: "/images/dream-studio/Dream_Dormitor_2.jpeg", category: "dormitor", title: "Dormitor" },
+  { src: "/images/dream-studio/Dream_Dormitor_3.jpeg", category: "dormitor", title: "Dormitor" },
+  { src: "/images/dream-studio/Dream_Dormitor_4.jpeg", category: "dormitor", title: "Dormitor" },
+  { src: "/images/dream-studio/Dream_Dormitor_5.jpeg", category: "dormitor", title: "Dormitor" },
+  { src: "/images/dream-studio/Dream_Dormitor_6.jpeg", category: "dormitor", title: "Dormitor" },
+  { src: "/images/dream-studio/Dream_Dormitor_7.jpeg", category: "dormitor", title: "Dormitor" },
+  // Bucătărie (5)
+  { src: "/images/dream-studio/Dream_Bucatarie_1.jpeg", category: "bucatarie", title: "Bucătărie" },
+  { src: "/images/dream-studio/Dream_Bucatarie_2.jpeg", category: "bucatarie", title: "Bucătărie" },
+  { src: "/images/dream-studio/Dream_Bucatarie_3.jpeg", category: "bucatarie", title: "Bucătărie" },
+  { src: "/images/dream-studio/Dream_Bucatarie_4.jpeg", category: "bucatarie", title: "Bucătărie" },
+  { src: "/images/dream-studio/Dream_Bucatarie_5.jpeg", category: "bucatarie", title: "Bucătărie" },
+  // Băi (7)
+  { src: "/images/dream-studio/Dream_Baie_1.jpeg", category: "bai", title: "Baie" },
+  { src: "/images/dream-studio/Dream_Baie_2.jpeg", category: "bai", title: "Baie" },
+  { src: "/images/dream-studio/Dream_Baie_3.jpeg", category: "bai", title: "Baie" },
+  { src: "/images/dream-studio/Dream_Baie_4.jpeg", category: "bai", title: "Baie" },
+  { src: "/images/dream-studio/Dream_Baie_5.jpeg", category: "bai", title: "Baie" },
+  { src: "/images/dream-studio/Dream_Baie_6.jpeg", category: "bai", title: "Baie" },
+  { src: "/images/dream-studio/Dream_Baie_7.jpeg", category: "bai", title: "Baie" },
+  // Balcon (5)
+  { src: "/images/dream-studio/Dream_Balcon_1.jpeg", category: "balcon", title: "Balcon" },
+  { src: "/images/dream-studio/Dream_Balcon_2.jpeg", category: "balcon", title: "Balcon" },
+  { src: "/images/dream-studio/Dream_Balcon_3.jpeg", category: "balcon", title: "Balcon" },
+  { src: "/images/dream-studio/Dream_Balcon_4.jpeg", category: "balcon", title: "Balcon" },
+  { src: "/images/dream-studio/Dream_Balcon_5.jpeg", category: "balcon", title: "Balcon" },
+  // Hol (3)
+  { src: "/images/dream-studio/Dream_Hol_1.jpeg", category: "hol", title: "Hol" },
+  { src: "/images/dream-studio/Dream_Hol_2.jpeg", category: "hol", title: "Hol" },
+  { src: "/images/dream-studio/Dream_Hol_3.jpeg", category: "hol", title: "Hol" },
+];
+
+export const dreamSliderImages = [
+  { src: "/images/dream-studio/Dream_Balcon_1.jpeg", alt: "Balcon cu vedere spre piscină" },
+  { src: "/images/dream-studio/Dream_Living_1.jpeg", alt: "Living & Dormitor" },
+  { src: "/images/dream-studio/Dream_Dormitor_1.jpeg", alt: "Dormitor" },
+  { src: "/images/dream-studio/Dream_Bucatarie_1.jpeg", alt: "Bucătărie" },
+  { src: "/images/dream-studio/Dream_Baie_1.jpeg", alt: "Baie" },
+  { src: "/images/dream-studio/Dream_Balcon_2.jpeg", alt: "Balcon" },
+  { src: "/images/dream-studio/Dream_Living_3.jpeg", alt: "Living & Dormitor" },
+  { src: "/images/dream-studio/Dream_Balcon_4.jpeg", alt: "Balcon" },
+  { src: "/images/dream-studio/Dream_Dormitor_3.jpeg", alt: "Dormitor" },
+];
+
+export function getDreamSpaceBySlug(slug: string): Space | undefined {
+  return dreamSpaces.find((s) => s.slug === slug);
+}

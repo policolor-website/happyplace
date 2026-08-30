@@ -1,24 +1,24 @@
 import Link from "next/link";
 import Image from "next/image";
-import { spaces } from "@/lib/data";
+import { dreamSpaces } from "@/lib/data";
 import Reveal from "./Reveal";
 
-export default function RoomsPreview() {
+export default function DreamRoomsPreview() {
   return (
-    <section className="py-24 bg-night-light">
+    <section className="py-24 bg-night">
       <div className="max-w-7xl mx-auto px-6">
         <Reveal className="text-center mb-16">
           <p className="text-gold text-sm font-semibold uppercase tracking-[0.3em] mb-4">
-            Happy Place
+            Dream Studio
           </p>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-cream">
-            Spațiile Happy Place
+            Spațiile Dream Studio
           </h2>
           <div className="w-24 h-px gold-line mx-auto mt-6" />
         </Reveal>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {spaces.map((space, i) => (
+          {dreamSpaces.map((space, i) => (
             <Reveal key={space.slug} delay={i * 100}>
               <Link href={`/camere/${space.slug}`} className="group block no-underline">
                 <div className="relative overflow-hidden aspect-4/3 mb-5">
@@ -34,7 +34,7 @@ export default function RoomsPreview() {
                   {space.name}
                 </h3>
                 <p className="text-muted text-sm mb-4">
-                  {space.size} m² · {space.capacity}
+                  {space.size} m² · {space.capacity}{space.beds !== "-" && ` · ${space.beds}`}
                 </p>
                 <span className="text-gold text-sm font-semibold uppercase tracking-wider">
                   Vezi detalii →

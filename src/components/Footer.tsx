@@ -7,11 +7,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
           <div>
             <span className="font-display text-xl font-bold text-cream tracking-tight mb-4 block">
-              Happy<span className="text-gold"> Place</span>
+              Happy<span className="text-gold"> Place</span> &amp; Dream<span className="text-gold"> Studio</span>
             </span>
             <p className="text-sm text-muted leading-relaxed">
-              Apartament de lux în complexul Silver Mountain Poiana Brașov.
-              2 camere, 2 băi, terasă panoramică, acces SPA și piscină.
+              Apartamente de lux în complexul Silver Mountain Poiana Brașov.
+              Happy Place: 2 camere, 2 băi, terasă panoramică. Dream Studio: studio open-space, 2 băi, balcon cu vedere la piscină.
             </p>
           </div>
 
@@ -35,7 +35,8 @@ export default function Footer() {
             </h3>
             <ul className="flex flex-col gap-2 list-none">
               <li><a href="tel:0722335357" className="text-sm text-muted hover:text-gold no-underline transition-colors">0722 335 357</a></li>
-              <li className="text-sm text-muted">Strada Doinașului, Nr. 10, Bloc C, Et. 5, Ap. 51</li>
+              <li className="text-sm text-muted">Happy Place: Strada Doinașului, Nr. 10, Bloc C, Et. 5, Ap. 51</li>
+              <li className="text-sm text-muted">Dream Studio: Strada Doinașului, Nr. 10, Bloc C, Et. 1, Ap. 09</li>
               <li className="text-sm text-muted">Silver Mountain, Poiana Brașov</li>
             </ul>
           </div>
@@ -60,10 +61,10 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-border-dark flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-muted">
-            © {new Date().getFullYear()} Happy Place Brașov. Toate drepturile rezervate.
+            © {new Date().getFullYear()} Happy Place &amp; Dream Studio Brașov. Toate drepturile rezervate.
           </p>
           <p className="text-xs text-muted">
-            Happy Place — Silver Mountain, Poiana Brașov, România
+            Happy Place &amp; Dream Studio — Silver Mountain, Poiana Brașov, România
           </p>
           <p className="text-xs text-muted">
             Creat de{" "}

@@ -1,30 +1,32 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import { spaces, getSpaceBySlug } from "@/lib/data";
+import { spaces, dreamSpaces, getSpaceBySlug, getDreamSpaceBySlug } from "@/lib/data";
 import BookingForm from "@/components/BookingForm";
 import RoomGallery from "@/components/RoomGallery";
 
 export async function generateStaticParams() {
-  return spaces.map((space) => ({ slug: space.slug }));
+  return [...spaces, ...dreamSpaces].map((space) => ({ slug: space.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const space = getSpaceBySlug(slug);
-  if (!space) return { title: "Spațiu — Happy Place Brașov" };
+  const space = getSpaceBySlug(slug) || getDreamSpaceBySlug(slug);
+  if (!space) return { title: "Spațiu — Happy Place & Dream Studio Brașov" };
   return {
-    title: `${space.name} — Happy Place Brașov`,
+    title: `${space.name} — Happy Place & Dream Studio Brașov`,
     description: space.description,
   };
 }
 
 export default async function SpacePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const space = getSpaceBySlug(slug);
+  const space = getSpaceBySlug(slug) || getDreamSpaceBySlug(slug);
   if (!space) notFound();
 
-  const otherSpaces = spaces.filter((s) => s.slug !== slug).slice(0, 3);
+  const isDream = slug.startsWith("dream-");
+  const allSpaces = isDream ? dreamSpaces : spaces;
+  const otherSpaces = allSpaces.filter((s) => s.slug !== slug).slice(0, 3);
 
   return (
     <div className="pt-32 pb-24 min-h-screen">

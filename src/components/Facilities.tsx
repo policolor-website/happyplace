@@ -30,7 +30,7 @@ export default function Facilities() {
             Facilități
           </p>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-cream">
-            Facilitățile apartamentului
+            Facilități Happy Place &amp; Dream Studio
           </h2>
           <div className="w-24 h-px gold-line mx-auto mt-6" />
         </Reveal>
