@@ -563,10 +563,11 @@ export const dreamSpaces: Space[] = [
       "/images/dream-studio/Dream_Bucatarie_5.jpeg",
     ],
     description:
-      "Bucătărie compactă dar complet utilată de 5 m², cu toate electrocasnicele necesare pentru a pregăti mese complete. Espressor Nespresso + capsule cafea gratuite.\n\nIdeală pentru micul dejun rapid sau pentru o cină relaxantă după o zi pe pârtie.",
+      "Bucătărie compactă dar complet utilată de 5 m², cu toate electrocasnicele necesare pentru a pregăti mese complete. Frigider de mari dimensiuni, espressor Nespresso + capsule cafea gratuite.\n\nIdeală pentru micul dejun rapid sau pentru o cină relaxantă după o zi pe pârtie.",
     facilities: [
-      "Aragaz cu cuptor",
-      "Frigider",
+      "Plită incorporată în blat",
+      "Hotă",
+      "Frigider de mari dimensiuni",
       "Espressor Nespresso",
       "Capsule cafea gratuite",
       "Vase și ustensile complete",
