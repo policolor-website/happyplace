@@ -44,6 +44,11 @@ const faqItems = [
       "Poiana Brașov oferă numeroase atracții: pârtii de schi (accesibile iarna cu ski-bus din fața complexului), Masivul Postăvarul cu trasee montane, orașul Brașov, Castelul Bran, Cetatea Râșnov, Dino Park, FunSylvania Park, Biserica Neagră și Tâmpa.",
   },
   {
+    question: "Ce restaurante recomandați în zonă?",
+    answer:
+      "Pe lângă restaurantul NOIR din complex, recomandăm:\n• Stana Turistică — la doar 5 min. de complex, în cadru natural de excepție, oferă mâncare tradițională românească\n• Sura Dacilor\n• Coliba Haiducilor",
+  },
+  {
     question: "Apartamentul are bucătărie complet utilată?",
     answer:
       "Da, bucătăria este complet utilată cu plită electrică, cuptor cu microunde, frigider, fierbător și espressor Nespresso. Vase și ustensile complete. Din partea noastră aveți gratuit ceai, cafea și băuturi la sosire.",
@@ -92,7 +97,7 @@ export default function FAQ() {
             }}
           >
             <div className="overflow-hidden">
-              <p className="px-5 pb-5 text-cream/70 text-sm leading-relaxed">
+              <p className="px-5 pb-5 text-cream/70 text-sm leading-relaxed whitespace-pre-line">
                 {item.answer}
               </p>
             </div>
