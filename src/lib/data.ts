@@ -264,7 +264,7 @@ export const blogPosts = [
   {
     slug: "restaurantul-noir-experienta-culinara-in-poiana-brasov",
     title: "Restaurantul NOIR, experiență culinară în Poiana Brașov",
-    excerpt: "Restaurantul NOIR din complexul Silver Mountain oferă preparate culinare de excepție, cu muzică live sâmbăta seara...",
+    excerpt: "Restaurantul NOIR din complexul Silver Mountain oferă preparate culinare de excepție, cu evenimente ocazionale de muzică live în serile de sâmbătă...",
     image: "/images/happy-place/Happy_Place_Brasov_19.jpeg",
   },
 ];
@@ -349,9 +349,9 @@ export const amenities: Amenity[] = [
     slug: "restaurant-noir",
     title: "Restaurant NOIR",
     shortDescription:
-      "Preparate culinare de excepție în restaurantul complexului, cu muzică live sâmbăta seara.",
+      "Preparate culinare de excepție în restaurantul complexului, cu evenimente ocazionale de muzică live în serile de sâmbătă.",
     description:
-      "Restaurantul NOIR din complexul Silver Mountain este locul perfect pentru clipe memorabile petrecute într-un ambient select. Staff-ul profesionist vă asigură buna-dispoziție, iar meniul oferă preparate culinare de excepție, pizza și o selecție de vinuri.\n\nSâmbăta devin speciale cu seri ocazionale de muzică live și atmosferă relaxată. Restaurantul este deschis pentru toate mesele zilei, fiind ideal atât pentru mic dejun, cât și pentru cină în familie sau în cuplu.\n\nSituat în clădirea multifuncțională, la doar 50 m de apartamentul Happy Place, restaurantul este accesibil ușor fără mașină.\n\nMic dejun bufet suedez:\n• Program: 08:30 - 10:30\n• Preț: 99 lei/persoană\n• Bufet foarte bogat: omletă, iaurt, brânzeturi, mezeluri, prăjituri, fructe, cafea, sucuri și chiar șampanie\n\nMicul dejun se servește la restaurantul NOIR, în aceeași clădire cu SPA-ul. Plata se face separat la restaurant.",
+      "Restaurantul NOIR din complexul Silver Mountain este locul perfect pentru clipe memorabile petrecute într-un ambient select. Staff-ul profesionist vă asigură buna-dispoziție, iar meniul oferă preparate culinare de excepție, pizza și o selecție de vinuri.\n\nÎn serile de sâmbătă se organizează ocazional evenimente cu muzică live și atmosferă relaxată. La Restaurantul NOIR se organizează în fiecare an seri speciale cu meniu și program artistic de Crăciun și de Revelion. Restaurantul este deschis pentru toate mesele zilei, fiind ideal atât pentru mic dejun, cât și pentru cină în familie sau în cuplu.\n\nSituat în clădirea multifuncțională, la doar 50 m de apartamentul Happy Place, restaurantul este accesibil ușor fără mașină.\n\nMic dejun bufet suedez:\n• Program: 08:30 - 10:30\n• Preț: 99 lei/persoană\n• Bufet foarte bogat: omletă, iaurt, brânzeturi, mezeluri, prăjituri, fructe, cafea, sucuri și chiar șampanie\n\nMicul dejun se servește la restaurantul NOIR, în aceeași clădire cu SPA-ul. Plata se face separat la restaurant.",
     image: "/images/happy-place/Happy_Place_Brasov_19.jpeg",
     icon: "🍽️",
     gallery: [
