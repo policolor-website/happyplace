@@ -3,6 +3,7 @@ import Link from "next/link";
 import { spaces, facilities, galleryImages, type GalleryCategory } from "@/lib/data";
 import BookingEngine from "@/components/BookingEngine";
 import GalleryWithTabs from "@/components/GalleryWithTabs";
+import Reviews from "@/components/Reviews";
 import Reveal from "@/components/Reveal";
 
 export const metadata = {
@@ -233,6 +234,9 @@ export default function HappyPlacePage() {
             </div>
           </div>
         </Reveal>
+
+        {/* Testimoniale */}
+        <Reviews />
 
         {/* Link către Dream Studio */}
         <Reveal>

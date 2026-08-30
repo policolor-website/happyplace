@@ -221,34 +221,34 @@ export const facilities = [
 
 export const reviews = [
   {
-    name: "Oaspete verificat",
+    name: "Cristina — România",
     rating: 5,
-    text: "Un apartament superb în Silver Mountain! Terasa panoramică de la etajul 5 oferă o vedere incredibilă. Ne-am simțit ca acasă.",
+    text: "Apartamentul este superb, cu un spațiu generos! Check-in-ul a fost foarte ușor de făcut! Priveliștea este minunată, perfectă pentru a-ți bea cafeaua privind superbitatea naturii care te înconjoară! Apartamentul este foarte modern și foarte frumos amenajat! Comunicarea cu gazda a fost foarte ușoară! Doamna Andreea ne-a ajutat cu toate informațiile necesare și ne-a făcut să ne simțim ca acasă! Vă mulțumim frumos pentru experiența unică și superbă pe care am avut-o cu dumneavoastră! Sper să revenim curând!",
   },
   {
-    name: "Familie Popescu",
+    name: "Elad — Israel",
     rating: 5,
-    text: "Am stat cu 2 adulți și 2 copii. Spațiu generos, curat, cu tot ce ai nevoie. Copiii au adorat piscina și locul de joacă.",
+    text: "Very comfortable, clean and classy apartment. Feels like an executive suite of a highly rated hotel — and for a much cheaper price. The view is just like in the pictures. There are 2 bathrooms with shower and toilet each — very comfortable and speeds up getting ready to leave, ideal for a family. Very spacious bathroom and rooms. You can opt to take the Silver Mountain hotel's breakfast which worth every lei: caviar and champagne, a vast selection of cheeses and hams, fresh salmon, delicious deserts and more. The host was very nice and responsive. Perfect stay.",
   },
   {
-    name: "Maria Ionescu",
+    name: "Amina — România",
     rating: 5,
-    text: "Locație excelentă în Poiana Brașov, liniște deplină, aer curat. Espressorul Nespresso și detaliile de gazdă au făcut diferența.",
+    text: "Totul a fost perfect. Copiii n-au mai vrut să iasă afara azi de dragul brăduțului. Perfect a ieșit, parcă e scos din povești, nu ne așteptam. ❤️ Am simțit dragul cu care l-ați împodobit de când am intrat pe ușă, am aprins luminile la el înainte să ne dăm gecile jos, ca niște copii❤️. Mulțumim mult!",
   },
   {
-    name: "Andrei Georgescu",
+    name: "Thekla — Germania",
     rating: 5,
-    text: "Apartamentul este exact ca în poze. Pat King Size confortabil, bucătărie complet utilată, WiFi rapid. Recomand cu drag!",
+    text: "We had a wonderful stay in this beautiful apartment in Poiana Brașov. The apartment is spacious, stylishly furnished, very clean and perfectly equipped. The large balcony with its breathtaking view over the surrounding forests was definitely the highlight — we enjoyed spending our evenings there. Communication with the host was excellent, and everything worked exactly as described. The apartment is in a great location, offering peace and beautiful scenery while still being only a short drive from Brașov. We would definitely stay here again and highly recommend this apartment to anyone visiting Poiana Brașov. Thank you very much for a fantastic stay!",
   },
   {
-    name: "Cuplu tânăr",
+    name: "Sami — Franța",
     rating: 5,
-    text: "O escapadă perfectă. Terasa cu vedere la munte seara, cu stele deasupra, este de poveste. Vom reveni cu siguranță.",
+    text: "Tout a été parfait du début à la fin. L'appartement est très bien situé, propre et spacieux. Les services à proximité piscine et spa très agréable. Les conseils que nous a donné Toma ont été excellent (restaurants à proximité et visites à faire).",
   },
   {
-    name: "Grup de prieteni",
+    name: "Ciprian — România",
     rating: 5,
-    text: "Complexul Silver Mountain oferă totul: SPA, restaurant, piscină. Apartamentul Happy Place este unul dintre cele mai frumoase.",
+    text: "Sejur superb. A fost o vacanță foarte frumoasă, cu multă liniște, apartamentul este dotat cu toate cele necesare unei șederi minunate. Priveliștea este printre cele mai bune văzute de noi până acum. Cazare foarte bună, căldură este din belșug (am fost cazați în noiembrie, 2-3 grade afară noaptea), canapeaua și patul foarte comode. De asemenea sunt 2 băi, una cu dus iar cealaltă cu o cadă imensă și 2 chiuvete. Restul se regăsește în descriere dar este absolut superb. Pozele nu fac cinste peisajului și confortului. Centrul SPA este vis-a-vis, cum s-a mai răspuns, este contra cost și este super, merită cel puțin o vizită în sejur. Vom reveni cu drag. Nota 10 gazdei.",
   },
 ];
 
