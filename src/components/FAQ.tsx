@@ -29,6 +29,11 @@ const faqItems = [
       "Centrul SPA este gestionat de o firmă specializată și au acces exclusiv doar turiștii cazați în complexul Silver Mountain. Tarife pentru 3 ore: 145 lei/adult, 75 lei/copil (3-9 ani), copiii sub 3 ani au acces gratuit. Tariful include acces integral la: piscina interioară, piscina exterioară infinity încălzită, jacuzzi, saună umedă și uscată. Plata se face separat la recepția SPA.",
   },
   {
+    question: "Pot lua micul dejun la restaurant?",
+    answer:
+      "Da. Micul dejun se servește la restaurantul NOIR (în aceeași clădire cu SPA-ul) între orele 08:30 - 10:30, în sistem bufet suedez. Preț: 99 lei/persoană. Este un bufet foarte bogat: omletă, iaurt, brânzeturi, mezeluri, prăjituri, fructe, cafea, sucuri și chiar șampanie. Plata se face separat la restaurant.",
+  },
+  {
     question: "Ce facilități sunt incluse gratuit în complex?",
     answer:
       "Oaspeții Happy Place au acces gratuit în complex la: loc de joacă exterior pentru copii, teren de mini fotbal, masă de ping-pong, teren de badminton și parcare în exterior cu stații de încărcare pentru mașini electrice.",
