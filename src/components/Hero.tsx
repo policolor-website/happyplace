@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/happy-place/hero.jpeg"
+          src="/images/happy-place/Happy_Terasa_4.jpeg"
           alt="Happy Place Poiana Brașov — terasă panoramică"
           fill
           priority
