@@ -12,6 +12,16 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    const whatsappMessage =
+      `Mesaj de pe site-ul Happy Place Brașov\n\n` +
+      `Nume: ${name}\n` +
+      `Email: ${email}\n` +
+      `Telefon: ${phone || "-"}\n` +
+      `Mesaj: ${message}\n`;
+
+    const whatsappUrl = `https://wa.me/40722335357?text=${encodeURIComponent(whatsappMessage)}`;
+    window.open(whatsappUrl, "_blank");
     setSubmitted(true);
   };
 
@@ -20,7 +30,7 @@ export default function ContactPage() {
         <div className="relative text-center mb-12 py-16">
           <div className="absolute inset-0 overflow-hidden">
             <Image
-              src="/images/pensiunea-angela/340.jpg"
+              src="/images/happy-place/Happy_Place_Brasov_30.jpeg"
               alt=""
               fill
               className="object-cover opacity-10"
@@ -47,19 +57,19 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-muted text-xs uppercase tracking-wider mb-1">Telefon</p>
-                  <a href="tel:0727795599" className="text-cream hover:text-gold no-underline transition-colors">
-                    0727 795 599
+                  <a href="tel:0722335357" className="text-cream hover:text-gold no-underline transition-colors">
+                    0722 335 357
                   </a>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 border border-gold rounded-full flex items-center justify-center text-gold text-xl shrink-0">
-                  ✉
+                  💬
                 </div>
                 <div>
-                  <p className="text-muted text-xs uppercase tracking-wider mb-1">Email</p>
-                  <a href="mailto:contact@pensiuneaangela.ro" className="text-cream hover:text-gold no-underline transition-colors">
-                    contact@pensiuneaangela.ro
+                  <p className="text-muted text-xs uppercase tracking-wider mb-1">WhatsApp</p>
+                  <a href="https://wa.me/40722335357" target="_blank" rel="noopener noreferrer" className="text-cream hover:text-gold no-underline transition-colors">
+                    Scrie-ne pe WhatsApp
                   </a>
                 </div>
               </div>
@@ -69,9 +79,10 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-muted text-xs uppercase tracking-wider mb-1">Adresă</p>
-                  <p className="text-cream">Vatra Dornei, Județul Suceava, Bucovina, România</p>
+                  <p className="text-cream">Strada Doinașului, Nr. 10, G1, Ap. 51</p>
+                  <p className="text-cream">Silver Mountain, Poiana Brașov, România</p>
                   <a
-                    href="https://www.google.com/maps/search/?api=1&query=Vatra+Dornei+Suceava+Romania"
+                    href="https://www.google.com/maps/search/?api=1&query=Silver+Mountain+Resort+Poiana+Brasov"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gold text-sm hover:text-gold-light no-underline transition-colors"
@@ -84,13 +95,13 @@ export default function ContactPage() {
 
             <div className="mt-8 relative aspect-video overflow-hidden border border-border-dark">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.123456789!2d25.3547!3d47.3456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4736f00000000000%3A0x0!2sVatra%20Dornei!5e0!3m2!1sro!2sro!4v1700000000000"
+                src="https://www.google.com/maps?q=Silver+Mountain+Resort+Poiana+Brasov+Strada+Doinasului&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0, filter: "invert(0.9) hue-rotate(180deg)" }}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Pensiunea Angela Vatra Dornei pe hartă"
+                title="Happy Place Silver Mountain Poiana Brașov pe hartă"
               />
             </div>
           </div>
@@ -101,7 +112,7 @@ export default function ContactPage() {
                 <div className="text-4xl mb-4">✓</div>
                 <h2 className="text-gold font-semibold text-xl mb-2">Mesaj trimis!</h2>
                 <p className="text-cream/80 text-sm">
-                  Vă vom răspunde în cel mai scurt timp.
+                  V-am redirecționat către WhatsApp. Vom răspunde în cel mai scurt timp.
                 </p>
                 <button
                   onClick={() => setSubmitted(false)}
@@ -159,7 +170,7 @@ export default function ContactPage() {
                     type="submit"
                     className="w-full px-6 py-4 bg-gold text-night text-sm font-semibold uppercase tracking-wider transition-all hover:bg-gold-light cursor-pointer border-0"
                   >
-                    Trimite mesajul
+                    Trimite pe WhatsApp
                   </button>
                 </div>
               </form>

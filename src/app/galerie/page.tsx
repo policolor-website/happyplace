@@ -7,9 +7,9 @@ import Reveal from "@/components/Reveal";
 
 const tabs: { key: GalleryCategory; label: string }[] = [
   { key: "toate", label: "Toate" },
-  { key: "camere", label: "Camere" },
-  { key: "exterior", label: "Exterior" },
-  { key: "facilitati", label: "Facilități" },
+  { key: "interior", label: "Interior" },
+  { key: "terasa", label: "Terasă" },
+  { key: "complex", label: "Complex" },
 ];
 
 export default function GalleryPage() {
@@ -26,7 +26,7 @@ export default function GalleryPage() {
         <div className="relative text-center mb-12 py-16">
           <div className="absolute inset-0 overflow-hidden">
             <Image
-              src="/images/pensiunea-angela/335.jpg"
+              src="/images/happy-place/Happy_Place_Brasov_27.jpeg"
               alt=""
               fill
               className="object-cover opacity-10"
@@ -34,7 +34,7 @@ export default function GalleryPage() {
           </div>
           <div className="relative z-10 max-w-7xl mx-auto px-6">
             <h1 className="font-display text-5xl font-bold text-cream mb-4">Galerie</h1>
-            <p className="text-muted text-lg">Pensiunea Angela · Vatra Dornei</p>
+            <p className="text-muted text-lg">Happy Place · Poiana Brașov</p>
             <div className="w-24 h-px gold-line mx-auto mt-6" />
           </div>
         </div>

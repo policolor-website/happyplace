@@ -5,11 +5,11 @@ import { format } from "date-fns";
 import DatePicker from "./DatePicker";
 
 export default function BookingForm({
-  roomName,
-  roomPrice,
+  spaceName,
+  spacePrice,
 }: {
-  roomName: string;
-  roomPrice: number;
+  spaceName: string;
+  spacePrice: number;
 }) {
   const today = new Date();
   const tomorrow = new Date(today);
@@ -27,27 +27,27 @@ export default function BookingForm({
     const nights = Math.ceil(
       (new Date(checkOut).getTime() - new Date(checkIn).getTime()) / (1000 * 60 * 60 * 24)
     );
-    const totalPrice = nights * roomPrice;
+    const totalPrice = nights * spacePrice;
 
     const message =
-      `Rezervare Pensiunea Angela\n\n` +
-      `Camera: ${roomName}\n` +
+      `Rezervare Happy Place Brașov\n\n` +
+      `Spațiu: ${spaceName}\n` +
       `Check-in: ${checkIn}\n` +
       `Check-out: ${checkOut}\n` +
       `Nopți: ${nights}\n` +
       `Oaspeți: ${guests}\n` +
       `Nume: ${name || "-"}\n` +
       `Telefon: ${phone || "-"}\n` +
-      `Preț estimat: ${totalPrice} lei (${nights} × ${roomPrice} lei)\n\n` +
+      `Preț estimat: ${totalPrice} lei (${nights} × ${spacePrice} lei)\n\n` +
       `Vă rog să confirmați disponibilitatea. Mulțumesc!`;
 
-    const whatsappUrl = `https://wa.me/40727795599?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/40722335357?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
 
   return (
     <form onSubmit={handleSubmit} className="bg-night-light border border-border-dark p-6">
-      <h3 className="text-gold font-semibold text-lg mb-4">Rezervă această cameră</h3>
+      <h3 className="text-gold font-semibold text-lg mb-4">Rezervă acest spațiu</h3>
       <div className="grid grid-cols-2 gap-3 mb-3">
         <div>
           <label className="block text-xs text-muted uppercase tracking-wider mb-1">Check-in</label>
@@ -102,7 +102,7 @@ export default function BookingForm({
       </div>
       <div className="flex justify-between items-center mb-4">
         <span className="text-muted text-xs">Preț/noapte</span>
-        <span className="text-gold font-bold">{roomPrice} lei</span>
+        <span className="text-gold font-bold">{spacePrice} lei</span>
       </div>
       <button
         type="submit"

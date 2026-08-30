@@ -4,7 +4,6 @@ import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Phone3D from "@/components/Phone3D";
 
 const playfair = Playfair_Display({
   variable: "--font-display",
@@ -19,9 +18,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Pensiunea Angela Vatra Dornei — Cazare la munte | Bucovina",
+  title: "Happy Place Brașov — Apartament Silver Mountain Poiana Brașov",
   description:
-    "Pensiunea Angela din Vatra Dornei oferă cazare confortabilă cu baie proprie, frigider, WiFi și balcon. Ideal pentru relaxare în mijlocul naturii din Bucovina.",
+    "Apartament Happy Place în complexul Silver Mountain Poiana Brașov. 2 camere, 2 băi, terasă panoramică la etajul 5, bucătărie complet utilată, acces SPA și piscină.",
 };
 
 export default function RootLayout({
@@ -38,9 +37,6 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
-        <Suspense fallback={null}>
-          <Phone3D />
-        </Suspense>
       </body>
     </html>
   );

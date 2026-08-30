@@ -4,8 +4,8 @@ import { blogPosts } from "@/lib/data";
 import Reveal from "@/components/Reveal";
 
 export const metadata = {
-  title: "Blog — Pensiunea Angela Vatra Dornei",
-  description: "Descoperă atracțiile turistice din Vatra Dornei și zona Bucovinei.",
+  title: "Blog — Happy Place Brașov",
+  description: "Descoperă atracțiile turistice din Poiana Brașov și zona munților Postăvarul.",
 };
 
 export default function BlogPage() {
@@ -14,7 +14,7 @@ export default function BlogPage() {
         <div className="relative text-center mb-12 py-16">
           <div className="absolute inset-0 overflow-hidden">
             <Image
-              src="/images/pensiunea-angela/350.jpg"
+              src="/images/happy-place/Happy_Place_Brasov_28.jpeg"
               alt=""
               fill
               className="object-cover opacity-10"
@@ -22,7 +22,7 @@ export default function BlogPage() {
           </div>
           <div className="relative z-10 max-w-7xl mx-auto px-6">
             <h1 className="font-display text-5xl font-bold text-cream mb-4">Blog</h1>
-            <p className="text-muted text-lg">Descoperă zona Vatra Dornei și Bucovina</p>
+            <p className="text-muted text-lg">Descoperă Poiana Brașov și zona</p>
             <div className="w-24 h-px gold-line mx-auto mt-6" />
           </div>
         </div>

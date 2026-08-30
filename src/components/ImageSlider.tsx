@@ -4,16 +4,16 @@ import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
 
 const sliderImages = [
-  { src: "/images/pensiunea-angela/328.jpg", alt: "Exterior Pensiunea Angela" },
-  { src: "/images/pensiunea-angela/354.jpg", alt: "Camera triplă" },
-  { src: "/images/agrement/62-screen.jpg", alt: "Centru SPA" },
-  { src: "/images/pensiunea-angela/358.jpg", alt: "Camera dublă" },
-  { src: "/images/agrement/275-screen.jpg", alt: "Turism ecvestru" },
-  { src: "/images/pensiunea-angela/364.jpg", alt: "Restaurant" },
-  { src: "/images/pensiunea-angela/383.jpg", alt: "Casuța din copac" },
-  { src: "/images/agrement/19-screen.jpg", alt: "Pârtii de schi" },
-  { src: "/images/pensiunea-angela/389.jpg", alt: "SPA" },
-  { src: "/images/pensiunea-angela/335.jpg", alt: "Exterior Pensiunea Angela" },
+  { src: "/images/happy-place/Happy_Place_Brasov_27.jpeg", alt: "Terasă panoramică" },
+  { src: "/images/happy-place/Happy_Place_Brasov_1.jpeg", alt: "Living" },
+  { src: "/images/happy-place/Happy_Place_Brasov_7.jpeg", alt: "Dormitor principal" },
+  { src: "/images/happy-place/Happy_Place_Brasov_19.jpeg", alt: "Bucătărie" },
+  { src: "/images/happy-place/Happy_Place_Brasov_23.jpeg", alt: "Baie" },
+  { src: "/images/happy-place/Happy_Place_Brasov_13.jpeg", alt: "Dormitor secundar" },
+  { src: "/images/happy-place/Happy_Place_Brasov_28.jpeg", alt: "Terasă panoramică" },
+  { src: "/images/happy-place/Happy_Place_Brasov_3.jpeg", alt: "Living" },
+  { src: "/images/happy-place/Happy_Place_Brasov_30.jpeg", alt: "Terasă panoramică" },
+  { src: "/images/happy-place/Happy_Place_Brasov_9.jpeg", alt: "Dormitor principal" },
 ];
 
 export default function ImageSlider() {
@@ -49,7 +49,7 @@ export default function ImageSlider() {
             Galerie
           </p>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-cream">
-            Descoperă Pensiunea Angela
+            Descoperă Happy Place
           </h2>
           <div className="w-24 h-px gold-line mx-auto mt-6" />
         </div>

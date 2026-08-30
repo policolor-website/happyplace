@@ -1,18 +1,17 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="w-full h-full object-cover"
-        >
-          <source src="/vila.mp4" type="video/mp4" />
-        </video>
+        <Image
+          src="/images/happy-place/hero.jpeg"
+          alt="Happy Place Poiana Brașov — terasă panoramică"
+          fill
+          priority
+          className="object-cover"
+        />
         <div className="absolute inset-0 hero-overlay" />
       </div>
 
@@ -21,21 +20,21 @@ export default function Hero() {
           className="text-gold text-sm font-semibold uppercase tracking-[0.3em] mb-4"
           style={{ animation: "fadeUp 0.8s ease forwards" }}
         >
-          Vatra Dornei · Bucovina
+          Silver Mountain · Poiana Brașov
         </p>
         <h1
           className="font-display text-4xl md:text-6xl font-bold text-cream leading-tight mb-4"
           style={{ animation: "fadeUp 0.8s ease 0.2s forwards", opacity: 0 }}
         >
-          Pensiunea <span className="text-gradient-gold">Angela</span>
+          Happy <span className="text-gradient-gold">Place</span> Brașov
         </h1>
         <p
           className="text-base md:text-lg text-cream/80 max-w-2xl mx-auto mb-6 leading-relaxed"
           style={{ animation: "fadeUp 0.8s ease 0.4s forwards", opacity: 0 }}
         >
-          Escapada perfectă la munte în inima Bucovinei. Camere confortabile cu
-          baie proprie, frigider, WiFi și balcon, într-o zonă renumită pentru
-          aerul curat și peisajele spectaculoase.
+          Apartament de lux cu 2 camere, terasă panoramică la etajul 5 și vedere
+          superbă asupra întregii văi. Relaxare, liniște și un peisaj care îți
+          taie respirația.
         </p>
         <div
           className="flex flex-col sm:flex-row gap-4 justify-center"

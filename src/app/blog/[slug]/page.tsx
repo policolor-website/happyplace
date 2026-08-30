@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { blogPosts } from "@/lib/data";
 import { notFound } from "next/navigation";
 
@@ -9,8 +10,8 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = blogPosts.find((p) => p.slug === slug);
-  if (!post) return { title: "Articol — Pensiunea Angela Vatra Dornei" };
-  return { title: `${post.title} — Pensiunea Angela Vatra Dornei`, description: post.excerpt };
+  if (!post) return { title: "Articol — Happy Place Brașov" };
+  return { title: `${post.title} — Happy Place Brașov`, description: post.excerpt };
 }
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -22,9 +23,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     <div className="pt-32 pb-24 min-h-screen">
       <div className="max-w-3xl mx-auto px-6">
         <div className="mb-6">
-          <a href="/blog" className="text-muted hover:text-gold text-sm no-underline transition-colors">
+          <Link href="/blog" className="text-muted hover:text-gold text-sm no-underline transition-colors">
             ← Înapoi la blog
-          </a>
+          </Link>
         </div>
 
         <h1 className="font-display text-4xl md:text-5xl font-bold text-cream mb-6">
@@ -46,21 +47,21 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             {post.excerpt}
           </p>
           <p className="text-cream/70 leading-relaxed">
-            Acest articol face parte din seria de ghiduri turistice Pensiunea
-            Angela Vatra Dornei. Vă invităm să descoperiți frumusețile zonei
-            Bucovinei și să vă cazați la noi pentru o experiență de neuitat
-            la munte.
+            Acest articol face parte din seria de ghiduri turistice Happy Place
+            Brașov. Vă invităm să descoperiți frumusețile zonei Poiana Brașov
+            și să vă cazați la noi pentru o experiență de neuitat în complexul
+            Silver Mountain Resort &amp; SPA.
           </p>
         </div>
 
         <div className="mt-12 p-6 bg-night-light border border-border-dark text-center">
           <p className="text-cream mb-4">Vrei să vizitezi zona?</p>
-          <a
+          <Link
             href="/camere"
             className="inline-block px-8 py-4 bg-gold text-night text-sm font-semibold uppercase tracking-wider no-underline transition-all hover:bg-gold-light"
           >
-            Rezervă cazare
-          </a>
+            Rezervă acum
+          </Link>
         </div>
       </div>
     </div>

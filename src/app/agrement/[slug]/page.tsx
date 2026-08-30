@@ -1,38 +1,38 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { activities, getActivityBySlug } from "@/lib/data";
+import { amenities, getAmenityBySlug } from "@/lib/data";
 import Reveal from "@/components/Reveal";
 import RoomGallery from "@/components/RoomGallery";
 
 export async function generateStaticParams() {
-  return activities.map((a) => ({ slug: a.slug }));
+  return amenities.map((a) => ({ slug: a.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const activity = getActivityBySlug(slug);
-  if (!activity) return { title: "Activitate negăsită" };
+  const amenity = getAmenityBySlug(slug);
+  if (!amenity) return { title: "Facilitate negăsită" };
 
   return {
-    title: `${activity.title} — Pensiunea Angela Vatra Dornei`,
-    description: activity.shortDescription,
+    title: `${amenity.title} — Happy Place Brașov`,
+    description: amenity.shortDescription,
   };
 }
 
-export default async function ActivityPage({ params }: { params: Promise<{ slug: string }> }) {
+export default async function AmenityPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const activity = getActivityBySlug(slug);
-  if (!activity) notFound();
+  const amenity = getAmenityBySlug(slug);
+  if (!amenity) notFound();
 
-  const otherActivities = activities.filter((a) => a.slug !== slug).slice(0, 4);
+  const otherAmenities = amenities.filter((a) => a.slug !== slug).slice(0, 4);
 
   return (
     <div className="pt-32 pb-24 min-h-screen">
       <div className="max-w-7xl mx-auto px-6">
         <div className="mb-6">
           <Link href="/agrement" className="text-muted hover:text-gold text-sm no-underline transition-colors">
-            ← Înapoi la agrement
+            ← Înapoi la facilități
           </Link>
         </div>
 
@@ -40,8 +40,8 @@ export default async function ActivityPage({ params }: { params: Promise<{ slug:
           <div className="lg:col-span-2 space-y-8">
             <div className="relative aspect-4/3 overflow-hidden">
               <Image
-                src={activity.image}
-                alt={activity.title}
+                src={amenity.image}
+                alt={amenity.title}
                 fill
                 priority
                 className="object-cover"
@@ -50,14 +50,14 @@ export default async function ActivityPage({ params }: { params: Promise<{ slug:
 
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <span className="text-3xl">{activity.icon}</span>
+                <span className="text-3xl">{amenity.icon}</span>
                 <h1 className="font-display text-4xl md:text-5xl font-bold text-cream">
-                  {activity.title}
+                  {amenity.title}
                 </h1>
               </div>
 
               <div className="text-cream/80 leading-relaxed mb-8 space-y-4">
-                {activity.description.split("\n\n").map((para, i) => (
+                {amenity.description.split("\n\n").map((para, i) => (
                   <p key={i}>{para}</p>
                 ))}
               </div>
@@ -67,24 +67,24 @@ export default async function ActivityPage({ params }: { params: Promise<{ slug:
                   href="/camere"
                   className="px-8 py-4 bg-gold text-night text-sm font-semibold uppercase tracking-wider no-underline transition-all hover:bg-gold-light text-center"
                 >
-                  Rezervă cazare
+                  Rezervă acum
                 </Link>
                 <a
-                  href="tel:0727795599"
+                  href="tel:0722335357"
                   className="px-8 py-4 border border-cream/30 text-cream text-sm font-semibold uppercase tracking-wider no-underline transition-all hover:border-gold hover:text-gold text-center"
                 >
-                  Sună: 0727 795 599
+                  Sună: 0722 335 357
                 </a>
               </div>
             </div>
           </div>
 
-          {/* Sidebar — other activities */}
+          {/* Sidebar — other amenities */}
           <div className="space-y-6">
             <h3 className="font-display text-xl font-bold text-cream mb-4">
-              Alte activități
+              Alte facilități
             </h3>
-            {otherActivities.map((other) => (
+            {otherAmenities.map((other) => (
               <Link
                 key={other.slug}
                 href={`/agrement/${other.slug}`}
@@ -112,13 +112,13 @@ export default async function ActivityPage({ params }: { params: Promise<{ slug:
         </div>
 
         {/* Gallery */}
-        {activity.gallery.length > 1 && (
+        {amenity.gallery.length > 1 && (
           <Reveal>
             <div className="mb-12">
               <h2 className="font-display text-2xl font-bold text-cream mb-6">
                 Galerie foto
               </h2>
-              <RoomGallery images={activity.gallery} name={activity.title} />
+              <RoomGallery images={amenity.gallery} name={amenity.title} />
             </div>
           </Reveal>
         )}

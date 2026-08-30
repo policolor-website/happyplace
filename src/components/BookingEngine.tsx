@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { format } from "date-fns";
-import { rooms } from "@/lib/data";
+import { spaces } from "@/lib/data";
 import DatePicker from "./DatePicker";
 
 export default function BookingEngine() {
@@ -13,25 +13,25 @@ export default function BookingEngine() {
   const [checkIn, setCheckIn] = useState(format(today, "yyyy-MM-dd"));
   const [checkOut, setCheckOut] = useState(format(tomorrow, "yyyy-MM-dd"));
   const [guests, setGuests] = useState("2");
-  const [roomType, setRoomType] = useState("all");
+  const [spaceType, setSpaceType] = useState("all");
 
   const handleBooking = (e: React.FormEvent) => {
     e.preventDefault();
     if (!checkIn || !checkOut) return;
 
-    const roomName = roomType === "all"
-      ? "Toate camerele"
-      : rooms.find((r) => r.slug === roomType)?.name ?? roomType;
+    const spaceName = spaceType === "all"
+      ? "Tot apartamentul"
+      : spaces.find((s) => s.slug === spaceType)?.name ?? spaceType;
 
     const message =
-      `Rezervare Pensiunea Angela\n\n` +
+      `Rezervare Happy Place Brașov\n\n` +
       `Check-in: ${checkIn}\n` +
       `Check-out: ${checkOut}\n` +
-      `Tip cameră: ${roomName}\n` +
+      `Spațiu: ${spaceName}\n` +
       `Oaspeți: ${guests}\n\n` +
       `Vă rog să confirmați disponibilitatea. Mulțumesc!`;
 
-    const whatsappUrl = `https://wa.me/40727795599?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/40722335357?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
 
@@ -64,17 +64,17 @@ export default function BookingEngine() {
         </div>
         <div>
           <label className="block text-xs text-gold uppercase tracking-wider mb-1.5">
-            Tip cameră
+            Spațiu
           </label>
           <select
-            value={roomType}
-            onChange={(e) => setRoomType(e.target.value)}
+            value={spaceType}
+            onChange={(e) => setSpaceType(e.target.value)}
             className="w-full bg-night border border-border-dark text-cream px-4 py-2.5 text-sm focus:border-gold focus:outline-none transition-colors"
           >
-            <option value="all">Toate camerele</option>
-            {rooms.map((room) => (
-              <option key={room.slug} value={room.slug}>
-                {room.name}
+            <option value="all">Tot apartamentul</option>
+            {spaces.map((space) => (
+              <option key={space.slug} value={space.slug}>
+                {space.name}
               </option>
             ))}
           </select>

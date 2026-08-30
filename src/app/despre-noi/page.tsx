@@ -3,9 +3,9 @@ import Reveal from "@/components/Reveal";
 import FAQ from "@/components/FAQ";
 
 export const metadata = {
-  title: "Despre Noi — Pensiunea Angela Vatra Dornei",
+  title: "Despre Noi — Happy Place Brașov",
   description:
-    "Pensiunea Angela Vatra Dornei — cazare confortabilă în inima Bucovinei, cu camere cu baie proprie, frigider, WiFi și balcon.",
+    "Happy Place Brașov — apartament de lux în complexul Silver Mountain Poiana Brașov, cu 2 camere, 2 băi, terasă panoramică și acces la SPA și piscine.",
 };
 
 export default function DespreNoiPage() {
@@ -14,7 +14,7 @@ export default function DespreNoiPage() {
         <div className="relative text-center mb-12 py-16">
           <div className="absolute inset-0 overflow-hidden">
             <Image
-              src="/images/pensiunea-angela/328.jpg"
+              src="/images/happy-place/Happy_Place_Brasov_1.jpeg"
               alt=""
               fill
               className="object-cover opacity-10"
@@ -24,7 +24,7 @@ export default function DespreNoiPage() {
             <h1 className="font-display text-5xl font-bold text-cream mb-4">
               Despre Noi
             </h1>
-            <p className="text-muted text-lg">Pensiunea Angela · Vatra Dornei</p>
+            <p className="text-muted text-lg">Happy Place · Silver Mountain · Poiana Brașov</p>
             <div className="w-24 h-px gold-line mx-auto mt-6" />
           </div>
         </div>
@@ -35,8 +35,8 @@ export default function DespreNoiPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center mb-12">
             <div className="relative aspect-4/3 overflow-hidden">
               <Image
-                src="/images/camere/Angela_cazare.jpg"
-                alt="Pensiunea Angela Vatra Dornei"
+                src="/images/happy-place/Happy_Place_Brasov_27.jpeg"
+                alt="Happy Place Poiana Brașov — terasă panoramică"
                 fill
                 priority
                 className="object-cover"
@@ -44,24 +44,25 @@ export default function DespreNoiPage() {
             </div>
             <div className="space-y-6 text-cream/80 leading-relaxed">
               <p className="text-lg">
-                Pensiunea Angela este situată în Vatra Dornei, stațiune montană
-                renumită din Bucovina, apreciată pentru aerul curat, izvoarele
-                termale și peisajele spectaculoase. Oferim cazare de calitate
-                într-un cadru natural de excepție, cu vedere la munte și acces
-                rapid la principalele atracții din zonă.
+                Happy Place este un apartament cu 2 camere, 2 băi și suprafață
+                generoasă de 64 m², situat la etajul 5 în complexul Silver
+                Mountain Resort &amp; SPA din Poiana Brașov. Terasa panoramică
+                oferă o perspectivă superbă asupra întregii văi.
               </p>
               <p>
-                Locația noastră îți oferă acces rapid la principalele atracții
-                turistice din zonă: Munții Călimani, Mănăstirile pictate din
-                Bucovina (Voroneț, Humor, Sucevița), izvoarele termale și
-                parcul din Vatra Dornei. Pensiunea este poziționată ideal
-                pentru explorarea acestor obiective.
+                Complexul Silver Mountain este format din patru clădiri de
+                apartamente și o clădire multifuncțională cu SPA, piscină
+                interioară, piscină exterioară infinity încălzită, jacuzzi,
+                saună, sală de fitness și restaurantul NOIR. Este poziționat
+                în Poiana Mică, la 3.3 km de Partia Bradul, înconjurat de
+                pădure.
               </p>
               <p>
-                Îmbinăm confortul modern cu liniștea naturii. Dispunem de camere
-                confortabile dotate cu WiFi, TV, baie proprie, frigider și
-                balcon cu vedere la munte. În curte ai acces la grădină și
-                parcare gratuită, perfecte pentru relaxare.
+                Ce poate fi mai plăcut decât să-ți savurezi cafeaua de
+                dimineață de pe un balcon suspendat parcă deasupra pădurii,
+                să ai seara cerul cu stele deasupra capului și să respiri
+                adânc aerul curat de munte. Relaxare, liniște și un peisaj
+                care îți taie respirația.
               </p>
             </div>
           </div>
@@ -70,24 +71,24 @@ export default function DespreNoiPage() {
         <Reveal delay={200}>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
             <div className="bg-night-light border border-border-dark p-6 text-center card-hover">
-              <div className="text-3xl mb-3">🏔️</div>
-              <h3 className="text-cream font-semibold mb-2">Vedere la munte</h3>
+              <div className="text-3xl mb-3">�</div>
+              <h3 className="text-cream font-semibold mb-2">Terasă panoramică</h3>
               <p className="text-muted text-sm">
-                Camere cu balcon și priveliște spre munții Bucovinei
+                Terasă la etajul 5 cu vedere superbă asupra întregii văi
               </p>
             </div>
             <div className="bg-night-light border border-border-dark p-6 text-center card-hover">
-              <div className="text-3xl mb-3">🌲</div>
-              <h3 className="text-cream font-semibold mb-2">Casuța din copac</h3>
+              <div className="text-3xl mb-3">�</div>
+              <h3 className="text-cream font-semibold mb-2">2 piscine</h3>
               <p className="text-muted text-sm">
-                Un spațiu unic de cazare, ideal pentru cupluri și iubitori de natură
+                Piscină interioară și exterioară infinity încălzită în complex
               </p>
             </div>
             <div className="bg-night-light border border-border-dark p-6 text-center card-hover">
               <div className="text-3xl mb-3">🚗</div>
               <h3 className="text-cream font-semibold mb-2">Parcare gratuită</h3>
               <p className="text-muted text-sm">
-                Parcare privată la fața locului, inclusă pentru toți oaspeții
+                Parcare subterană pazită, inclusă pentru toți oaspeții
               </p>
             </div>
           </div>
@@ -96,16 +97,16 @@ export default function DespreNoiPage() {
         <Reveal delay={300}>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
             <div className="bg-night-light border border-border-dark p-6 text-center">
+              <p className="font-display text-3xl font-bold text-gold">64</p>
+              <p className="text-muted text-xs uppercase tracking-wider mt-1">m² suprafață</p>
+            </div>
+            <div className="bg-night-light border border-border-dark p-6 text-center">
+              <p className="font-display text-3xl font-bold text-gold">2+2</p>
+              <p className="text-muted text-xs uppercase tracking-wider mt-1">Camere + băi</p>
+            </div>
+            <div className="bg-night-light border border-border-dark p-6 text-center">
               <p className="font-display text-3xl font-bold text-gold">5</p>
-              <p className="text-muted text-xs uppercase tracking-wider mt-1">Tipuri camere</p>
-            </div>
-            <div className="bg-night-light border border-border-dark p-6 text-center">
-              <p className="font-display text-3xl font-bold text-gold">WiFi</p>
-              <p className="text-muted text-xs uppercase tracking-wider mt-1">Gratuit</p>
-            </div>
-            <div className="bg-night-light border border-border-dark p-6 text-center">
-              <p className="font-display text-3xl font-bold text-gold">24/7</p>
-              <p className="text-muted text-xs uppercase tracking-wider mt-1">Recepție</p>
+              <p className="text-muted text-xs uppercase tracking-wider mt-1">Etaj</p>
             </div>
             <div className="bg-night-light border border-border-dark p-6 text-center">
               <p className="font-display text-3xl font-bold text-gold">★ 5</p>
@@ -126,40 +127,40 @@ export default function DespreNoiPage() {
                 <div>
                   <h3 className="text-cream font-semibold mb-1">Locație excelentă</h3>
                   <p className="text-muted text-sm leading-relaxed">
-                    Situați în Vatra Dornei, la distanță mică de atracțiile
-                    turistice principale: Munții Călimani, Mănăstirile din Bucovina,
-                    izvoare termale și parcul dendrologic.
+                    În complexul Silver Mountain Poiana Brașov, la 3.3 km de
+                    Partia Bradul, înconjurat de pădure, cu acces la toate
+                    facilitățile complexului.
                   </p>
                 </div>
               </div>
               <div className="bg-night-light border border-border-dark p-6 flex gap-4">
                 <div className="text-2xl shrink-0">🛏️</div>
                 <div>
-                  <h3 className="text-cream font-semibold mb-1">Camere confortabile</h3>
+                  <h3 className="text-cream font-semibold mb-1">Confort premium</h3>
                   <p className="text-muted text-sm leading-relaxed">
-                    Fiecare cameră are baie proprie, frigider, TV, WiFi și balcon.
-                    Proaspăt renovate, curate și spațioase, pentru un sejur plăcut.
+                    Pat King Size, canapea extensibilă, șemineu, 2 TV smart cu
+                    Netflix, bucătărie complet utilată cu espressor Nespresso.
                   </p>
                 </div>
               </div>
               <div className="bg-night-light border border-border-dark p-6 flex gap-4">
-                <div className="text-2xl shrink-0">🏡</div>
+                <div className="text-2xl shrink-0">�</div>
                 <div>
-                  <h3 className="text-cream font-semibold mb-1">Casuța din copac</h3>
+                  <h3 className="text-cream font-semibold mb-1">Terasă panoramică</h3>
                   <p className="text-muted text-sm leading-relaxed">
-                    Cel mai nou spațiu de cazare, un loc de poveste cu aranjament
-                    tradițional, perfect pentru o experiență unică în Bucovina.
+                    Terasă la etajul 5 cu vedere superbă asupra întregii văi,
+                    orientată pentru cea mai bună lumină la răsărit și apus.
                   </p>
                 </div>
               </div>
               <div className="bg-night-light border border-border-dark p-6 flex gap-4">
                 <div className="text-2xl shrink-0">💆</div>
                 <div>
-                  <h3 className="text-cream font-semibold mb-1">Relaxare & Natură</h3>
+                  <h3 className="text-cream font-semibold mb-1">SPA &amp; Wellness</h3>
                   <p className="text-muted text-sm leading-relaxed">
-                    Aer curat, liniște, grădină și peisaje montane spectaculoase.
-                    Vatra Dornei este renumită pentru izvoarele sale termale și
-                    tratamente naturale.
+                    Acces la centrul SPA din complex: piscină interioară,
+                    piscină exterioară infinity încălzită, jacuzzi, saună și
+                    sală de fitness.
                   </p>
                 </div>
               </div>
@@ -175,14 +176,17 @@ export default function DespreNoiPage() {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
               {[
                 "WiFi gratuit",
-                "TV",
-                "Baie proprie",
-                "Parcare gratuită",
-                "Grădină",
-                "Balcon cu vedere la munte",
-                "Frigider",
-                "Acces internet",
-                "Casuță din copac",
+                "TV smart cu Netflix",
+                "2 băi private",
+                "Bucătărie complet utilată",
+                "Espressor Nespresso",
+                "Șemineu",
+                "Pat King Size",
+                "Canapea extensibilă",
+                "Terasă panoramică",
+                "Parcare subterană gratuită",
+                "Acces SPA în complex",
+                "Restaurant NOIR la 150 m",
               ].map((f) => (
                 <div key={f} className="flex items-center gap-2 text-sm text-cream/80">
                   <span className="text-gold">✦</span>

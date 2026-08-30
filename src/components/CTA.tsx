@@ -3,18 +3,9 @@ import Reveal from "./Reveal";
 
 export default function CTA() {
   return (
-    <section className="relative py-32 overflow-hidden">
+    <section className="relative py-32 overflow-hidden bg-night-light">
       <div className="absolute inset-0 z-0">
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="w-full h-full object-cover"
-        >
-          <source src="/fascination.mp4" type="video/mp4" />
-        </video>
-        <div className="absolute inset-0 bg-night/80" />
+        <div className="absolute inset-0 bg-gradient-to-br from-gold/10 via-transparent to-gold/5" />
       </div>
 
       <div className="relative z-10 max-w-3xl mx-auto text-center px-6">
@@ -24,7 +15,7 @@ export default function CTA() {
           </h2>
           <p className="text-lg text-cream/80 mb-10 leading-relaxed">
             Aici, muntele nu este doar o destinație, ci un stil de viață.
-            Rezervă acum și bucură-te de experiența unică la Pensiunea Angela Vatra Dornei.
+            Rezervă acum și bucură-te de experiența unică la Happy Place Poiana Brașov.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -34,10 +25,10 @@ export default function CTA() {
               Rezervă acum
             </Link>
             <a
-              href="tel:0727795599"
+              href="tel:0722335357"
               className="px-8 py-4 border border-cream/30 text-cream text-sm font-semibold uppercase tracking-wider no-underline transition-all hover:border-gold hover:text-gold"
             >
-              Sună: 0727 795 599
+              Sună: 0722 335 357
             </a>
           </div>
         </Reveal>

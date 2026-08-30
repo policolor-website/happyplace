@@ -1,21 +1,21 @@
 import Link from "next/link";
 import Image from "next/image";
-import { rooms } from "@/lib/data";
+import { spaces } from "@/lib/data";
 import BookingEngine from "@/components/BookingEngine";
 import Reveal from "@/components/Reveal";
 
 export const metadata = {
-  title: "Camere — Pensiunea Angela Vatra Dornei",
-  description: "Descoperă camerele Pensiunii Angela din Vatra Dornei: cameră dublă, dublă cu balcon, triplă, triplă cu balcon și casuța din copac.",
+  title: "Spații — Happy Place Brașov",
+  description: "Descoperă spațiile apartamentului Happy Place din Silver Mountain Poiana Brașov: living, dormitor principal, dormitor secundar, bucătărie, băi și terasă panoramică.",
 };
 
-export default function RoomsPage() {
+export default function SpacesPage() {
   return (
     <div className="pt-32 pb-24 min-h-screen">
         <div className="relative text-center mb-12 py-16">
           <div className="absolute inset-0 overflow-hidden">
             <Image
-              src="/images/pensiunea-angela/354.jpg"
+              src="/images/happy-place/Happy_Place_Brasov_1.jpeg"
               alt=""
               fill
               className="object-cover opacity-10"
@@ -23,9 +23,9 @@ export default function RoomsPage() {
           </div>
           <div className="relative z-10 max-w-7xl mx-auto px-6">
             <h1 className="font-display text-5xl font-bold text-cream mb-4">
-              Camerele noastre
+              Spațiile apartamentului
             </h1>
-            <p className="text-muted text-lg">Cazare Vatra Dornei · Bucovina</p>
+            <p className="text-muted text-lg">Happy Place · Silver Mountain · Poiana Brașov</p>
             <div className="w-24 h-px gold-line mx-auto mt-6" />
           </div>
         </div>
@@ -37,28 +37,28 @@ export default function RoomsPage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {rooms.map((room, i) => (
-            <Reveal key={room.slug} delay={i * 80}>
-              <Link href={`/camere/${room.slug}`} className="group block no-underline">
+          {spaces.map((space, i) => (
+            <Reveal key={space.slug} delay={i * 80}>
+              <Link href={`/camere/${space.slug}`} className="group block no-underline">
                 <div className="relative overflow-hidden aspect-4/3 mb-5">
                   <Image
-                    src={room.image}
-                    alt={room.name}
+                    src={space.image}
+                    alt={space.name}
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-linear-to-t from-night/80 to-transparent" />
                   <div className="absolute bottom-4 left-4">
                     <p className="text-gold text-xs font-semibold uppercase tracking-wider">
-                      De la {room.price} lei/noapte
+                      De la {space.price} lei/noapte
                     </p>
                   </div>
                 </div>
                 <h3 className="font-display text-2xl font-bold text-cream mb-2 group-hover:text-gold transition-colors">
-                  {room.name}
+                  {space.name}
                 </h3>
                 <p className="text-muted text-sm mb-4">
-                  {room.size} mp² · {room.capacity} · {room.beds}
+                  {space.size} m² · {space.capacity} · {space.beds}
                 </p>
                 <span className="text-gold text-sm font-semibold uppercase tracking-wider">
                   Vezi detalii →

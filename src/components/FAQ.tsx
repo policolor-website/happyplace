@@ -6,32 +6,32 @@ const faqItems = [
   {
     question: "Ce ore sunt check-in-ul și check-out-ul?",
     answer:
-      "Check-in-ul se face începând cu ora 14:00, iar check-out-ul până la ora 11:00. Pentru arrivări târzii sau cerințe speciale, vă rugăm să ne contactați telefonic.",
+      "Check-in-ul se face începând cu ora 14:00, iar check-out-ul până la ora 11:00. Pentru arrivări târzii sau cerințe speciale, vă rugăm să ne contactați pe WhatsApp.",
   },
   {
-    question: "Se poate plăti cu cardul la pensiune?",
+    question: "Cum se face rezervarea?",
     answer:
-      "Da, acceptăm plăți cu cardul la fața locului, precum și numerar. De asemenea, puteți rezerva online prin telefon sau email.",
+      "Rezervarea se face prin WhatsApp la numărul 0722 335 357. Trimiteți-ne datele de check-in, check-out și numărul de oaspeți, iar noi vă confirmăm disponibilitatea.",
   },
   {
     question: "Aveți parcare gratuită?",
     answer:
-      "Da, dispunem de parcare privată gratuită pentru toți oaspeții noștri, direct la fața locului.",
+      "Da, toți oaspeții Happy Place beneficiază gratuit de un loc de parcare subterană pazită în complexul Silver Mountain.",
   },
   {
-    question: "Se acceptă animale de companie?",
+    question: "Accesul la SPA este inclus?",
     answer:
-      "Da, acceptăm animale de companie la cerere. Vă rugăm să ne anunțați în avans la rezervare.",
+      "Accesul la centrul SPA din complex (piscină interioară, piscină exterioară infinity încălzită, jacuzzi, saună) este cu cost suplimentar pentru oaspeții Happy Place. SPA se află într-o altă clădire, la 150 m de apartament.",
   },
   {
     question: "Ce atracții turistice sunt în apropiere?",
     answer:
-      "Vatra Dornei oferă numeroase atracții: Munții Călimani, Mănăstirile din Bucovina (Voroneț, Humor, Sucevița), izvoare termale, parcul dendrologic, pârtii de schi și trasee montane. Pensiunea este poziționată ideal pentru explorarea zonei.",
+      "Poiana Brașov oferă numeroase atracții: Partia Bradul (3.3 km), Masivul Postăvarul cu trasee montane, centrul istoric Brașov (12 km), Biserica Neagră, Tâmpa, Castelul Bran și Mănăstirile din zonă.",
   },
   {
-    question: "Oferiți mic dejun?",
+    question: "Apartamentul are bucătărie complet utilată?",
     answer:
-      "Da, putem oferi mic dejun la cerere. Vă rugăm să ne anunțați în avans pentru a pregăti totul.",
+      "Da, bucătăria este complet utilată cu plită electrică, cuptor cu microunde, frigider, fierbător și espressor Nespresso. Vase și ustensile complete. Din partea noastră aveți gratuit ceai, cafea și băuturi la sosire.",
   },
   {
     question: "Care este politica de anulare a rezervării?",
@@ -41,7 +41,7 @@ const faqItems = [
   {
     question: "Aveți WiFi gratuit?",
     answer:
-      "Da, toate camerele și spațiile comune dispun de WiFi gratuit cu acces internet.",
+      "Da, apartamentul dispune de WiFi gratuit de mare viteză în toate spațiile, ideal atât pentru relaxare cu Netflix, cât și pentru muncă remote.",
   },
 ];
 

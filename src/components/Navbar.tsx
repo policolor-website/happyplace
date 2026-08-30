@@ -2,15 +2,14 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const navLinks = [
   { href: "/", label: "Acasă" },
   { href: "/despre-noi", label: "Despre noi" },
-  { href: "/camere", label: "Camere" },
+  { href: "/camere", label: "Spații" },
   { href: "/galerie", label: "Galerie" },
-  { href: "/agrement", label: "Agrement" },
+  { href: "/agrement", label: "Facilități" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -42,14 +41,9 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <Link href="/" onClick={closeMobile} className="no-underline">
-          <Image
-            src="/images/logo-angela.png"
-            alt="Pensiunea Angela"
-            width={140}
-            height={56}
-            className="h-10 md:h-12 w-auto"
-            priority
-          />
+          <span className="font-display text-xl md:text-2xl font-bold text-cream tracking-tight">
+            Happy<span className="text-gold"> Place</span>
+          </span>
         </Link>
 
         <ul className="hidden md:flex gap-8 list-none items-center">
