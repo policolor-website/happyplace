@@ -31,14 +31,20 @@ export const spaces: Space[] = [
     capacity: "4 Persoane",
     beds: "Canapea extensibilă",
     baths: 2,
-    image: "/images/happy-place/Happy_Place_Brasov_1.jpeg",
+    image: "/images/happy-place/Happy_Living_1.jpeg",
     gallery: [
-      "/images/happy-place/Happy_Place_Brasov_1.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_2.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_3.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_4.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_5.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_6.jpeg",
+      "/images/happy-place/Happy_Living_1.jpeg",
+      "/images/happy-place/Happy_Living_2.jpeg",
+      "/images/happy-place/Happy_Living_3.jpeg",
+      "/images/happy-place/Happy_Living_4.jpeg",
+      "/images/happy-place/Happy_Living_5.jpeg",
+      "/images/happy-place/Happy_Living_6.jpeg",
+      "/images/happy-place/Happy_Living_7.jpeg",
+      "/images/happy-place/Happy_Living_8.jpeg",
+      "/images/happy-place/Happy_Living_9.jpeg",
+      "/images/happy-place/Happy_Living_10.jpeg",
+      "/images/happy-place/Happy_Living_11.jpeg",
+      "/images/happy-place/Happy_Living_12.jpeg",
     ],
     description:
       "Apartamentul Happy Place oferă un living spațios cu zonă de relaxare, canapea extensibilă și șemineu. Cu o suprafață totală de 64 m², apartamentul este amplasat la etajul 5 și oferă o terasă panoramică de 10 mp cu perspectivă asupra întregii văi.\n\nZona de living este locul ideal pentru momente de relaxare în familie. TV smart cu Netflix, internet WiFi de mare viteză și încălzire în toate spațiile. Din partea noastră aveți gratuit ceai, cafea, capsule pentru espressorul Nespresso, băuturi în frigider, papuci de casă, halate și cosmetice la băi.\n\nTerasa panoramică suspendată parcă deasupra pădurii este atracția principală a apartamentului. Ce poate fi mai plăcut decât să-ți savurezi cafeaua de dimineață privind valea, iar seara să ai cerul cu stele deasupra capului.\n\nSpatii cu acces gratuit în complex: loc de joacă exterior pentru copii, teren de mini fotbal, masă de ping-pong, teren de badminton și parcare în exterior cu stații de încărcare pentru mașini electrice.\n\nLoc de parcare subteran cu pază 24/7, inclus în prețul cazării — uiți iarna de grija deszăpezirii mașinii, iar vara, automobilul îți este protejat de căldura excesivă a soarelui.\n\nNotă: Apartamentul este locuință privată în complexul Silver Mountain. Accesul la facilitățile mari ale complexului (SPA, piscine, restaurant NOIR, sală de fitness) NU este inclus în prețul cazării și se achiziționează separat de la recepția complexului.",
@@ -60,14 +66,14 @@ export const spaces: Space[] = [
     capacity: "2 Persoane",
     beds: "Pat King Size",
     baths: 2,
-    image: "/images/happy-place/Happy_Place_Brasov_7.jpeg",
+    image: "/images/happy-place/Happy_Dormitor_1.jpeg",
     gallery: [
-      "/images/happy-place/Happy_Place_Brasov_7.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_8.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_9.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_10.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_11.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_12.jpeg",
+      "/images/happy-place/Happy_Dormitor_1.jpeg",
+      "/images/happy-place/Happy_Dormitor_2.jpeg",
+      "/images/happy-place/Happy_Dormitor_3.jpeg",
+      "/images/happy-place/Happy_Dormitor_4.jpeg",
+      "/images/happy-place/Happy_Dormitor_5.jpeg",
+      "/images/happy-place/Happy_Dormitor_6.jpeg",
     ],
     description:
       "Dormitorul principal dispune de pat King Size confortabil, lenjerie de pat de calitate, prosoape și papuci de casă. Camera are garderobă sau dulap, priză lângă pat și suport pentru haine.\n\nFerestrele oferă vedere la munte și la piscină, iar dimineața lumina naturală transformă camera într-un spațiu cald și primitor. Este locul perfect pentru odihnă după o zi petrecută pe pârtie sau în complexul SPA.\n\nToate detaliile sunt gândite pentru confortul tău: articole de toaletă gratuite, usucător de păr, produse pentru curățare și dezinfectant pentru mâini.",
@@ -89,12 +95,14 @@ export const spaces: Space[] = [
     capacity: "Self-catering",
     beds: "-",
     baths: 0,
-    image: "/images/happy-place/Happy_Place_Brasov_19.jpeg",
+    image: "/images/happy-place/Happy_Bucatarie_1.jpeg",
     gallery: [
-      "/images/happy-place/Happy_Place_Brasov_19.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_20.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_21.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_22.jpeg",
+      "/images/happy-place/Happy_Bucatarie_1.jpeg",
+      "/images/happy-place/Happy_Bucatarie_2.jpeg",
+      "/images/happy-place/Happy_Bucatarie_3.jpeg",
+      "/images/happy-place/Happy_Bucatarie_4.jpeg",
+      "/images/happy-place/Happy_Bucatarie_5.jpeg",
+      "/images/happy-place/Happy_Bucatarie_6.jpeg",
     ],
     description:
       "Bucătăria privată a apartamentului Happy Place este complet utilată pentru prepararea tuturor meselor. Dotată cu plită electrică, cuptor cu microunde, frigider, fierbător și espressor Nespresso.\n\nVase și ustensile de bucătărie complete, zonă de luat masa, aparat de ceai și cafea. Din partea noastră aveți gratuit ceai, cafea și băuturi în frigider la sosire.\n\nPentru mesele pe care nu doriți să le pregătiți, restaurantul NOIR din complex oferă preparate culinare de excepție, în clădirea multifuncțională la doar 50 m de apartament.",
@@ -116,12 +124,15 @@ export const spaces: Space[] = [
     capacity: "2 băi",
     beds: "-",
     baths: 2,
-    image: "/images/happy-place/Happy_Place_Brasov_23.jpeg",
+    image: "/images/happy-place/Happy_Baie1_1.jpeg",
     gallery: [
-      "/images/happy-place/Happy_Place_Brasov_23.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_24.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_25.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_26.jpeg",
+      "/images/happy-place/Happy_Baie1_1.jpeg",
+      "/images/happy-place/Happy_Baie1_2.jpeg",
+      "/images/happy-place/Happy_Baie1_3.jpeg",
+      "/images/happy-place/Happy_Baie1_4.jpeg",
+      "/images/happy-place/Happy_Baie1_5.jpeg",
+      "/images/happy-place/Happy_Baie2_1.jpeg",
+      "/images/happy-place/Happy_Baie2_2.jpeg",
     ],
     description:
       "Apartamentul dispune de două băi private complete: baia principală are cada mare pentru relaxare, 2 lavoare, toaletă și bideu. Cea de-a doua baie are dus. Ambele băi sunt dotate cu articole de toaletă gratuite, prosoape, papuci de casă și usucător de păr.\n\nCurățenia este o prioritate: produse pentru curățare, dezinfectant pentru mâini și hârtie igienică disponibile în ambele băi.",
@@ -144,15 +155,13 @@ export const spaces: Space[] = [
     capacity: "Perspectivă asupra văii",
     beds: "-",
     baths: 0,
-    image: "/images/happy-place/Happy_Place_Brasov_27.jpeg",
+    image: "/images/happy-place/Happy_Terasa_1.jpeg",
     gallery: [
-      "/images/happy-place/Happy_Place_Brasov_27.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_28.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_29.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_30.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_31.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_32.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_33.jpeg",
+      "/images/happy-place/Happy_Terasa_1.jpeg",
+      "/images/happy-place/Happy_Terasa_2.jpeg",
+      "/images/happy-place/Happy_Terasa_3.jpeg",
+      "/images/happy-place/Happy_Terasa_4.jpeg",
+      "/images/happy-place/Happy_Terasa_5.jpeg",
     ],
     description:
       "Terasa panoramică a apartamentului, situat la etajul 5, oferă o perspectivă superbă asupra întregii văi. Este atracția principală și zona preferată de toți turiștii noștri.\n\nCe poate fi mai plăcut decât să-ți savurezi cafeaua de dimineată de pe un balcon suspendat parcă deasupra pădurii, să ai seara cerul cu stele deasupra capului și să respiri adânc în fiecare zi aerul curat de munte. Relaxare, liniște și un peisaj care îți taie respirația.\n\nTerasa este spațioasă, mobilată și orientată pentru a capta cea mai bună lumină atât la răsărit, cât și la apus.",
@@ -226,60 +235,121 @@ export const blogPosts = [
     slug: "poiana-brasov-destinatia-de-iarna-din-inima-muntilor",
     title: "Poiana Brașov, destinația de iarnă din inima munților",
     excerpt: "Poiana Brașov oferă condiții excelente pentru schi, snowboard și drumeții, cu acces la pârtii prin ski-bus din fața complexului...",
-    image: "/images/happy-place/Happy_Place_Brasov_1.jpeg",
+    image: "/images/happy-place/Happy_Living_1.jpeg",
   },
   {
     slug: "masivul-postavaru-trasee-si-panorame",
     title: "Masivul Postăvaru, trasee și panorame",
     excerpt: "Masivul Postăvarul domină peisajul Poianei Brașov și oferă trasee montane spectaculoase cu vedere panoramică asupra întregii văi...",
-    image: "/images/happy-place/Happy_Place_Brasov_7.jpeg",
+    image: "/images/happy-place/Happy_Dormitor_1.jpeg",
   },
   {
     slug: "restaurantul-noir-experienta-culinara-in-poiana-brasov",
     title: "Restaurantul NOIR, experiență culinară în Poiana Brașov",
     excerpt: "Restaurantul NOIR din complexul Silver Mountain oferă preparate culinare de excepție, cu evenimente ocazionale de muzică live în serile de sâmbătă...",
-    image: "/images/happy-place/Happy_Place_Brasov_19.jpeg",
+    image: "/images/happy-place/Happy_Bucatarie_1.jpeg",
   },
 ];
 
-export type GalleryCategory = "toate" | "interior" | "terasa" | "complex";
+export type GalleryCategory =
+  | "toate"
+  | "living"
+  | "dormitor"
+  | "bucatarie"
+  | "bai"
+  | "terasa"
+  | "spa"
+  | "restaurant"
+  | "parcare"
+  | "exterior";
 
 export interface GalleryImage {
   src: string;
-  category: "interior" | "terasa" | "complex";
+  category: Exclude<GalleryCategory, "toate">;
   title: string;
 }
 
 export const galleryImages: GalleryImage[] = [
-  // Interior - living, dormitoare, bucătărie, băi
-  { src: "/images/happy-place/Happy_Place_Brasov_1.jpeg", category: "interior", title: "Living" },
-  { src: "/images/happy-place/Happy_Place_Brasov_2.jpeg", category: "interior", title: "Living" },
-  { src: "/images/happy-place/Happy_Place_Brasov_3.jpeg", category: "interior", title: "Living" },
-  { src: "/images/happy-place/Happy_Place_Brasov_4.jpeg", category: "interior", title: "Living" },
-  { src: "/images/happy-place/Happy_Place_Brasov_5.jpeg", category: "interior", title: "Living" },
-  { src: "/images/happy-place/Happy_Place_Brasov_6.jpeg", category: "interior", title: "Living" },
-  { src: "/images/happy-place/Happy_Place_Brasov_7.jpeg", category: "interior", title: "Dormitor principal" },
-  { src: "/images/happy-place/Happy_Place_Brasov_8.jpeg", category: "interior", title: "Dormitor principal" },
-  { src: "/images/happy-place/Happy_Place_Brasov_9.jpeg", category: "interior", title: "Dormitor principal" },
-  { src: "/images/happy-place/Happy_Place_Brasov_10.jpeg", category: "interior", title: "Dormitor principal" },
-  { src: "/images/happy-place/Happy_Place_Brasov_11.jpeg", category: "interior", title: "Dormitor principal" },
-  { src: "/images/happy-place/Happy_Place_Brasov_12.jpeg", category: "interior", title: "Dormitor principal" },
-  { src: "/images/happy-place/Happy_Place_Brasov_19.jpeg", category: "interior", title: "Bucătărie" },
-  { src: "/images/happy-place/Happy_Place_Brasov_20.jpeg", category: "interior", title: "Bucătărie" },
-  { src: "/images/happy-place/Happy_Place_Brasov_21.jpeg", category: "interior", title: "Bucătărie" },
-  { src: "/images/happy-place/Happy_Place_Brasov_22.jpeg", category: "interior", title: "Bucătărie" },
-  { src: "/images/happy-place/Happy_Place_Brasov_23.jpeg", category: "interior", title: "Baie" },
-  { src: "/images/happy-place/Happy_Place_Brasov_24.jpeg", category: "interior", title: "Baie" },
-  { src: "/images/happy-place/Happy_Place_Brasov_25.jpeg", category: "interior", title: "Baie" },
-  { src: "/images/happy-place/Happy_Place_Brasov_26.jpeg", category: "interior", title: "Baie" },
-  // Terasă panoramică
-  { src: "/images/happy-place/Happy_Place_Brasov_27.jpeg", category: "terasa", title: "Terasă panoramică" },
-  { src: "/images/happy-place/Happy_Place_Brasov_28.jpeg", category: "terasa", title: "Terasă panoramică" },
-  { src: "/images/happy-place/Happy_Place_Brasov_29.jpeg", category: "terasa", title: "Terasă panoramică" },
-  { src: "/images/happy-place/Happy_Place_Brasov_30.jpeg", category: "terasa", title: "Terasă panoramică" },
-  { src: "/images/happy-place/Happy_Place_Brasov_31.jpeg", category: "terasa", title: "Terasă panoramică" },
-  { src: "/images/happy-place/Happy_Place_Brasov_32.jpeg", category: "terasa", title: "Terasă panoramică" },
-  { src: "/images/happy-place/Happy_Place_Brasov_33.jpeg", category: "terasa", title: "Terasă panoramică" },
+  // Living (12)
+  { src: "/images/happy-place/Happy_Living_1.jpeg", category: "living", title: "Living" },
+  { src: "/images/happy-place/Happy_Living_2.jpeg", category: "living", title: "Living" },
+  { src: "/images/happy-place/Happy_Living_3.jpeg", category: "living", title: "Living" },
+  { src: "/images/happy-place/Happy_Living_4.jpeg", category: "living", title: "Living" },
+  { src: "/images/happy-place/Happy_Living_5.jpeg", category: "living", title: "Living" },
+  { src: "/images/happy-place/Happy_Living_6.jpeg", category: "living", title: "Living" },
+  { src: "/images/happy-place/Happy_Living_7.jpeg", category: "living", title: "Living" },
+  { src: "/images/happy-place/Happy_Living_8.jpeg", category: "living", title: "Living" },
+  { src: "/images/happy-place/Happy_Living_9.jpeg", category: "living", title: "Living" },
+  { src: "/images/happy-place/Happy_Living_10.jpeg", category: "living", title: "Living" },
+  { src: "/images/happy-place/Happy_Living_11.jpeg", category: "living", title: "Living" },
+  { src: "/images/happy-place/Happy_Living_12.jpeg", category: "living", title: "Living" },
+  // Dormitor (6)
+  { src: "/images/happy-place/Happy_Dormitor_1.jpeg", category: "dormitor", title: "Dormitor principal" },
+  { src: "/images/happy-place/Happy_Dormitor_2.jpeg", category: "dormitor", title: "Dormitor principal" },
+  { src: "/images/happy-place/Happy_Dormitor_3.jpeg", category: "dormitor", title: "Dormitor principal" },
+  { src: "/images/happy-place/Happy_Dormitor_4.jpeg", category: "dormitor", title: "Dormitor principal" },
+  { src: "/images/happy-place/Happy_Dormitor_5.jpeg", category: "dormitor", title: "Dormitor principal" },
+  { src: "/images/happy-place/Happy_Dormitor_6.jpeg", category: "dormitor", title: "Dormitor principal" },
+  // Bucătărie (6)
+  { src: "/images/happy-place/Happy_Bucatarie_1.jpeg", category: "bucatarie", title: "Bucătărie" },
+  { src: "/images/happy-place/Happy_Bucatarie_2.jpeg", category: "bucatarie", title: "Bucătărie" },
+  { src: "/images/happy-place/Happy_Bucatarie_3.jpeg", category: "bucatarie", title: "Bucătărie" },
+  { src: "/images/happy-place/Happy_Bucatarie_4.jpeg", category: "bucatarie", title: "Bucătărie" },
+  { src: "/images/happy-place/Happy_Bucatarie_5.jpeg", category: "bucatarie", title: "Bucătărie" },
+  { src: "/images/happy-place/Happy_Bucatarie_6.jpeg", category: "bucatarie", title: "Bucătărie" },
+  // Băi (7)
+  { src: "/images/happy-place/Happy_Baie1_1.jpeg", category: "bai", title: "Baie cu cada" },
+  { src: "/images/happy-place/Happy_Baie1_2.jpeg", category: "bai", title: "Baie cu cada" },
+  { src: "/images/happy-place/Happy_Baie1_3.jpeg", category: "bai", title: "Baie cu cada" },
+  { src: "/images/happy-place/Happy_Baie1_4.jpeg", category: "bai", title: "Baie cu cada" },
+  { src: "/images/happy-place/Happy_Baie1_5.jpeg", category: "bai", title: "Baie cu cada" },
+  { src: "/images/happy-place/Happy_Baie2_1.jpeg", category: "bai", title: "Baie cu dus" },
+  { src: "/images/happy-place/Happy_Baie2_2.jpeg", category: "bai", title: "Baie cu dus" },
+  // Terasă (5)
+  { src: "/images/happy-place/Happy_Terasa_1.jpeg", category: "terasa", title: "Terasă panoramică" },
+  { src: "/images/happy-place/Happy_Terasa_2.jpeg", category: "terasa", title: "Terasă panoramică" },
+  { src: "/images/happy-place/Happy_Terasa_3.jpeg", category: "terasa", title: "Terasă panoramică" },
+  { src: "/images/happy-place/Happy_Terasa_4.jpeg", category: "terasa", title: "Terasă panoramică" },
+  { src: "/images/happy-place/Happy_Terasa_5.jpeg", category: "terasa", title: "Terasă panoramică" },
+  // Centrul SPA (10)
+  { src: "/images/happy-place/Happy_SPA_1.jpeg", category: "spa", title: "Centru SPA" },
+  { src: "/images/happy-place/Happy_SPA_2.jpeg", category: "spa", title: "Centru SPA" },
+  { src: "/images/happy-place/Happy_SPA_3.jpeg", category: "spa", title: "Centru SPA" },
+  { src: "/images/happy-place/Happy_SPA_4.jpeg", category: "spa", title: "Centru SPA" },
+  { src: "/images/happy-place/Happy_SPA_5.jpeg", category: "spa", title: "Centru SPA" },
+  { src: "/images/happy-place/Happy_SPA_6.jpeg", category: "spa", title: "Centru SPA" },
+  { src: "/images/happy-place/Happy_SPA_7.jpeg", category: "spa", title: "Centru SPA" },
+  { src: "/images/happy-place/Happy_SPA_8.jpeg", category: "spa", title: "Centru SPA" },
+  { src: "/images/happy-place/Happy_SPA_9.jpeg", category: "spa", title: "Centru SPA" },
+  { src: "/images/happy-place/Happy_SPA_10.jpeg", category: "spa", title: "Centru SPA" },
+  // Restaurant NOIR (7)
+  { src: "/images/happy-place/Happy_Restaurant_1.jpeg", category: "restaurant", title: "Restaurant NOIR" },
+  { src: "/images/happy-place/Happy_Restaurant_2.jpeg", category: "restaurant", title: "Restaurant NOIR" },
+  { src: "/images/happy-place/Happy_Restaurant_3.jpeg", category: "restaurant", title: "Restaurant NOIR" },
+  { src: "/images/happy-place/Happy_Restaurant_4.jpeg", category: "restaurant", title: "Restaurant NOIR" },
+  { src: "/images/happy-place/Happy_Restaurant_5.jpeg", category: "restaurant", title: "Restaurant NOIR" },
+  { src: "/images/happy-place/Happy_Restaurant_6.jpeg", category: "restaurant", title: "Restaurant NOIR" },
+  { src: "/images/happy-place/Happy_Restaurant_7.jpeg", category: "restaurant", title: "Restaurant NOIR" },
+  // Parcare (6)
+  { src: "/images/happy-place/Happy_Parcare_1.jpeg", category: "parcare", title: "Parcare subterană" },
+  { src: "/images/happy-place/Happy_Parcare_2.jpeg", category: "parcare", title: "Parcare subterană" },
+  { src: "/images/happy-place/Happy_Parcare_3.jpeg", category: "parcare", title: "Parcare subterană" },
+  { src: "/images/happy-place/Happy_Parcare_4.jpeg", category: "parcare", title: "Parcare subterană" },
+  { src: "/images/happy-place/Happy_Parcare_5.jpeg", category: "parcare", title: "Parcare subterană" },
+  { src: "/images/happy-place/Happy_Parcare_6.jpeg", category: "parcare", title: "Parcare subterană" },
+  // Zone exterior (12)
+  { src: "/images/happy-place/Happy_Exterior_1.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_2.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_3.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_4.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_5.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_6.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_7.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_8.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_9.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_10.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_11.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_12.jpeg", category: "exterior", title: "Complex Silver Mountain" },
 ];
 
 export function getSpaceBySlug(slug: string): Space | undefined {
@@ -304,12 +374,19 @@ export const amenities: Amenity[] = [
       "Piscină interioară, piscină exterioară infinity încălzită, jacuzzi, saună umedă și uscată.",
     description:
       "Centrul SPA din complexul Silver Mountain vă pune la dispoziție o experiență completă de relaxare. Piscina interioară încălzită este perfectă pentru orice sezon, iar piscina exterioară infinity, amplasată la ultimul etaj al clădirii multifuncționale, oferă o panoramă superbă asupra pădurilor și munților.\n\nJacuzzi-ul cu hidroterapie, sauna umedă și sauna uscată completează experiența SPA. La recepția SPA se oferă prosoape pentru piscină.\n\nSPA și restaurantul NOIR se află în aceeași clădire multifuncțională, la doar 50 m de apartament. Minorii au acces la Centrul SPA doar însoțiți de adulți.\n\nTarife SPA (3 ore):\n• Adulți: 145 lei/persoană\n• Copii 3-9 ani: 75 lei/persoană\n• Copii sub 3 ani: acces gratuit\n\nTariful include acces integral la: piscina interioară, piscina exterioară infinity încălzită, jacuzzi, saună umedă și uscată. Centrul SPA este gestionat de o firmă specializată și au acces exclusiv doar turiștii cazați în complexul Silver Mountain. Plata se face separat la recepția SPA.",
-    image: "/images/happy-place/Happy_Place_Brasov_27.jpeg",
+    image: "/images/happy-place/Happy_SPA_1.jpeg",
     icon: "💆",
     gallery: [
-      "/images/happy-place/Happy_Place_Brasov_27.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_28.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_29.jpeg",
+      "/images/happy-place/Happy_SPA_1.jpeg",
+      "/images/happy-place/Happy_SPA_2.jpeg",
+      "/images/happy-place/Happy_SPA_3.jpeg",
+      "/images/happy-place/Happy_SPA_4.jpeg",
+      "/images/happy-place/Happy_SPA_5.jpeg",
+      "/images/happy-place/Happy_SPA_6.jpeg",
+      "/images/happy-place/Happy_SPA_7.jpeg",
+      "/images/happy-place/Happy_SPA_8.jpeg",
+      "/images/happy-place/Happy_SPA_9.jpeg",
+      "/images/happy-place/Happy_SPA_10.jpeg",
     ],
   },
   {
@@ -319,11 +396,16 @@ export const amenities: Amenity[] = [
       "Preparate culinare de excepție în restaurantul complexului, cu evenimente ocazionale de muzică live în serile de sâmbătă.",
     description:
       "Restaurantul NOIR din complexul Silver Mountain este locul perfect pentru clipe memorabile petrecute într-un ambient select. Staff-ul profesionist vă asigură buna-dispoziție, iar meniul oferă preparate culinare de excepție, pizza și o selecție de vinuri.\n\nÎn serile de sâmbătă se organizează ocazional evenimente cu muzică live și atmosferă relaxată. La Restaurantul NOIR se organizează în fiecare an seri speciale cu meniu și program artistic de Crăciun și de Revelion. Restaurantul este deschis pentru toate mesele zilei, fiind ideal atât pentru mic dejun, cât și pentru cină în familie sau în cuplu.\n\nSituat în clădirea multifuncțională, la doar 50 m de apartamentul Happy Place, restaurantul este accesibil ușor fără mașină.\n\nMic dejun bufet suedez:\n• Program: 08:30 - 10:30\n• Preț: 99 lei/persoană\n• Bufet foarte bogat: omletă, iaurt, brânzeturi, mezeluri, prăjituri, fructe, cafea, sucuri și chiar șampanie\n\nMicul dejun se servește la restaurantul NOIR, în aceeași clădire cu SPA-ul. Plata se face separat la restaurant.",
-    image: "/images/happy-place/Happy_Place_Brasov_19.jpeg",
+    image: "/images/happy-place/Happy_Restaurant_1.jpeg",
     icon: "🍽️",
     gallery: [
-      "/images/happy-place/Happy_Place_Brasov_19.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_20.jpeg",
+      "/images/happy-place/Happy_Restaurant_1.jpeg",
+      "/images/happy-place/Happy_Restaurant_2.jpeg",
+      "/images/happy-place/Happy_Restaurant_3.jpeg",
+      "/images/happy-place/Happy_Restaurant_4.jpeg",
+      "/images/happy-place/Happy_Restaurant_5.jpeg",
+      "/images/happy-place/Happy_Restaurant_6.jpeg",
+      "/images/happy-place/Happy_Restaurant_7.jpeg",
     ],
   },
   {
@@ -333,10 +415,15 @@ export const amenities: Amenity[] = [
       "Loc de parcare subteran cu pază non-stop, inclus în prețul cazării.",
     description:
       "Oaspeții apartamentului Happy Place beneficiază de un loc de parcare subteran cu pază 24/7, inclus în prețul cazării. Uiți iarna de grija deszăpezirii mașinii, iar vara, automobilul îți este protejat de căldura excesivă a soarelui.\n\nAccesul se face direct din complex, fără a fi nevoie să parcați pe stradă. Parcarea asigură securitatea vehiculului pe tot parcursul sejurului.",
-    image: "/images/happy-place/Happy_Place_Brasov_1.jpeg",
+    image: "/images/happy-place/Happy_Parcare_1.jpeg",
     icon: "🚗",
     gallery: [
-      "/images/happy-place/Happy_Place_Brasov_1.jpeg",
+      "/images/happy-place/Happy_Parcare_1.jpeg",
+      "/images/happy-place/Happy_Parcare_2.jpeg",
+      "/images/happy-place/Happy_Parcare_3.jpeg",
+      "/images/happy-place/Happy_Parcare_4.jpeg",
+      "/images/happy-place/Happy_Parcare_5.jpeg",
+      "/images/happy-place/Happy_Parcare_6.jpeg",
     ],
   },
   {
@@ -346,10 +433,10 @@ export const amenities: Amenity[] = [
       "Loc de joacă exterior în complex, ideal pentru familii cu copii mici.",
     description:
       "Complexul Silver Mountain dispune de un loc de joacă exterior pentru copii, perfect pentru oaspeții care călătoresc în familie. Copiii se pot bucura de spațiu de joacă în siguranță, în timp ce părinții se relaxează în SPA sau la restaurant.\n\nExistă și teren de fotbal și grădină amenajată în complex, pentru activități în aer liber.",
-    image: "/images/happy-place/Happy_Place_Brasov_13.jpeg",
+    image: "/images/happy-place/Happy_Exterior_1.jpeg",
     icon: "🧸",
     gallery: [
-      "/images/happy-place/Happy_Place_Brasov_13.jpeg",
+      "/images/happy-place/Happy_Exterior_1.jpeg",
     ],
   },
   {
@@ -359,10 +446,11 @@ export const amenities: Amenity[] = [
       "Sală de fitness complet echipată în clădirea multifuncțională a complexului.",
     description:
       "Sală de fitness complet echipată, situată în clădirea multifuncțională a complexului Silver Mountain, lângă piscină. Accesibilă oaspeților pentru menținerea formei fizice pe parcursul sejurului.\n\nIdeală pentru o sesiune de exerciții dimineața, înainte de a ieși pe pârtie sau de a explora zona Poiana Brașov.",
-    image: "/images/happy-place/Happy_Place_Brasov_22.jpeg",
+    image: "/images/happy-place/Happy_SPA_5.jpeg",
     icon: "🏋️",
     gallery: [
-      "/images/happy-place/Happy_Place_Brasov_22.jpeg",
+      "/images/happy-place/Happy_SPA_5.jpeg",
+      "/images/happy-place/Happy_SPA_6.jpeg",
     ],
   },
   {
@@ -372,11 +460,11 @@ export const amenities: Amenity[] = [
       "Pârtii de schi accesibile iarna cu ski-bus din fața complexului.",
     description:
       "Poiana Brașov oferă condiții excelente pentru schi și snowboard, cu pârtii de dificultate variată. Pârtiile de schi sunt accesibile iarna cu ski-bus care pleacă direct din fața complexului Silver Mountain.\n\nEchipament de schi poate fi închiriat la fața locului, iar școli de schi cu instructori calificați sunt disponibile pentru începători. Sezonul de schi se întinde de obicei din decembrie până în martie.\n\nDupă o zi pe pârtie, centrul SPA din complex este locul ideal pentru relaxare musculară în jacuzzi sau saună.",
-    image: "/images/happy-place/Happy_Place_Brasov_27.jpeg",
+    image: "/images/happy-place/Happy_Exterior_3.jpeg",
     icon: "⛷️",
     gallery: [
-      "/images/happy-place/Happy_Place_Brasov_27.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_28.jpeg",
+      "/images/happy-place/Happy_Exterior_3.jpeg",
+      "/images/happy-place/Happy_Exterior_4.jpeg",
     ],
   },
   {
@@ -386,11 +474,11 @@ export const amenities: Amenity[] = [
       "Loc de joacă exterior pentru copii, teren de mini fotbal, ping-pong, badminton și parcare cu stații de încărcare auto electrice.",
     description:
       "Complexul Silver Mountain oferă oaspeților Happy Place acces gratuit la mai multe spații de recreere în aer liber.\n\nCopiii se pot bucura de locul de joacă exterior amenajat în siguranță, iar pentru activitățile sportive aveți la dispoziție teren de mini fotbal, masă de ping-pong și teren de badminton.\n\nParcarea exterioară este gratuită pentru vizitatori și dispune de stații de încărcare pentru mașini electrice.\n\nToate aceste facilități sunt incluse gratuit în sejurul dumneavoastră, fără costuri suplimentare.",
-    image: "/images/happy-place/Happy_Place_Brasov_13.jpeg",
+    image: "/images/happy-place/Happy_Exterior_1.jpeg",
     icon: "🧸",
     gallery: [
-      "/images/happy-place/Happy_Place_Brasov_13.jpeg",
-      "/images/happy-place/Happy_Place_Brasov_14.jpeg",
+      "/images/happy-place/Happy_Exterior_1.jpeg",
+      "/images/happy-place/Happy_Exterior_2.jpeg",
     ],
   },
 ];

@@ -4,15 +4,18 @@ import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
 
 const sliderImages = [
-  { src: "/images/happy-place/Happy_Place_Brasov_27.jpeg", alt: "Terasă panoramică" },
-  { src: "/images/happy-place/Happy_Place_Brasov_1.jpeg", alt: "Living" },
-  { src: "/images/happy-place/Happy_Place_Brasov_7.jpeg", alt: "Dormitor principal" },
-  { src: "/images/happy-place/Happy_Place_Brasov_19.jpeg", alt: "Bucătărie" },
-  { src: "/images/happy-place/Happy_Place_Brasov_23.jpeg", alt: "Baie" },
-  { src: "/images/happy-place/Happy_Place_Brasov_28.jpeg", alt: "Terasă panoramică" },
-  { src: "/images/happy-place/Happy_Place_Brasov_3.jpeg", alt: "Living" },
-  { src: "/images/happy-place/Happy_Place_Brasov_30.jpeg", alt: "Terasă panoramică" },
-  { src: "/images/happy-place/Happy_Place_Brasov_9.jpeg", alt: "Dormitor principal" },
+  { src: "/images/happy-place/Happy_Terasa_1.jpeg", alt: "Terasă panoramică" },
+  { src: "/images/happy-place/Happy_Living_1.jpeg", alt: "Living" },
+  { src: "/images/happy-place/Happy_Dormitor_1.jpeg", alt: "Dormitor principal" },
+  { src: "/images/happy-place/Happy_SPA_1.jpeg", alt: "Centru SPA" },
+  { src: "/images/happy-place/Happy_Bucatarie_1.jpeg", alt: "Bucătărie" },
+  { src: "/images/happy-place/Happy_Baie1_1.jpeg", alt: "Baie cu cada" },
+  { src: "/images/happy-place/Happy_Terasa_2.jpeg", alt: "Terasă panoramică" },
+  { src: "/images/happy-place/Happy_Restaurant_1.jpeg", alt: "Restaurant NOIR" },
+  { src: "/images/happy-place/Happy_Living_3.jpeg", alt: "Living" },
+  { src: "/images/happy-place/Happy_Exterior_1.jpeg", alt: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Terasa_4.jpeg", alt: "Terasă panoramică" },
+  { src: "/images/happy-place/Happy_SPA_3.jpeg", alt: "Piscină SPA" },
 ];
 
 export default function ImageSlider() {

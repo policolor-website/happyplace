@@ -7,9 +7,15 @@ import Reveal from "@/components/Reveal";
 
 const tabs: { key: GalleryCategory; label: string }[] = [
   { key: "toate", label: "Toate" },
-  { key: "interior", label: "Interior" },
+  { key: "living", label: "Living" },
+  { key: "dormitor", label: "Dormitor" },
+  { key: "bucatarie", label: "Bucătărie" },
+  { key: "bai", label: "Băi" },
   { key: "terasa", label: "Terasă" },
-  { key: "complex", label: "Complex" },
+  { key: "spa", label: "SPA" },
+  { key: "restaurant", label: "Restaurant" },
+  { key: "parcare", label: "Parcare" },
+  { key: "exterior", label: "Exterior" },
 ];
 
 export default function GalleryPage() {
@@ -26,7 +32,7 @@ export default function GalleryPage() {
         <div className="relative text-center mb-12 py-16">
           <div className="absolute inset-0 overflow-hidden">
             <Image
-              src="/images/happy-place/Happy_Place_Brasov_27.jpeg"
+              src="/images/happy-place/Happy_Terasa_1.jpeg"
               alt=""
               fill
               className="object-cover opacity-10"

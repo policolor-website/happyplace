@@ -14,7 +14,7 @@ export default function BlogPage() {
         <div className="relative text-center mb-12 py-16">
           <div className="absolute inset-0 overflow-hidden">
             <Image
-              src="/images/happy-place/Happy_Place_Brasov_28.jpeg"
+              src="/images/happy-place/Happy_Terasa_2.jpeg"
               alt=""
               fill
               className="object-cover opacity-10"

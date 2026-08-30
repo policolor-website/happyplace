@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Reveal from "@/components/Reveal";
 import FAQ from "@/components/FAQ";
+import ImageSlider from "@/components/ImageSlider";
 
 export const metadata = {
   title: "Despre Noi — Happy Place Brașov",
@@ -14,7 +15,7 @@ export default function DespreNoiPage() {
         <div className="relative text-center mb-12 py-16">
           <div className="absolute inset-0 overflow-hidden">
             <Image
-              src="/images/happy-place/Happy_Place_Brasov_1.jpeg"
+              src="/images/happy-place/Happy_Living_1.jpeg"
               alt=""
               fill
               className="object-cover opacity-10"
@@ -35,8 +36,8 @@ export default function DespreNoiPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center mb-12">
             <div className="relative aspect-4/3 overflow-hidden">
               <Image
-                src="/images/happy-place/Happy_Place_Brasov_27.jpeg"
-                alt="Happy Place Poiana Brașov — terasă panoramică"
+                src="/images/happy-place/Happy_Dormitor_1.jpeg"
+                alt="Happy Place Poiana Brașov — dormitor principal"
                 fill
                 priority
                 className="object-cover"
@@ -78,6 +79,16 @@ export default function DespreNoiPage() {
               modern, cald și aerisit, gândit special pentru a te face să te
               simți instantaneu <span className="text-gradient-gold">acasă</span>.
             </p>
+          </div>
+        </Reveal>
+
+        <Reveal delay={200}>
+          <div className="my-12">
+            <h2 className="font-display text-3xl font-bold text-cream text-center mb-2">
+              Descoperă Happy Place
+            </h2>
+            <div className="w-24 h-px gold-line mx-auto mb-8" />
+            <ImageSlider />
           </div>
         </Reveal>
 
