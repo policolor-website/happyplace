@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { dreamSpaces, facilities, dreamGalleryImages, type GalleryCategory } from "@/lib/data";
+import { dreamSpaces, facilities, dreamGalleryImages, dreamReviews, type GalleryCategory } from "@/lib/data";
 import BookingEngine from "@/components/BookingEngine";
 import GalleryWithTabs from "@/components/GalleryWithTabs";
+import Reviews from "@/components/Reviews";
 import Reveal from "@/components/Reveal";
 
 export const metadata = {
@@ -244,6 +245,9 @@ export default function DreamStudioPage() {
             </div>
           </div>
         </Reveal>
+
+        {/* Testimoniale */}
+        <Reviews reviews={dreamReviews} />
 
         {/* Link către Happy Place */}
         <Reveal>

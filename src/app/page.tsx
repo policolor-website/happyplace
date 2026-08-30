@@ -6,6 +6,8 @@ import CTA from "@/components/CTA";
 import Facilities from "@/components/Facilities";
 import RoomsPreview from "@/components/RoomsPreview";
 import Reviews from "@/components/Reviews";
+import ReviewsSlider from "@/components/ReviewsSlider";
+import { reviews, dreamReviews } from "@/lib/data";
 import DespreDreamStudio from "@/components/DespreDreamStudio";
 import DreamStudioSlider from "@/components/DreamStudioSlider";
 import DreamRoomsPreview from "@/components/DreamRoomsPreview";
@@ -24,16 +26,17 @@ export default function Home() {
       <DespreNoi />
       <ImageSlider />
       <RoomsPreview />
+      <ReviewsSlider title="Happy Place" reviews={reviews} />
 
       {/* ============ DREAM STUDIO ============ */}
       <DespreDreamStudio />
       <DreamStudioSlider />
       <DreamRoomsPreview />
+      <ReviewsSlider title="Dream Studio" reviews={dreamReviews} />
 
       {/* ============ COMUN ============ */}
       <Facilities />
       <CTA />
-      <Reviews />
     </>
   );
 }

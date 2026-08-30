@@ -248,7 +248,30 @@ export const reviews = [
   {
     name: "Ciprian — România",
     rating: 5,
-    text: "Sejur superb. A fost o vacanță foarte frumoasă, cu multă liniște, apartamentul este dotat cu toate cele necesare unei șederi minunate. Priveliștea este printre cele mai bune văzute de noi până acum. Cazare foarte bună, căldură este din belșug (am fost cazați în noiembrie, 2-3 grade afară noaptea), canapeaua și patul foarte comode. De asemenea sunt 2 băi, una cu dus iar cealaltă cu o cadă imensă și 2 chiuvete. Restul se regăsește în descriere dar este absolut superb. Pozele nu fac cinste peisajului și confortului. Centrul SPA este vis-a-vis, cum s-a mai răspuns, este contra cost și este super, merită cel puțin o vizită în sejur. Vom reveni cu drag. Nota 10 gazdei.",
+    text: "Sejur superb. A fost o vacanță foarte frumoasă, cu multă liniște, apartamentul este dotat cu toate cele necesare unei șederi minunte. Priveliștea este printre cele mai bune văzute de noi până acum. Cazare foarte bună, căldură este din belșug (am fost cazați în noiembrie, 2-3 grade afară noaptea), canapeaua și patul foarte comode. De asemenea sunt 2 băi, una cu dus iar cealaltă cu o cadă imensă și 2 chiuvete. Restul se regăsește în descriere dar este absolut superb. Pozele nu fac cinste peisajului și confortului. Centrul SPA este vis-a-vis, cum s-a mai răspuns, este contra cost și este super, merită cel puțin o vizită în sejur. Vom reveni cu drag. Nota 10 gazdei.",
+  },
+];
+
+export const dreamReviews = [
+  {
+    name: "Alexandra — România",
+    rating: 5,
+    text: "Minunată vacanță la Dream Studio! Vom reveni cu drag cât de curând! Totul a fost foarte plăcut, gazdă excelentă și foarte comunicativă. Locuința a fost pe placul nostru, ne-am simțit ca acasă.",
+  },
+  {
+    name: "Yafo — Israel",
+    rating: 5,
+    text: "Everything was really great! The apartment is very good! Private parking. There is a keypad on the door; no keys are needed. Hot water in the shower. Maximum bed comfort. Absolutely everything is great.",
+  },
+  {
+    name: "Andreia — UK",
+    rating: 5,
+    text: "We had a wonderful stay at Dream Studio Silver Mountain and can't recommend it enough. From the very beginning, Andreea was incredibly helpful, friendly, and kind, always ready to offer tips and advice that made our stay even better. The apartment itself is beautiful, cozy, and thoughtfully designed. It had absolutely everything we needed and even more. What truly touched us was the Christmas tree and the lovely Christmas decorations, which made us feel right at home. We travel a lot, and we were genuinely impressed by the quality and attention to detail. The apartment was fully stocked with coffee pods for the machine, sugar, hot chocolate, and even soft drinks in the fridge, something we have never experienced before in any apartment we've stayed in. We will definitely come back again next summer and highly recommend Dream Studio Silver Mountain to anyone looking for a special, comfortable, and welcoming stay. Thank you so much for making our stay in Poiana Brașov so special!",
+  },
+  {
+    name: "Cristi — România",
+    rating: 5,
+    text: "Am avut o experiență minunată în apartamentul închiriat în Poiana Brașov. Apartamentul a fost extrem de curat și frumos organizat, exact cum ne-am dorit. Am primit instrucțiuni clare și detaliate pentru a găsi parcarea și apartamentul, ceea ce a făcut totul foarte simplu și fără stres. Ne-am bucurat de momente plăcute la piscină, iar copiii s-au distrat de minune la locul de joacă. Totul a fost bine gândit pentru a ne oferi o ședere relaxantă și confortabilă. Recomand cu încredere acest loc pentru o vacanță reușită în Poiana Brașov!",
   },
 ];
 

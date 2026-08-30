@@ -1,4 +1,4 @@
-import { reviews } from "@/lib/data";
+import { reviews as defaultReviews } from "@/lib/data";
 import Reveal from "./Reveal";
 
 const Stars = ({ rating }: { rating: number }) => (
@@ -9,7 +9,9 @@ const Stars = ({ rating }: { rating: number }) => (
   </div>
 );
 
-export default function Reviews() {
+export default function Reviews({ reviews }: { reviews?: typeof defaultReviews }) {
+  const displayReviews = reviews || defaultReviews;
+
   return (
     <section className="py-24 bg-night">
       <div className="max-w-7xl mx-auto px-6">
@@ -24,7 +26,7 @@ export default function Reviews() {
         </Reveal>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {reviews.map((review, i) => (
+          {displayReviews.map((review, i) => (
             <Reveal key={review.name} delay={i * 100}>
               <div className="bg-night-light border border-border-dark p-8 h-full card-hover">
                 <Stars rating={review.rating} />
