@@ -41,7 +41,7 @@ const faqItems = [
   {
     question: "Ce atracții turistice sunt în apropiere?",
     answer:
-      "Poiana Brașov oferă numeroase atracții: pârtii de schi (accesibile iarna cu ski-bus din fața complexului), Masivul Postăvarul cu trasee montane, centrul istoric Brașov, Biserica Neagră, Tâmpa, Castelul Bran și Mănăstirile din zonă.",
+      "Poiana Brașov oferă numeroase atracții: pârtii de schi (accesibile iarna cu ski-bus din fața complexului), Masivul Postăvarul cu trasee montane, orașul Brașov, Castelul Bran, Cetatea Râșnov, Dino Park, FunSylvania Park, Biserica Neagră și Tâmpa.",
   },
   {
     question: "Apartamentul are bucătărie complet utilată?",
