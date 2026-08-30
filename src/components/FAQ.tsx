@@ -6,7 +6,7 @@ const faqItems = [
   {
     question: "Ce ore sunt check-in-ul și check-out-ul?",
     answer:
-      "Check-in-ul se face începând cu ora 14:00, iar check-out-ul până la ora 11:00. Pentru arrivări târzii sau cerințe speciale, vă rugăm să ne contactați pe WhatsApp.",
+      "Check-in-ul se face începând cu ora 15:00, iar check-out-ul până la ora 11:00. Accesul în apartament se face prin self-check-in la orice oră, cu un cod unic generat pentru fiecare rezervare. Codul se tastează pe clanța digitală a apartamentului — nu este nevoie de întâlnire cu gazda.",
   },
   {
     question: "Cum se face rezervarea?",
