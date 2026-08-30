@@ -44,24 +44,28 @@ export default function DespreNoiPage() {
             </div>
             <div className="space-y-6 text-cream/80 leading-relaxed">
               <p className="text-lg">
-                Happy Place este un apartament cu 2 camere, 2 băi și suprafață
-                generoasă de 64 m², situat la etajul 5 în complexul Silver
-                Mountain Resort &amp; SPA din Poiana Brașov. Terasa panoramică
-                oferă o perspectivă superbă asupra întregii văi.
+                Bine ai venit la Happy Place, unde fiecare zi începe cu zâmbetul
+                pe buze! Situat în celebrul complex Silver Mountain din Poiana
+                Brașov, acest apartament cu 2 camere a fost gândit special pentru
+                a-ți oferi vacanța perfectă la munte, fiind un refugiu premium
+                în inima naturii! Apartamentul combină designul modern de
+                interior cu peisajele montane spectaculoase, pe care le poți
+                admira chiar din confortul patului.
               </p>
               <p>
-                Complexul Silver Mountain este format din patru clădiri de
-                apartamente și o clădire multifuncțională cu SPA, piscină
-                interioară, piscină exterioară infinity încălzită, jacuzzi,
-                saună, sală de fitness și restaurantul NOIR. Este poziționat
-                în Poiana Mică, înconjurat de pădure, cu acces direct la pârtiile de schi iarna prin ski-bus care pleacă din fața complexului.
+                Fie că vii pentru un weekend plin de adrenalină pe pârtiile de
+                schi sau pentru o escapadă relaxantă în aer curat, Happy Place
+                este locul unde grijile dispar. Apartamentul este extrem de
+                spațios și complet echipat pentru a găzdui confortabil până la
+                4 persoane.
               </p>
               <p>
-                Ce poate fi mai plăcut decât să-ți savurezi cafeaua de
-                dimineață de pe un balcon suspendat parcă deasupra pădurii,
-                să ai seara cerul cu stele deasupra capului și să respiri
-                adânc aerul curat de munte. Relaxare, liniște și un peisaj
-                care îți taie respirația.
+                Elementul vedetă? O terasă panoramică generoasă, unde îți poți
+                savura cafeaua dimineața în timp ce admiri crestele munților și
+                pădurea de brazi, sau unde te poți relaxa la apus după o zi
+                activă. Pentru ca intimitatea și confortul tău să fie depline,
+                proprietatea dispune de 2 băi complete, eliminând orice timp de
+                așteptare atunci când te pregătești de ieșire.
               </p>
             </div>
           </div>
