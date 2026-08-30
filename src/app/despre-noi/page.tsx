@@ -72,6 +72,16 @@ export default function DespreNoiPage() {
         </Reveal>
 
         <Reveal delay={200}>
+          <div className="my-12 py-10 px-6 text-center bg-gradient-to-br from-gold/10 via-transparent to-gold/5 border-y border-gold/20">
+            <p className="font-display text-2xl md:text-3xl text-cream leading-relaxed max-w-3xl mx-auto">
+              <span className="text-gold">Atmosferă primitoare</span>, design
+              modern, cald și aerisit, gândit special pentru a te face să te
+              simți instantaneu <span className="text-gradient-gold">acasă</span>.
+            </p>
+          </div>
+        </Reveal>
+
+        <Reveal delay={200}>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
             <div className="bg-night-light border border-border-dark p-6 text-center card-hover">
               <div className="text-3xl mb-3">�</div>
