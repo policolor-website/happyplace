@@ -206,6 +206,11 @@ export const facilities = [
   { icon: "pingpong", label: "Masă de ping-pong", desc: "Acces gratuit în complex" },
   { icon: "badminton", label: "Teren de badminton", desc: "Acces gratuit în complex" },
   { icon: "ev", label: "Încărcare auto electric", desc: "Stații de încărcare în parcare exterior" },
+  { icon: "pool", label: "2 piscine", desc: "Interioară + exterioară infinity · Cost suplimentar" },
+  { icon: "spa", label: "Centru SPA", desc: "Jacuzzi, saună, masaj · Cost suplimentar" },
+  { icon: "fitness", label: "Sală de fitness", desc: "Echipament complet în complex · Cost suplimentar" },
+  { icon: "restaurant", label: "Restaurant NOIR", desc: "Preparate de excepție la 150 m · Contra-cost" },
+  { icon: "baby", label: "Patut & scaun copil", desc: "La cerere · Contra-cost" },
   { icon: "ski", label: "Schi", desc: "Pârtii accesibile cu ski-bus din fața complexului" },
   { icon: "elevator", label: "Lift", desc: "Acces la etajele superioare" },
 ];

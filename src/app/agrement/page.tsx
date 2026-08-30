@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Reveal from "@/components/Reveal";
 import Link from "next/link";
+import Facilities from "@/components/Facilities";
 import { amenities } from "@/lib/data";
 
 export const metadata = {
@@ -41,6 +42,12 @@ export default function AmenitiesPage() {
             de apartament.
           </p>
         </Reveal>
+
+      </div>
+
+      <Facilities />
+
+      <div className="max-w-7xl mx-auto px-6">
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {amenities.map((amenity, i) => (

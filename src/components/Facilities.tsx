@@ -3,7 +3,7 @@ import Reveal from "./Reveal";
 
 const iconMap: Record<string, string> = {
   wifi: "📶",
-  terrace: "�",
+  terrace: "🌅",
   kitchen: "🍳",
   fireplace: "🔥",
   parking: "🚗",
@@ -12,6 +12,11 @@ const iconMap: Record<string, string> = {
   pingpong: "🏓",
   badminton: "🏸",
   ev: "🔌",
+  pool: "🏊",
+  spa: "💆",
+  fitness: "🏋️",
+  restaurant: "🍽️",
+  baby: "👶",
   ski: "⛷️",
   elevator: "🛗",
 };
