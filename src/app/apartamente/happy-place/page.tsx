@@ -29,6 +29,7 @@ const happyTabs: { key: GalleryCategory; label: string }[] = [
   { key: "restaurant", label: "Restaurant" },
   { key: "parcare", label: "Parcare" },
   { key: "exterior", label: "Exterior" },
+  { key: "hol", label: "Hol" },
 ];
 
 export default function HappyPlacePage() {

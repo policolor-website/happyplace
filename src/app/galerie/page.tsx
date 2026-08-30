@@ -18,6 +18,7 @@ const happyTabs: { key: GalleryCategory; label: string }[] = [
   { key: "restaurant", label: "Restaurant" },
   { key: "parcare", label: "Parcare" },
   { key: "exterior", label: "Exterior" },
+  { key: "hol", label: "Hol" },
 ];
 
 const dreamTabs: { key: GalleryCategory; label: string }[] = [
@@ -28,6 +29,7 @@ const dreamTabs: { key: GalleryCategory; label: string }[] = [
   { key: "bai", label: "Băi" },
   { key: "balcon", label: "Balcon" },
   { key: "hol", label: "Hol" },
+  { key: "exterior", label: "Exterior" },
 ];
 
 export default function GalleryPage() {

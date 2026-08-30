@@ -26,6 +26,7 @@ const dreamTabs: { key: GalleryCategory; label: string }[] = [
   { key: "bai", label: "Băi" },
   { key: "balcon", label: "Balcon" },
   { key: "hol", label: "Hol" },
+  { key: "exterior", label: "Exterior" },
 ];
 
 export default function DreamStudioPage() {

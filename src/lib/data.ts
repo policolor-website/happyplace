@@ -175,6 +175,28 @@ export const spaces: Space[] = [
       "Aer curat de munte",
     ],
   },
+  {
+    slug: "hol",
+    name: "Hol de intrare",
+    price: 0,
+    size: 4,
+    capacity: "Spațiu de tranziție",
+    beds: "-",
+    baths: 0,
+    image: "/images/happy-place/Happy_Hol_1.jpeg",
+    gallery: [
+      "/images/happy-place/Happy_Hol_1.jpeg",
+      "/images/happy-place/Happy_Hol_2.jpeg",
+      "/images/happy-place/Happy_Hol_3.jpeg",
+    ],
+    description:
+      "Hol de intrare spațios de 4 m², cu oglinzi. Primește oaspeții cu o atmosferă caldă și primitoare.",
+    facilities: [
+      "Oglindă",
+      "Cuier",
+      "Încălțăminte",
+    ],
+  },
 ];
 
 export const facilities = [
@@ -352,6 +374,13 @@ export const galleryImages: GalleryImage[] = [
   { src: "/images/happy-place/Happy_Exterior_10.jpeg", category: "exterior", title: "Complex Silver Mountain" },
   { src: "/images/happy-place/Happy_Exterior_11.jpeg", category: "exterior", title: "Complex Silver Mountain" },
   { src: "/images/happy-place/Happy_Exterior_12.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_13.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_14.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_15.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  // Hol (3)
+  { src: "/images/happy-place/Happy_Hol_1.jpeg", category: "hol", title: "Hol" },
+  { src: "/images/happy-place/Happy_Hol_2.jpeg", category: "hol", title: "Hol" },
+  { src: "/images/happy-place/Happy_Hol_3.jpeg", category: "hol", title: "Hol" },
 ];
 
 export function getSpaceBySlug(slug: string): Space | undefined {
@@ -610,9 +639,9 @@ export const dreamSpaces: Space[] = [
     capacity: "Vedere spre piscină",
     beds: "-",
     baths: 0,
-    image: "/images/dream-studio/Dream_Balcon_1.jpeg",
+    image: "/images/dream-studio/Dream_Balcon_main.jpeg",
     gallery: [
-      "/images/dream-studio/Dream_Balcon_1.jpeg",
+      "/images/dream-studio/Dream_Balcon_main.jpeg",
       "/images/dream-studio/Dream_Balcon_2.jpeg",
       "/images/dream-studio/Dream_Balcon_3.jpeg",
       "/images/dream-studio/Dream_Balcon_4.jpeg",
@@ -642,9 +671,8 @@ export const dreamSpaces: Space[] = [
       "/images/dream-studio/Dream_Hol_3.jpeg",
     ],
     description:
-      "Hol de intrare spațios de 4 m², cu dulap pentru depozitare și oglinzi. Primește oaspeții cu o atmosferă caldă și primitoare.",
+      "Hol de intrare spațios de 4 m², cu oglinzi. Primește oaspeții cu o atmosferă caldă și primitoare.",
     facilities: [
-      "Dulap de depozitare",
       "Oglindă",
       "Cuier",
       "Încălțăminte",
@@ -703,6 +731,22 @@ export const dreamGalleryImages: GalleryImage[] = [
   { src: "/images/dream-studio/Dream_Hol_1.jpeg", category: "hol", title: "Hol" },
   { src: "/images/dream-studio/Dream_Hol_2.jpeg", category: "hol", title: "Hol" },
   { src: "/images/dream-studio/Dream_Hol_3.jpeg", category: "hol", title: "Hol" },
+  // Exterior (15 — comune cu Happy Place)
+  { src: "/images/happy-place/Happy_Exterior_1.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_2.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_3.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_4.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_5.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_6.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_7.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_8.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_9.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_10.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_11.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_12.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_13.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_14.jpeg", category: "exterior", title: "Complex Silver Mountain" },
+  { src: "/images/happy-place/Happy_Exterior_15.jpeg", category: "exterior", title: "Complex Silver Mountain" },
 ];
 
 export const dreamSliderImages = [
