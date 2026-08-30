@@ -261,7 +261,9 @@ export type GalleryCategory =
   | "spa"
   | "restaurant"
   | "parcare"
-  | "exterior";
+  | "exterior"
+  | "balcon"
+  | "hol";
 
 export interface GalleryImage {
   src: string;
