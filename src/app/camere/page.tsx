@@ -15,7 +15,7 @@ export default function SpacesPage() {
         <div className="relative text-center mb-12 py-16">
           <div className="absolute inset-0 overflow-hidden">
             <Image
-              src="/images/happy-place/Happy_Living_1.jpeg"
+              src="/images/happy-place/Happy_Living_main.jpeg"
               alt=""
               fill
               className="object-cover opacity-10"

@@ -33,7 +33,7 @@ export const spaces: Space[] = [
     baths: 2,
     image: "/images/happy-place/Happy_Living_main.jpeg",
     gallery: [
-      "/images/happy-place/Happy_Living_1.jpeg",
+      "/images/happy-place/Happy_Living_main.jpeg",
       "/images/happy-place/Happy_Living_2.jpeg",
       "/images/happy-place/Happy_Living_3.jpeg",
       "/images/happy-place/Happy_Living_4.jpeg",
@@ -97,7 +97,7 @@ export const spaces: Space[] = [
     baths: 0,
     image: "/images/happy-place/Happy_Bucatarie_main.jpeg",
     gallery: [
-      "/images/happy-place/Happy_Bucatarie_1.jpeg",
+      "/images/happy-place/Happy_Bucatarie_main.jpeg",
       "/images/happy-place/Happy_Bucatarie_2.jpeg",
       "/images/happy-place/Happy_Bucatarie_3.jpeg",
       "/images/happy-place/Happy_Bucatarie_4.jpeg",
@@ -235,7 +235,7 @@ export const blogPosts = [
     slug: "poiana-brasov-destinatia-de-iarna-din-inima-muntilor",
     title: "Poiana Brașov, destinația de iarnă din inima munților",
     excerpt: "Poiana Brașov oferă condiții excelente pentru schi, snowboard și drumeții, cu acces la pârtii prin ski-bus din fața complexului...",
-    image: "/images/happy-place/Happy_Living_1.jpeg",
+    image: "/images/happy-place/Happy_Living_main.jpeg",
   },
   {
     slug: "masivul-postavaru-trasee-si-panorame",
@@ -247,7 +247,7 @@ export const blogPosts = [
     slug: "restaurantul-noir-experienta-culinara-in-poiana-brasov",
     title: "Restaurantul NOIR, experiență culinară în Poiana Brașov",
     excerpt: "Restaurantul NOIR din complexul Silver Mountain oferă preparate culinare de excepție, cu evenimente ocazionale de muzică live în serile de sâmbătă...",
-    image: "/images/happy-place/Happy_Bucatarie_1.jpeg",
+    image: "/images/happy-place/Happy_Bucatarie_main.jpeg",
   },
 ];
 
@@ -271,7 +271,7 @@ export interface GalleryImage {
 
 export const galleryImages: GalleryImage[] = [
   // Living (12)
-  { src: "/images/happy-place/Happy_Living_1.jpeg", category: "living", title: "Living" },
+  { src: "/images/happy-place/Happy_Living_main.jpeg", category: "living", title: "Living" },
   { src: "/images/happy-place/Happy_Living_2.jpeg", category: "living", title: "Living" },
   { src: "/images/happy-place/Happy_Living_3.jpeg", category: "living", title: "Living" },
   { src: "/images/happy-place/Happy_Living_4.jpeg", category: "living", title: "Living" },
@@ -291,7 +291,7 @@ export const galleryImages: GalleryImage[] = [
   { src: "/images/happy-place/Happy_Dormitor_5.jpeg", category: "dormitor", title: "Dormitor principal" },
   { src: "/images/happy-place/Happy_Dormitor_6.jpeg", category: "dormitor", title: "Dormitor principal" },
   // Bucătărie (6)
-  { src: "/images/happy-place/Happy_Bucatarie_1.jpeg", category: "bucatarie", title: "Bucătărie" },
+  { src: "/images/happy-place/Happy_Bucatarie_main.jpeg", category: "bucatarie", title: "Bucătărie" },
   { src: "/images/happy-place/Happy_Bucatarie_2.jpeg", category: "bucatarie", title: "Bucătărie" },
   { src: "/images/happy-place/Happy_Bucatarie_3.jpeg", category: "bucatarie", title: "Bucătărie" },
   { src: "/images/happy-place/Happy_Bucatarie_4.jpeg", category: "bucatarie", title: "Bucătărie" },

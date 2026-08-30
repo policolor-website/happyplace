@@ -5,10 +5,10 @@ import Image from "next/image";
 
 const sliderImages = [
   { src: "/images/happy-place/Happy_Terasa_1.jpeg", alt: "Terasă panoramică" },
-  { src: "/images/happy-place/Happy_Living_1.jpeg", alt: "Living" },
+  { src: "/images/happy-place/Happy_Living_main.jpeg", alt: "Living" },
   { src: "/images/happy-place/Happy_Dormitor_1.jpeg", alt: "Dormitor principal" },
   { src: "/images/happy-place/Happy_SPA_1.jpeg", alt: "Centru SPA" },
-  { src: "/images/happy-place/Happy_Bucatarie_1.jpeg", alt: "Bucătărie" },
+  { src: "/images/happy-place/Happy_Bucatarie_main.jpeg", alt: "Bucătărie" },
   { src: "/images/happy-place/Happy_Baie1_1.jpeg", alt: "Baie cu cada" },
   { src: "/images/happy-place/Happy_Terasa_2.jpeg", alt: "Terasă panoramică" },
   { src: "/images/happy-place/Happy_Restaurant_1.jpeg", alt: "Restaurant NOIR" },
