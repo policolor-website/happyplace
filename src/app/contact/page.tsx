@@ -79,7 +79,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-muted text-xs uppercase tracking-wider mb-1">Adresă</p>
-                  <p className="text-cream">Strada Doinașului, Nr. 10, G1, Ap. 51</p>
+                  <p className="text-cream">Strada Doinașului, Nr. 10, Bloc C, Ap. 51</p>
                   <p className="text-cream">Silver Mountain, Poiana Brașov, România</p>
                   <a
                     href="https://www.google.com/maps/search/?api=1&query=Silver+Mountain+Resort+Poiana+Brasov"

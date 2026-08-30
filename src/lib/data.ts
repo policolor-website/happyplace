@@ -2,7 +2,7 @@ export const contact = {
   phone: "0722 335 357",
   phoneIntl: "40722335357",
   email: "office@resort-silvermountain.ro",
-  address: "Strada Doinașului, Nr. 10, G1, Ap. 51",
+  address: "Strada Doinașului, Nr. 10, Bloc C, Ap. 51",
   city: "Poiana Brașov, România",
   complex: "Silver Mountain Resort & SPA",
   mapsQuery: "Silver Mountain Resort Poiana Brasov",
