@@ -16,7 +16,7 @@ const faqItems = [
   {
     question: "Aveți parcare gratuită?",
     answer:
-      "Da, toți oaspeții Happy Place beneficiază de un loc de parcare subterană cu pază 24/7, inclus în prețul cazării. Uiți iarna de grija deszăpezirii mașinii, iar vara, automobilul îți este protejat de căldura excesivă a soarelui.",
+      "Da, toți oaspeții Happy Place beneficiază de un loc de parcare subteran gratuit cu pază 24/7, inclus în prețul cazării. Uiți iarna de grija deszăpezirii mașinii, iar vara, automobilul îți este protejat de căldura excesivă a soarelui.",
   },
   {
     question: "Accesul la SPA, piscine și restaurant este inclus?",

@@ -7,7 +7,7 @@ import { amenities } from "@/lib/data";
 export const metadata = {
   title: "Facilități — Happy Place Brașov",
   description:
-    "Facilitățile complexului Silver Mountain Poiana Brașov: centru SPA, 2 piscine, restaurant NOIR, parcare subterană, sală de fitness, loc de joacă exterior pentru copii și schi.",
+    "Facilitățile complexului Silver Mountain Poiana Brașov: centru SPA, 2 piscine, restaurant NOIR, parcare subteran, sală de fitness, loc de joacă exterior pentru copii și schi.",
 };
 
 export default function AmenitiesPage() {

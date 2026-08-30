@@ -85,7 +85,7 @@ export default function DespreNoiPage() {
             </div>
             <div className="bg-night-light border border-border-dark p-6 text-center card-hover">
               <div className="text-3xl mb-3">🚗</div>
-              <h3 className="text-cream font-semibold mb-2">Parcare subterană 24/7</h3>
+              <h3 className="text-cream font-semibold mb-2">Parcare subteran 24/7</h3>
               <p className="text-muted text-sm">
                 Pază non-stop, inclusă în preț. Uiți iarna de deszăpezire, vara de căldura soarelui
               </p>
@@ -183,7 +183,7 @@ export default function DespreNoiPage() {
                 "Pat King Size",
                 "Canapea extensibilă",
                 "Terasă panoramică 10 mp",
-                "Parcare subterană 24/7 inclusă",
+                "Parcare subteran 24/7 inclus",
                 "Capsule cafea gratuite",
                 "Ceai, băuturi, papuci, halate",
               ].map((f) => (

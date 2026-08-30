@@ -41,7 +41,7 @@ export const spaces: Space[] = [
       "/images/happy-place/Happy_Place_Brasov_6.jpeg",
     ],
     description:
-      "Apartamentul Happy Place oferă un living spațios cu zonă de relaxare, canapea extensibilă și șemineu. Cu o suprafață totală de 64 m², apartamentul este amplasat la etajul 5 și oferă o terasă panoramică de 10 mp cu perspectivă asupra întregii văi.\n\nZona de living este locul ideal pentru momente de relaxare în familie. TV smart cu Netflix, internet WiFi de mare viteză și încălzire în toate spațiile. Din partea noastră aveți gratuit ceai, cafea, capsule pentru espressorul Nespresso, băuturi în frigider, papuci de casă, halate și cosmetice la băi.\n\nTerasa panoramică suspendată parcă deasupra pădurii este atracția principală a apartamentului. Ce poate fi mai plăcut decât să-ți savurezi cafeaua de dimineață privind valea, iar seara să ai cerul cu stele deasupra capului.\n\nSpatii cu acces gratuit în complex: loc de joacă exterior pentru copii, teren de mini fotbal, masă de ping-pong, teren de badminton și parcare în exterior cu stații de încărcare pentru mașini electrice.\n\nLoc de parcare subterană cu pază 24/7, inclus în prețul cazării — uiți iarna de grija deszăpezirii mașinii, iar vara, automobilul îți este protejat de căldura excesivă a soarelui.\n\nNotă: Apartamentul este locuință privată în complexul Silver Mountain. Accesul la facilitățile mari ale complexului (SPA, piscine, restaurant NOIR, sală de fitness) NU este inclus în prețul cazării și se achiziționează separat de la recepția complexului.",
+      "Apartamentul Happy Place oferă un living spațios cu zonă de relaxare, canapea extensibilă și șemineu. Cu o suprafață totală de 64 m², apartamentul este amplasat la etajul 5 și oferă o terasă panoramică de 10 mp cu perspectivă asupra întregii văi.\n\nZona de living este locul ideal pentru momente de relaxare în familie. TV smart cu Netflix, internet WiFi de mare viteză și încălzire în toate spațiile. Din partea noastră aveți gratuit ceai, cafea, capsule pentru espressorul Nespresso, băuturi în frigider, papuci de casă, halate și cosmetice la băi.\n\nTerasa panoramică suspendată parcă deasupra pădurii este atracția principală a apartamentului. Ce poate fi mai plăcut decât să-ți savurezi cafeaua de dimineață privind valea, iar seara să ai cerul cu stele deasupra capului.\n\nSpatii cu acces gratuit în complex: loc de joacă exterior pentru copii, teren de mini fotbal, masă de ping-pong, teren de badminton și parcare în exterior cu stații de încărcare pentru mașini electrice.\n\nLoc de parcare subteran cu pază 24/7, inclus în prețul cazării — uiți iarna de grija deszăpezirii mașinii, iar vara, automobilul îți este protejat de căldura excesivă a soarelui.\n\nNotă: Apartamentul este locuință privată în complexul Silver Mountain. Accesul la facilitățile mari ale complexului (SPA, piscine, restaurant NOIR, sală de fitness) NU este inclus în prețul cazării și se achiziționează separat de la recepția complexului.",
     facilities: [
       "WiFi gratuit",
       "TV smart cu Netflix",
@@ -200,7 +200,7 @@ export const facilities = [
   { icon: "terrace", label: "Terasă panoramică", desc: "Perspectivă asupra văii de la etajul 5" },
   { icon: "kitchen", label: "Bucătărie privată", desc: "Espressor Nespresso + capsule cafea gratuite" },
   { icon: "fireplace", label: "Șemineu", desc: "Atmosferă caldă în zona de living" },
-  { icon: "parking", label: "Parcare subterană 24/7", desc: "Inclusă în preț · Pază non-stop" },
+  { icon: "parking", label: "Parcare subteran 24/7", desc: "Inclusă în preț · Pază non-stop" },
   { icon: "playground", label: "Loc de joacă copii", desc: "Exterior · Acces gratuit în complex" },
   { icon: "football", label: "Teren mini fotbal", desc: "Acces gratuit în complex" },
   { icon: "pingpong", label: "Masă de ping-pong", desc: "Acces gratuit în complex" },
@@ -361,11 +361,11 @@ export const amenities: Amenity[] = [
   },
   {
     slug: "parcare-subterana",
-    title: "Parcare subterană cu pază 24/7",
+    title: "Parcare subteran cu pază 24/7",
     shortDescription:
-      "Loc de parcare subterană cu pază non-stop, inclus în prețul cazării.",
+      "Loc de parcare subteran cu pază non-stop, inclus în prețul cazării.",
     description:
-      "Oaspeții apartamentului Happy Place beneficiază de un loc de parcare subterană cu pază 24/7, inclus în prețul cazării. Uiți iarna de grija deszăpezirii mașinii, iar vara, automobilul îți este protejat de căldura excesivă a soarelui.\n\nAccesul se face direct din complex, fără a fi nevoie să parcați pe stradă. Parcarea asigură securitatea vehiculului pe tot parcursul sejurului.",
+      "Oaspeții apartamentului Happy Place beneficiază de un loc de parcare subteran cu pază 24/7, inclus în prețul cazării. Uiți iarna de grija deszăpezirii mașinii, iar vara, automobilul îți este protejat de căldura excesivă a soarelui.\n\nAccesul se face direct din complex, fără a fi nevoie să parcați pe stradă. Parcarea asigură securitatea vehiculului pe tot parcursul sejurului.",
     image: "/images/happy-place/Happy_Place_Brasov_1.jpeg",
     icon: "🚗",
     gallery: [
