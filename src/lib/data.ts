@@ -500,7 +500,7 @@ export const dreamStudio = {
   complex: "Silver Mountain Resort & SPA",
   size: 54,
   capacity: "4 Persoane",
-  beds: "Pat matrimonial + canapea extensibilă",
+  beds: "Pat Queen Size + canapea extensibilă",
   baths: 2,
   heroImage: "/images/dream-studio/Dream_Balcon_1.jpeg",
   description:
@@ -514,7 +514,7 @@ export const dreamSpaces: Space[] = [
     price: 0,
     size: 32,
     capacity: "4 Persoane",
-    beds: "Pat matrimonial + canapea extensibilă",
+    beds: "Pat Queen Size + canapea extensibilă",
     baths: 2,
     image: "/images/dream-studio/Dream_Living_1.jpeg",
     gallery: [
@@ -535,9 +535,9 @@ export const dreamSpaces: Space[] = [
       "/images/dream-studio/Dream_Dormitor_7.jpeg",
     ],
     description:
-      "Studio open-space generos de 32 m², combină zona de living cu dormitorul într-un spațiu aerisit și modern. Pat matrimonial confortabil și canapea extensibilă pentru oaspeți suplimentari. Design cald cu accente de lux, TV cu ecran plat și vedere spre balcon.\n\nSpațiul este gândit pentru relaxare maximă, cu zone bine delimitate pentru somn, relaxare și luat masa. Lumina naturală abundentă creează o atmosferă primitoare pe tot parcursul zilei.",
+      "Studio open-space generos de 32 m², combină zona de living cu dormitorul într-un spațiu aerisit și modern. Pat Queen Size confortabil și canapea extensibilă pentru oaspeți suplimentari. Design cald cu accente de lux, TV cu ecran plat și vedere spre balcon.\n\nSpațiul este gândit pentru relaxare maximă, cu zone bine delimitate pentru somn, relaxare și luat masa. Lumina naturală abundentă creează o atmosferă primitoare pe tot parcursul zilei.",
     facilities: [
-      "Pat matrimonial",
+      "Pat Queen Size",
       "Canapea extensibilă",
       "TV cu ecran plat",
       "Lenjerie de pat",
