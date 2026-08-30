@@ -6,7 +6,7 @@ import Reveal from "@/components/Reveal";
 
 export const metadata = {
   title: "Spații — Happy Place Brașov",
-  description: "Descoperă spațiile apartamentului Happy Place din Silver Mountain Poiana Brașov: living, dormitor principal, dormitor secundar, bucătărie, băi și terasă panoramică.",
+  description: "Descoperă spațiile apartamentului Happy Place din Silver Mountain Poiana Brașov: living, dormitor principal, bucătărie, băi și terasă panoramică.",
 };
 
 export default function SpacesPage() {

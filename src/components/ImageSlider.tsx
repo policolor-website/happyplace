@@ -9,7 +9,6 @@ const sliderImages = [
   { src: "/images/happy-place/Happy_Place_Brasov_7.jpeg", alt: "Dormitor principal" },
   { src: "/images/happy-place/Happy_Place_Brasov_19.jpeg", alt: "Bucătărie" },
   { src: "/images/happy-place/Happy_Place_Brasov_23.jpeg", alt: "Baie" },
-  { src: "/images/happy-place/Happy_Place_Brasov_13.jpeg", alt: "Dormitor secundar" },
   { src: "/images/happy-place/Happy_Place_Brasov_28.jpeg", alt: "Terasă panoramică" },
   { src: "/images/happy-place/Happy_Place_Brasov_3.jpeg", alt: "Living" },
   { src: "/images/happy-place/Happy_Place_Brasov_30.jpeg", alt: "Terasă panoramică" },
