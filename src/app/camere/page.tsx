@@ -53,7 +53,7 @@ export default function SpacesPage() {
                   {space.name}
                 </h3>
                 <p className="text-muted text-sm mb-4">
-                  {space.size} m² · {space.capacity} · {space.beds}
+                  {space.size} m² · {space.capacity}{space.beds !== "-" && ` · ${space.beds}`}
                 </p>
                 <span className="text-gold text-sm font-semibold uppercase tracking-wider">
                   Vezi detalii →

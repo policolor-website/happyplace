@@ -140,7 +140,7 @@ export const spaces: Space[] = [
     slug: "terasa-panoramica",
     name: "Terasă panoramică",
     price: 650,
-    size: 64,
+    size: 10,
     capacity: "Perspectivă asupra văii",
     beds: "-",
     baths: 0,
