@@ -82,6 +82,48 @@ export default function DespreNoiPage() {
         </Reveal>
 
         <Reveal delay={200}>
+          <div className="my-12 p-8 bg-night-light border border-border-dark">
+            <h3 className="font-display text-xl font-bold text-cream mb-6 text-center">
+              Distribuția suprafețelor
+            </h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <div className="text-center p-4 bg-night border border-border-dark">
+                <p className="text-gold text-2xl font-bold">25</p>
+                <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Living</p>
+              </div>
+              <div className="text-center p-4 bg-night border border-border-dark">
+                <p className="text-gold text-2xl font-bold">19</p>
+                <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Dormitor</p>
+              </div>
+              <div className="text-center p-4 bg-night border border-border-dark">
+                <p className="text-gold text-2xl font-bold">10</p>
+                <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Terasă</p>
+              </div>
+              <div className="text-center p-4 bg-night border border-border-dark">
+                <p className="text-gold text-2xl font-bold">8</p>
+                <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Baie 1</p>
+              </div>
+              <div className="text-center p-4 bg-night border border-border-dark">
+                <p className="text-gold text-2xl font-bold">5</p>
+                <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Bucătărie</p>
+              </div>
+              <div className="text-center p-4 bg-night border border-border-dark">
+                <p className="text-gold text-2xl font-bold">4</p>
+                <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Hol</p>
+              </div>
+              <div className="text-center p-4 bg-night border border-border-dark">
+                <p className="text-gold text-2xl font-bold">3</p>
+                <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Baie 2</p>
+              </div>
+              <div className="text-center p-4 bg-gold/10 border border-gold/30">
+                <p className="text-gold text-2xl font-bold">64</p>
+                <p className="text-gold/70 text-xs uppercase tracking-wider mt-1">mp · Total util</p>
+              </div>
+            </div>
+          </div>
+        </Reveal>
+
+        <Reveal delay={200}>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
             <div className="bg-night-light border border-border-dark p-6 text-center card-hover">
               <div className="text-3xl mb-3">�</div>

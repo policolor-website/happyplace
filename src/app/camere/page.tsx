@@ -36,6 +36,48 @@ export default function SpacesPage() {
           <BookingEngine />
         </div>
 
+        <Reveal>
+          <div className="mb-16 p-8 bg-night-light border border-border-dark">
+            <h3 className="font-display text-xl font-bold text-cream mb-6 text-center">
+              Distribuția suprafețelor · 64 mp utili + 10 mp terasă
+            </h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <div className="text-center p-4 bg-night border border-border-dark">
+                <p className="text-gold text-2xl font-bold">25</p>
+                <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Living</p>
+              </div>
+              <div className="text-center p-4 bg-night border border-border-dark">
+                <p className="text-gold text-2xl font-bold">19</p>
+                <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Dormitor</p>
+              </div>
+              <div className="text-center p-4 bg-night border border-border-dark">
+                <p className="text-gold text-2xl font-bold">10</p>
+                <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Terasă</p>
+              </div>
+              <div className="text-center p-4 bg-night border border-border-dark">
+                <p className="text-gold text-2xl font-bold">8</p>
+                <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Baie 1</p>
+              </div>
+              <div className="text-center p-4 bg-night border border-border-dark">
+                <p className="text-gold text-2xl font-bold">5</p>
+                <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Bucătărie</p>
+              </div>
+              <div className="text-center p-4 bg-night border border-border-dark">
+                <p className="text-gold text-2xl font-bold">4</p>
+                <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Hol</p>
+              </div>
+              <div className="text-center p-4 bg-night border border-border-dark">
+                <p className="text-gold text-2xl font-bold">3</p>
+                <p className="text-muted text-xs uppercase tracking-wider mt-1">mp · Baie 2</p>
+              </div>
+              <div className="text-center p-4 bg-gold/10 border border-gold/30">
+                <p className="text-gold text-2xl font-bold">64</p>
+                <p className="text-gold/70 text-xs uppercase tracking-wider mt-1">mp · Total util</p>
+              </div>
+            </div>
+          </div>
+        </Reveal>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {spaces.map((space, i) => (
             <Reveal key={space.slug} delay={i * 80}>
